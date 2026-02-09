@@ -1,4 +1,4 @@
-# Design Phase — ParkinsonPal (HCI Project)
+# Design Phase 
 
 This folder documents the **Design Phase** of *ParkinsonPal*, an HCI project focused on creating an accessible, patient-centric mobile application for individuals living with Parkinson’s disease.
 
