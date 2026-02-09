@@ -1,1 +1,0 @@
-# ParkinsonPal — HCI Project
