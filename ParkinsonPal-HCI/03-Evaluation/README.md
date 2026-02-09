@@ -1,104 +1,82 @@
-📊 Evaluation 
+# 📊 Evaluation Phase
 
-This folder contains the usability evaluation and user testing artifacts for ParkinsonPal, conducted as part of the Human-Computer Interaction (HCI) course at LUMS.
+This folder contains the **usability evaluation and user testing artifacts** for **ParkinsonPal**, conducted as part of the **Human-Computer Interaction (HCI)** course at **LUMS**.
 
-The goal of this evaluation phase was to assess usability, learnability, accessibility, and overall user experience of the proposed design with representative users.
+The evaluation phase focused on assessing **usability, learnability, accessibility, and overall user experience** of the proposed design with representative users, including elderly individuals and Parkinson’s patients.
 
-🎯 Evaluation Objectives
+---
 
-Assess ease of use for elderly users with Parkinson’s disease
+## 🎯 Evaluation Objectives
 
-Identify usability issues in:
+- Assess ease of use for elderly users with Parkinson’s disease  
+- Identify usability issues related to:
+  - Navigation
+  - Medication management
+  - Symptom tracking
+  - Cognitive exercises
+- Measure user satisfaction and confidence using structured evaluation tools  
+- Validate whether the design meets accessibility and inclusivity goals  
 
-Navigation
+---
 
-Medication management
+## 🧪 Evaluation Methodology
 
-Symptom tracking
+The evaluation was conducted using a **mixed-methods approach**, combining:
 
-Cognitive games
+- **Pre-test questionnaires** to understand user background and expectations  
+- **Task-based usability testing** using the high-fidelity prototype  
+- **Post-test questionnaires** to measure perceived usability and satisfaction  
+- **Qualitative feedback** through observations and open-ended responses  
 
-Measure user satisfaction and confidence using standardized tools
+Participants were guided through representative tasks such as:
+- Logging symptoms
+- Navigating medication reminders
+- Exploring cognitive exercises
+- Reviewing progress dashboards
 
-Collect qualitative feedback for design refinement
+---
 
-🧪 Evaluation Methodology
+## 📝 Evaluation Artifacts
 
-The evaluation was conducted using a task-based usability testing approach, consisting of:
+This folder includes the following materials:
 
-Pre-test questionnaire (user background & expectations)
+### 📄 Core Evaluation Reports
+- `Group08_Evaluation2025.pdf`
+- `Group08_Evaluation2025.docx`
 
-Guided task execution using a test scenario
+### 📋 Questionnaires
+- `Pre_test_Questionnaire.pdf`
+- `Post_test_Questionnaire.pdf`
 
-Post-test questionnaire
+> **Note:** Individual patient-specific questionnaires were **intentionally not uploaded** to maintain privacy and ethical considerations.
 
-System Usability Scale (SUS) survey
+### 📘 Supporting Material
+- `Testbook.pdf` — Task scenarios and evaluation flow used during testing
 
-Observational notes and verbal feedback
+---
 
-Participants were encouraged to think aloud, take breaks when needed, and freely express confusion or comfort during tasks.
+## 🔍 Key Evaluation Focus Areas
 
-📂 Folder Contents
-🔹 Core Evaluation Documents
+- **Learnability:** Can first-time users complete tasks with minimal guidance?
+- **Accessibility:** Are interactions suitable for tremor-affected users?
+- **Clarity:** Is the language, iconography, and navigation intuitive?
+- **Cognitive Load:** Are tasks simple and non-overwhelming?
+- **User Confidence:** Do users feel comfortable using the app independently?
 
-Group08_Evaluation2025.pdf
+---
 
-Group08_Evaluation2025.docx
+## 📌 Ethical Considerations
 
-Full evaluation report including methodology, participant demographics, findings, and discussion.
+- Informed consent was obtained prior to evaluation sessions  
+- Personally identifiable information (PII) was excluded from this repository  
+- Individual patient responses are summarized only in aggregate form  
 
-🔹 Questionnaires
+---
 
-Pre_test_Questionnaire.pdf
+## 📈 Outcome
 
-Post_test_Questionnaire.pdf
+The evaluation findings informed **design refinements**, validated key usability decisions, and highlighted areas for improvement in accessibility, interaction flow, and cognitive task difficulty.
 
-Standardized questionnaires used before and after usability testing.
+These insights directly influenced final design recommendations documented in the evaluation report.
 
-🔹 Test Protocol
 
-Testbook.pdf
-
-Contains detailed task scenarios and step-by-step instructions given to participants during testing.
-
-🔹 README Files
-
-README.md
-
-README.txt
-
-Documentation for repository navigation and evaluation context.
-
-🔒 Privacy & Ethical Considerations
-
-Individual patient-level questionnaires and responses are not included in this repository to:
-
-Protect participant privacy
-
-Comply with ethical research practices
-
-Only aggregated insights and anonymized findings are reported in the evaluation documents.
-
-📈 Key Evaluation Focus Areas
-
-Accessibility for elderly users
-
-Cognitive load and clarity
-
-Consistency of interface elements
-
-Learnability without external assistance
-
-Confidence and comfort while using the app
-
-🧠 Outcome
-
-The evaluation findings informed:
-
-Refinements in navigation structure
-
-Improved accessibility features
-
-Simplified interaction flows
-
-Better alignment with user expectations and limitations
