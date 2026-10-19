@@ -14,6 +14,7 @@ Last updated: **19 October 2026**. Main/profile README redesign is deliberately 
 - [x] Reverse the initial ParkinsonPal rewrites/omissions; relocate all 30 original files and READMEs unchanged; verify exact Git-blob hashes.
 - [x] Record file-level import provenance and keep source repositories/history intact.
 - [x] Report the exact ParkinsonPal named-quotation concern separately; preserve contents as instructed. Any future content change requires explicit approval.
+- [x] Publish review branch and open [draft pull request #1](https://github.com/azaan-imran192/Academic-Projects/pull/1); main remains unchanged.
 - [ ] Rotate exposed credentials with the credential owners; new-copy sanitation alone is insufficient.
 - [ ] Obtain Otis public redistribution permission or separately authorize a replacement frontend.
 - [ ] Obtain local Building Height Estimation, Urdu/Roman Urdu LLM Safety, and CineLog source.
@@ -22,4 +23,4 @@ Last updated: **19 October 2026**. Main/profile README redesign is deliberately 
 - [ ] Redesign Academic-Projects root README and personal profile README after project completion.
 - [ ] Review and explicitly approve merge; no automatic merge, deletion, archive, force-push or production changes.
 
-Pull request: pending creation. See [inventory](INVENTORY.md), [verification](VERIFICATION.md), and [local-file request](LOCAL-FILES-NEEDED.md).
+Pull request: [#1 — Consolidate academic projects and preserve ParkinsonPal relocation](https://github.com/azaan-imran192/Academic-Projects/pull/1). See [inventory](INVENTORY.md), [verification](VERIFICATION.md), and [local-file request](LOCAL-FILES-NEEDED.md).
