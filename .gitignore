@@ -1,0 +1,32 @@
+# Secrets and local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite3
+*.db
+# Dependencies and generated files
+node_modules/
+.vite/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# Research data, model binaries, runtime uploads
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+media/
+uploads/
+third_party/

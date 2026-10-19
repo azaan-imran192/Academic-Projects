@@ -1,0 +1,42 @@
+[
+  {
+    "path": "cropped_plant_doc/best_stage1.keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:fcd0fd3fe72e7e213720b2186e76d6ed50f1196e24692f57d083031aa64e25d8\nsize 315992005\n"
+  },
+  {
+    "path": "cropped_plant_doc/best_stage2.keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:2962ca655365c0481ea97fb287d2576962d0d3447a4a042cf8000278421747a0\nsize 490265652\n"
+  },
+  {
+    "path": "cropped_plant_doc/best_stage3.keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:49a9223e91771da584725b8aa207beb95fe731a77dcb92faff19a4bef0713bda\nsize 490265652\n"
+  },
+  {
+    "path": "new_plant_disease/best_stage1 (2).keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:593c7422b9324f423c5fb12131201e209e70b4ad104eb1cf695563cb6c2641ce\nsize 468111746\n"
+  },
+  {
+    "path": "new_plant_disease/best_stage2 (2).keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:bfe882c483451a439ef648ad0ab594fe8b47e7cca5b01284cdf67d447a629238\nsize 468099688\n"
+  },
+  {
+    "path": "new_plant_disease/best_stage3 (2).keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:9a2cd6e09edaac7df5c8227543b9fc03bd42477b9a145dbae407fda06e7a2ebb\nsize 468099688\n"
+  },
+  {
+    "path": "new_plant_disease/cnn_transformer_hybrid_final (2).keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:092bfce4aeaa9f165a525b2bd8fe3959335cf047466420b5dd55d6fa2bd684ec\nsize 468099688\n"
+  },
+  {
+    "path": "plant_village/best_stage1.keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:811dd2624b73fbf87e51b5e00e68a56be9275fd98bce9d32055f0f7669308a3c\nsize 490498931\n"
+  },
+  {
+    "path": "plant_village/best_stage2.keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:92e30f234facf88ed4f047d8ac4f4ce1acff4193a92db5c75bdef5c417ae130c\nsize 490486832\n"
+  },
+  {
+    "path": "plant_village/best_stage3.keras",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:914757b2bbd77b44ca8080328cf147d93be540f541c177a5504598c0f5efb962\nsize 490486836\n"
+  }
+]
