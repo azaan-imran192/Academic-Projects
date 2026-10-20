@@ -1,0 +1,1370 @@
+[
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_Logistic.ipynb",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_Logistic.ipynb",
+    "source_sha256": "36dd642b822094c23eb3e0baf860889c4abd0228139cfc4b43cb921342d1d863",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "02f395699f47225cfe28766ad30101bec759ebac5b141a33aa8bde427a0133d0",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_Logistic.py",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_Logistic.py",
+    "source_sha256": "1be60e95ede1d45aee6a41db27fadcd1b64e5acac46f84d0680092e77eabab1d",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "1a99ba8d02a9d4505622983d3d1384e3126632533f886c9dc881948908a9b138",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_MNB.ipynb",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_MNB.ipynb",
+    "source_sha256": "ea0e9989f13a0d0eb422cdb7d01ee688327b27d6d8d288a43befaa9e5fcd3879",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "45a52e9f26221079daa2e83575fa7c75140bb81517a828c34285273ff47ca0e5",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_MNB.py",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_MNB.py",
+    "source_sha256": "7b3602a6e3a179d1e557b7615919f5bf162226be0af8911fcc47d380ae0eb666",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "72a18d47a38605361987916dc6560acdf5e92b9bb0b5ce599cb81a602ba766cd",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_NeuralNetworks.ipynb",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_NeuralNetworks.ipynb",
+    "source_sha256": "801acbc7761dcedeb3350849740f097309ffaf4b873b2fe1df169eaff083eb59",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "5361f435d70b3286e69e5693aff16fc7f15c10c162939845331848140b109cf6",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_NeuralNetworks.py",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_NeuralNetworks.py",
+    "source_sha256": "543168503600e0b4dfad03a8acdea6ce93eb9f83dd64c55938470d00ab204f9a",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "ba784061bd0afa0d25227afaf1857187819705638a6aa5c08fe6d25d9cb27b6d",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_Report.pdf",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_Report.pdf",
+    "source_sha256": "f97c65a1ce1b6bf3e5cdb95e56a70ba7ee5b1b7d90bc96c2830088dca9078dc9",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "f97c65a1ce1b6bf3e5cdb95e56a70ba7ee5b1b7d90bc96c2830088dca9078dc9",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_webscraping.ipynb",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_webscraping.ipynb",
+    "source_sha256": "eabcc1580e045fc490224a44c6db374134299903e8382f51664226a56ebc253b",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "9b55d84bafa51127ebcb25c6f45db26dd257c303d7c656098da5bd8e7a558463",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "Group4_webscraping.py",
+    "destination": "Machine-Learning/Urdu-News-Classification/Group4_webscraping.py",
+    "source_sha256": "fd062c86c39fd94935fabe8b9a581881dd9f159d230de3483e4a76f9165d5a03",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "ace3049f5562bab4c6bf714bcede8ae0bae774042684bc67751a6e65991a8fe4",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Urdu-News-Articles",
+    "source_path": "output_file.csv",
+    "destination": "Machine-Learning/Urdu-News-Classification/output_file.csv",
+    "source_sha256": "64c77d41b2979ee1e1bca922565c4fd62ee76842120810c3f64758fcd9281c5a",
+    "source_commit": "6773082b0579b603b905849762970786134753d9",
+    "imported_sha256": "64c77d41b2979ee1e1bca922565c4fd62ee76842120810c3f64758fcd9281c5a",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/.gitignore",
+    "destination": "Software-Engineering/Culinary-Cloud/.gitignore",
+    "source_sha256": "3e6336687f39a1c1e771b4cf61e8c1a34ed686884236f131eac19bd16eac3ccb",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "3e6336687f39a1c1e771b4cf61e8c1a34ed686884236f131eac19bd16eac3ccb",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/.dockerignore",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/.dockerignore",
+    "source_sha256": "fb4ae75cb224c3a454d1b6ad2d362783728e48f3b092ff24da6dae8024b23282",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "fb4ae75cb224c3a454d1b6ad2d362783728e48f3b092ff24da6dae8024b23282",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/.gitignore",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/.gitignore",
+    "source_sha256": "cdcc360ebe2f9aadc337f4a3d279235afb154b5bf0732cea9970ad3f53b5e182",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "cdcc360ebe2f9aadc337f4a3d279235afb154b5bf0732cea9970ad3f53b5e182",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/Dockerfile",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/Dockerfile",
+    "source_sha256": "4a4f664d33d674d6e75647ceda27505fc480baaf6318d3e60d79283594324053",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "4a4f664d33d674d6e75647ceda27505fc480baaf6318d3e60d79283594324053",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/check.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/check.js",
+    "source_sha256": "a430fd30ca19dff443267ab930ed6309ed79371dacbed43b9c893d48924911c0",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "a430fd30ca19dff443267ab930ed6309ed79371dacbed43b9c893d48924911c0",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/middleware/auth.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/middleware/auth.js",
+    "source_sha256": "6b78cad0d3188e8fb93ac0a713ebf0f6732a42209da3b08e631865aaeb4a9d71",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "6b78cad0d3188e8fb93ac0a713ebf0f6732a42209da3b08e631865aaeb4a9d71",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/middleware/guest.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/middleware/guest.js",
+    "source_sha256": "39f53c325b037e64c7e1fdb3b6c5902ac8819747fd089a8f48da426a669a532d",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "39f53c325b037e64c7e1fdb3b6c5902ac8819747fd089a8f48da426a669a532d",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/middleware/passportConfig.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/middleware/passportConfig.js",
+    "source_sha256": "a30ad48b5c824f723855e9ac08534fc1f20976fd71bdcde1266790d39e63917d",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "a30ad48b5c824f723855e9ac08534fc1f20976fd71bdcde1266790d39e63917d",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/models/ChatMsgs.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/models/ChatMsgs.js",
+    "source_sha256": "3230d1db880f3f2d5095cb2dd928cde70be501a2ae1345b53ba7507952ffa52a",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "3230d1db880f3f2d5095cb2dd928cde70be501a2ae1345b53ba7507952ffa52a",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/models/Comment.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/models/Comment.js",
+    "source_sha256": "8ca1a72606b290837a840241bd984b02fc7a388d0f0d3c7e0ca9ad996b12c297",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "8ca1a72606b290837a840241bd984b02fc7a388d0f0d3c7e0ca9ad996b12c297",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/models/Gamification.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/models/Gamification.js",
+    "source_sha256": "0c5f768fd92978bd3ec8160ea5d9dc6a9961a0a48490c7757d32bddb700928bf",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "0c5f768fd92978bd3ec8160ea5d9dc6a9961a0a48490c7757d32bddb700928bf",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/models/Like.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/models/Like.js",
+    "source_sha256": "d55b9a71bd4353792c2e7c60c7769e41785d0c00ba40d9cc52fd310b6f91c007",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "d55b9a71bd4353792c2e7c60c7769e41785d0c00ba40d9cc52fd310b6f91c007",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/models/Recipe.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/models/Recipe.js",
+    "source_sha256": "531402ea14c20f7fd60c1ea75dad54d3288bc73daf1cba9fd64d91198a654a70",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "531402ea14c20f7fd60c1ea75dad54d3288bc73daf1cba9fd64d91198a654a70",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/models/User.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/models/User.js",
+    "source_sha256": "69f2654cfff772aa54adf9f64aaf8c345c174ef1571f6b463664e6eb4105389a",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "69f2654cfff772aa54adf9f64aaf8c345c174ef1571f6b463664e6eb4105389a",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/routes/auth.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/routes/auth.js",
+    "source_sha256": "5de3ea9bb0b210e81205d7462e8fab7a90196e19c72d09f4735f59e328afedb9",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "872f35e5326bca732503a267c3bf44116bc100d50f20807b85ce67f4bb61be24",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/routes/chat.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/routes/chat.js",
+    "source_sha256": "8d5ef55c07bd3a0bc4ea37d11fef4cf39d46049e5edd88956c36a867c5b2aead",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "8d5ef55c07bd3a0bc4ea37d11fef4cf39d46049e5edd88956c36a867c5b2aead",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/routes/comment.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/routes/comment.js",
+    "source_sha256": "30e8e6149eef369bb1c8e3915ce7f252b4c91d5f08addd1eaaab011150bbca9e",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "30e8e6149eef369bb1c8e3915ce7f252b4c91d5f08addd1eaaab011150bbca9e",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/routes/recipe.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/routes/recipe.js",
+    "source_sha256": "9015a8a3eaeed1a59e7a46e3945cd29997a17606e83cbeef33801bc1901a25dd",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "9015a8a3eaeed1a59e7a46e3945cd29997a17606e83cbeef33801bc1901a25dd",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/routes/user.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/routes/user.js",
+    "source_sha256": "fcfc89f8a0f653fa641f5649da6effa2a15efe276a8c4857cd71162c960d8501",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "fcfc89f8a0f653fa641f5649da6effa2a15efe276a8c4857cd71162c960d8501",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/server.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/server.js",
+    "source_sha256": "26bd8ad68e3258ad465bba4783321b825a09f15e9a5bea973d401570ed7a5580",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "26bd8ad68e3258ad465bba4783321b825a09f15e9a5bea973d401570ed7a5580",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/Backend/utils/s3.js",
+    "destination": "Software-Engineering/Culinary-Cloud/Backend/utils/s3.js",
+    "source_sha256": "3a77d6ee3c425f6acdf465b49e62c22622fd2c1f766449a8e403bf5e17972b45",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "3a77d6ee3c425f6acdf465b49e62c22622fd2c1f766449a8e403bf5e17972b45",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/eslint.config.js",
+    "destination": "Software-Engineering/Culinary-Cloud/eslint.config.js",
+    "source_sha256": "6ea89b7f008172a670aaa8540b110fe2b83ae0b951ac0a748358f2e909867ec6",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "6ea89b7f008172a670aaa8540b110fe2b83ae0b951ac0a748358f2e909867ec6",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/index.html",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/index.html",
+    "source_sha256": "fa92bf7549949710146eb99d36280bca70231f7f32b073a20cdf7f1bda09ad5c",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "fa92bf7549949710146eb99d36280bca70231f7f32b073a20cdf7f1bda09ad5c",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/package-lock.json",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/package-lock.json",
+    "source_sha256": "6d17b2e05f93f63a83758ec129a4a96da1d8470657c5fc1072319b621ec5a7ed",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "347ac7a19cf15207da56b31ab696b79f30d6dc20a317ff3d0ee3d489c4d49f68",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/package.json",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/package.json",
+    "source_sha256": "2d2974aad77af7c85c83dd05f86e301b7611bd6fd8f3b54f0875085e4990e2b5",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "2d2974aad77af7c85c83dd05f86e301b7611bd6fd8f3b54f0875085e4990e2b5",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/postcss.config.cjs",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/postcss.config.cjs",
+    "source_sha256": "80c91c0c15c41b0e5a9272718d026e94f8e7f1e3e811497b39f87ff444df8ce5",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "80c91c0c15c41b0e5a9272718d026e94f8e7f1e3e811497b39f87ff444df8ce5",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/App.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/App.jsx",
+    "source_sha256": "7a2cebf93b88caa5957c127cf28bd9c3c07ae4d2720314ec6a273dbf566e021c",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "7a2cebf93b88caa5957c127cf28bd9c3c07ae4d2720314ec6a273dbf566e021c",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/assets/food1.jpg",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/assets/food1.jpg",
+    "source_sha256": "a5a547a29625594555e0845242b78bd13f68074745254f57a1d905d46d89d3eb",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "a5a547a29625594555e0845242b78bd13f68074745254f57a1d905d46d89d3eb",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/assets/food2.jpeg",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/assets/food2.jpeg",
+    "source_sha256": "9a508e5c5562b9519ff8fc69953b0142a81ffd61b45569c23df2d30ba1a3c02d",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "9a508e5c5562b9519ff8fc69953b0142a81ffd61b45569c23df2d30ba1a3c02d",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/assets/logo.jpg",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/assets/logo.jpg",
+    "source_sha256": "9d4f5fa378fad20c9b386eb6108a105ad558cd707416ffe86da573894f8a8a58",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "9d4f5fa378fad20c9b386eb6108a105ad558cd707416ffe86da573894f8a8a58",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/assets/profile_img.png",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/assets/profile_img.png",
+    "source_sha256": "53a240597311a7e9b927482b87918b589e7afbcffab0f8e197d22ebe88a96f06",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "53a240597311a7e9b927482b87918b589e7afbcffab0f8e197d22ebe88a96f06",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/components/Button.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/components/Button.jsx",
+    "source_sha256": "a7fbd0e459feff2e1af012299b2c644d8702ddc1c7d1598af47b5f4b62742b1a",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "a7fbd0e459feff2e1af012299b2c644d8702ddc1c7d1598af47b5f4b62742b1a",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/components/CommentModal.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/components/CommentModal.jsx",
+    "source_sha256": "e97d8673f05c7f8df4985c88b801ce6d33d1b780884c881e7006353628b03469",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "e97d8673f05c7f8df4985c88b801ce6d33d1b780884c881e7006353628b03469",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/components/DietaryPreferencesSelector.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/components/DietaryPreferencesSelector.jsx",
+    "source_sha256": "d037a07ccd90223fe9ed9b49aa07df1b6307fef57559d1348b616aee3125c1a7",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "d037a07ccd90223fe9ed9b49aa07df1b6307fef57559d1348b616aee3125c1a7",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/components/GuestTimeoutModal.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/components/GuestTimeoutModal.jsx",
+    "source_sha256": "95acc8bf2cd7edd2ac745f77b1ca00b3d2c0b4d8ef8147e7ef32815ed097bc16",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "95acc8bf2cd7edd2ac745f77b1ca00b3d2c0b4d8ef8147e7ef32815ed097bc16",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/components/InputField.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/components/InputField.jsx",
+    "source_sha256": "6adda734436b3db1cf9a6ac4cb3581a9b73a6fd35d2b4f3e2edcc3eaf935ce86",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "6adda734436b3db1cf9a6ac4cb3581a9b73a6fd35d2b4f3e2edcc3eaf935ce86",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/components/Logo.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/components/Logo.jsx",
+    "source_sha256": "189eacb4477f9a6fb206696dcc9c886fa93eb60707b8a23f13fd0e35aed45024",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "189eacb4477f9a6fb206696dcc9c886fa93eb60707b8a23f13fd0e35aed45024",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/components/ProtectedRoute.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/components/ProtectedRoute.jsx",
+    "source_sha256": "29c0e2b34add222ee8a700438ce2fde712bd9fcbf0c04c1c71e937f1ea80406a",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "29c0e2b34add222ee8a700438ce2fde712bd9fcbf0c04c1c71e937f1ea80406a",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/constants/dietaryCategories.js",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/constants/dietaryCategories.js",
+    "source_sha256": "5194cd05fa616802cc2e0a411fb99739ca2183848a60a1f319478cc476547d62",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "5194cd05fa616802cc2e0a411fb99739ca2183848a60a1f319478cc476547d62",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/hooks/useAuth.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/hooks/useAuth.jsx",
+    "source_sha256": "0196583536af6268109480313d82f1883a454c3cf74c7e88d59cbdadc6b835ab",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "0196583536af6268109480313d82f1883a454c3cf74c7e88d59cbdadc6b835ab",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/index.css",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/index.css",
+    "source_sha256": "508e82451951d2ff2b4deb620190b1f7acd36f56658dc688d56d111dd0370d77",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "508e82451951d2ff2b4deb620190b1f7acd36f56658dc688d56d111dd0370d77",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/main.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/main.jsx",
+    "source_sha256": "5e7aff51c18b9e1a6f047668a0c3e3fe362bc2c7ad990149e51f030593b7c476",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "5e7aff51c18b9e1a6f047668a0c3e3fe362bc2c7ad990149e51f030593b7c476",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/Chatbot.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/Chatbot.jsx",
+    "source_sha256": "b2257c513e9b9652598892fb1f1b4a58906358197a3f92d8dccc9f86f6b53864",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "b2257c513e9b9652598892fb1f1b4a58906358197a3f92d8dccc9f86f6b53864",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/Create.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/Create.jsx",
+    "source_sha256": "1e1d8a026b63def7a55a781fa2db2d28f9fb7a8a43a6cd0e3b0c138d1d67ee0f",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "1e1d8a026b63def7a55a781fa2db2d28f9fb7a8a43a6cd0e3b0c138d1d67ee0f",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/Layout.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/Layout.jsx",
+    "source_sha256": "a0c1d44e9c9213fdab36e038d06202b99c8364ad9db2939b1a024ac4a4ec7ea9",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "a0c1d44e9c9213fdab36e038d06202b99c8364ad9db2939b1a024ac4a4ec7ea9",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/Navbar.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/Navbar.jsx",
+    "source_sha256": "e9b8d0f67f0e1edea3e3e249e18b927a7f436470491058553e4c0bb8c25b24fb",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "e9b8d0f67f0e1edea3e3e249e18b927a7f436470491058553e4c0bb8c25b24fb",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/Post.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/Post.jsx",
+    "source_sha256": "4a77e1f2b5adea845074fc33475139ee1915430a64147d6540b771fbda9bf4d5",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "4a77e1f2b5adea845074fc33475139ee1915430a64147d6540b771fbda9bf4d5",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/Profile.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/Profile.jsx",
+    "source_sha256": "0322eb301c28330f05df68c695b9ace6a77dd162918d5a4955f536cb30a084a9",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "0322eb301c28330f05df68c695b9ace6a77dd162918d5a4955f536cb30a084a9",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/QuickRecipes.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/QuickRecipes.jsx",
+    "source_sha256": "cde7fe1880761ed3ef69e120998b17ef17f4282d78020059b7cc609658dd8bcd",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "cde7fe1880761ed3ef69e120998b17ef17f4282d78020059b7cc609658dd8bcd",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/Recipe.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/Recipe.jsx",
+    "source_sha256": "deb09510e62a3acb8107795ae7647112e1b4f94023c35653f35257376fb95506",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "deb09510e62a3acb8107795ae7647112e1b4f94023c35653f35257376fb95506",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/Search.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/Search.jsx",
+    "source_sha256": "9c00f694f407135922047149b21cbbb4381a4960080b16298305cfa327df32cf",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "9c00f694f407135922047149b21cbbb4381a4960080b16298305cfa327df32cf",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/SearchResults.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/SearchResults.jsx",
+    "source_sha256": "a1b4a134ba2fc16b88af34f254d5d3087fd87ebeaf2ebcc8995c7128cf5e3103",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "a1b4a134ba2fc16b88af34f254d5d3087fd87ebeaf2ebcc8995c7128cf5e3103",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/TrendingRecipes.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/TrendingRecipes.jsx",
+    "source_sha256": "e015ecba4d074e671695e4371d64134a7c8e82564ecad537c22c34f097d58166",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "e015ecba4d074e671695e4371d64134a7c8e82564ecad537c22c34f097d58166",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/login.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/login.jsx",
+    "source_sha256": "f31c96a3d259e574d04672ced3894c95070199894d201c359dd3766bff7b9fff",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "f31c96a3d259e574d04672ced3894c95070199894d201c359dd3766bff7b9fff",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/signup.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/signup.jsx",
+    "source_sha256": "e8fc4e976c98b541576e05df5ae2c4a3628920ac11eb2fcf7b105a38fb063551",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "e8fc4e976c98b541576e05df5ae2c4a3628920ac11eb2fcf7b105a38fb063551",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/pages/startCooking.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/pages/startCooking.jsx",
+    "source_sha256": "754d3c2aa9583c1d7f56848319500f5fd1e8e9c942af5cb9875c170b5f78f6ef",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "754d3c2aa9583c1d7f56848319500f5fd1e8e9c942af5cb9875c170b5f78f6ef",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/src/utils/validations.jsx",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/src/utils/validations.jsx",
+    "source_sha256": "76335d206ca20d4c0040da0e34e99486e25e851c251fe6971bac19dccd346cee",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "76335d206ca20d4c0040da0e34e99486e25e851c251fe6971bac19dccd346cee",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/tailwind.config.js",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/tailwind.config.js",
+    "source_sha256": "f0e12c34a5c55f9a291250db1f64e04d489190ced3526c48e5e0b76866448d81",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "f0e12c34a5c55f9a291250db1f64e04d489190ced3526c48e5e0b76866448d81",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/frontend/vite.config.js",
+    "destination": "Software-Engineering/Culinary-Cloud/frontend/vite.config.js",
+    "source_sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/package-lock.json",
+    "destination": "Software-Engineering/Culinary-Cloud/package-lock.json",
+    "source_sha256": "a626ade117cc4482d7fc68544949bdb90cc965a8bec75b7f30ec161be7fe01a6",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "626731dd43b130c9573469395226033be67f219d05c1b549fbbea1aa335ee3a4",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/package.json",
+    "destination": "Software-Engineering/Culinary-Cloud/package.json",
+    "source_sha256": "c713ee4c68524962e44e277c49744213da7e75d863d77b822c981d041a8a5da0",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "06f8b1f09c9254d6b7e06f67294b7f574b414ee22df47331b0fd14d1b3a24f48",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "CulinaryCloud_RecipeSharingPlatform/public/vite.svg",
+    "destination": "Software-Engineering/Culinary-Cloud/public/vite.svg",
+    "source_sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "ScreenTimeand StudentLife/markhor_group7_ahmedfaraz.ipynb",
+    "destination": "Data-Science/Mobile-Usage-Analysis/markhor_group7_ahmedfaraz.ipynb",
+    "source_sha256": "5994b175baa15b27569b05da968295b56f0398a24f8d43d8f164b1aac09d47d8",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "6c93944598af23dd6a9b791f9d01730317833fba392a7c87ba45f715ca570b13",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "HanzalahSohail/Projects",
+    "source_path": "ScreenTimeand StudentLife/bloglink.txt",
+    "destination": "Data-Science/Mobile-Usage-Analysis/bloglink.txt",
+    "source_sha256": "f2b475b24438e7ac677f44c3ddd9f4eb5fa1fcf3c1b51f7ed632e31667346c2d",
+    "source_commit": "ded2c287a9a7f52b3c6fde837965b21a1d7c274c",
+    "imported_sha256": "f2b475b24438e7ac677f44c3ddd9f4eb5fa1fcf3c1b51f7ed632e31667346c2d",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-disease-classifier",
+    "source_path": "Hybrid_CNN_Transformer_Approach_With_Transfer_Learning_for_Efficient_Multi_Plant_Disease_Detection.pdf",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Disease-Classification/Hybrid_CNN_Transformer_Approach_With_Transfer_Learning_for_Efficient_Multi_Plant_Disease_Detection.pdf",
+    "source_sha256": "367f021fe2dbb10fac84b30271ba98119d969c0525a0e39f8e433d9dd734fb03",
+    "source_commit": "a2146971953eaa87b345d1cb502d761f49a29b34",
+    "imported_sha256": "367f021fe2dbb10fac84b30271ba98119d969c0525a0e39f8e433d9dd734fb03",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-disease-classifier",
+    "source_path": "LICENSE",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Disease-Classification/LICENSE",
+    "source_sha256": "f48eb943a469558830de279c973fe1ee834e00f270b0169ddc86b3f9394650f8",
+    "source_commit": "a2146971953eaa87b345d1cb502d761f49a29b34",
+    "imported_sha256": "f48eb943a469558830de279c973fe1ee834e00f270b0169ddc86b3f9394650f8",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-disease-classifier",
+    "source_path": "cropped_plant_doc/croppedplantdochybrid.ipynb",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Disease-Classification/cropped_plant_doc/croppedplantdochybrid.ipynb",
+    "source_sha256": "c9778442f62ac135c97e5262d27b7860375c5987756aec39bd2fb4e6987de25f",
+    "source_commit": "a2146971953eaa87b345d1cb502d761f49a29b34",
+    "imported_sha256": "c9778442f62ac135c97e5262d27b7860375c5987756aec39bd2fb4e6987de25f",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-disease-classifier",
+    "source_path": "new_plant_disease/newplantdiseasehybrid.ipynb",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Disease-Classification/new_plant_disease/newplantdiseasehybrid.ipynb",
+    "source_sha256": "97263a6365c4d478b6c5a8f3af4a37396261610732f45e1323b5956c310c6300",
+    "source_commit": "a2146971953eaa87b345d1cb502d761f49a29b34",
+    "imported_sha256": "97263a6365c4d478b6c5a8f3af4a37396261610732f45e1323b5956c310c6300",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-disease-classifier",
+    "source_path": "plant_village/plantvillagehybrid.ipynb",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Disease-Classification/plant_village/plantvillagehybrid.ipynb",
+    "source_sha256": "32d20ccb3df0d348deb56441154a88bf49298c3d42933f35d9dce3d36bd98fd8",
+    "source_commit": "a2146971953eaa87b345d1cb502d761f49a29b34",
+    "imported_sha256": "32d20ccb3df0d348deb56441154a88bf49298c3d42933f35d9dce3d36bd98fd8",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/check_traits.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/check_traits.py",
+    "source_sha256": "b1bd9e2b0f87e97269be41dff4dc9ee2ebef096cb65e9b19c99073b953376bfe",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "3b446a777c9b1ad054dcb220e6edf93f802f31ed55584ae4d215807f0094c39c",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/config/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/config/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/config/asgi.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/config/asgi.py",
+    "source_sha256": "a180de69cb0447f2f4302e3cd19c5be9a107acf276e5475a01f1e42ef95a059f",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "faae3c3688ee5cac82e374dd05ccfee84329c72ae94bf1c629183bc25af6a50e",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/config/settings.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/config/settings.py",
+    "source_sha256": "29344463520a1e391ce809ba267cf18163d7556dbf8190900c8ae2ab9a30a58f",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "5aa1be90fbcf03328e311f6adbf3321e3b95f82bccb7ffbc5dfaaeaa08872ed6",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/config/urls.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/config/urls.py",
+    "source_sha256": "bec260a45c7c9e3f8d108c034ff04313309694e88f884a559c04a6e7bd96c751",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "b4487921ba97fc303aaa25df2ff7d7a1b651891f4297d0714376838944c27728",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/config/wsgi.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/config/wsgi.py",
+    "source_sha256": "e7e10c2904695355f47ce94b834a001713cfe635248bee5edb09817cc023d1b8",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "1b036e4775f66e44ce87bcf9fe198ab33f2db977cec7fed9de917a32f519cc17",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/debug_leaves.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/debug_leaves.py",
+    "source_sha256": "1c6840844a3567e439fc546d3714f06e2e3d03c78754dbba6d56b11dc46aefb5",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e1fed5c89bb462687a76b02a605b9b9c7289e6f8db0d2dec4fedb4f7ef20913a",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/manage.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/manage.py",
+    "source_sha256": "b828c5d0f3086ae38d0432ec8b8a492b50dd011c11c7fdf32cd7182a5f5c2288",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "d382aa2298787ab78d9c8f02b2f39c5cad96403f3608fd5b2b566595158ac3e7",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/admin.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/admin.py",
+    "source_sha256": "b2e328e31f08dc907100505521d13ee6a9ea67a240655d051120011ce49cfaf8",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "a7ac68a753eeb831b6530bf71bf6917e577139f0734d17cc6a8666391564ab25",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/apps.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/apps.py",
+    "source_sha256": "909f09274e96d7b41c5285cf67bf9a0a4faf05d2ea36bc000e9baaa1e019f24b",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "f08bb596c397e67dcda1c8130b2af529c80d9d6c44e71b52880c50546cb3fc69",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/migrations/0001_initial.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/migrations/0001_initial.py",
+    "source_sha256": "cbdc3a0c8839dbe638a6ec6a947c55ea069813b580bb1e18179a987e842eaee1",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "3d8feb07e0abe42a883635c627479694f1a06b8ff13aae463eb3245e2f7b109e",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/migrations/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/migrations/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/models.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/models.py",
+    "source_sha256": "c95ea73f74ecb9ebcc9a6843a8cd1c0478bb8e98517f106ee2680a2eb757506e",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "fe61bbc6b7ef11fdd75482df843f9c1dab26f3f0940f5d6fb69b908623e031d3",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/serializers.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/serializers.py",
+    "source_sha256": "3bf4757791c4c687c2b038344281104efef10bf9683a86981dee176b43cd2200",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "d9a13ed7749d6e97c27549923e1e3a62f54a445083a217b846075fe1f5555400",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/tests.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/tests.py",
+    "source_sha256": "9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "dae0da7efdcdb3a7fb572d5e914b60631099122d4a4727ac6434c016161c5fe1",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/urls.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/urls.py",
+    "source_sha256": "061c1cc5b9ef0d06064a231c17c22a360f517e1c6ae79d4509432d15e55f660b",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "1f00ee0bd1b15c882763cf0f67d89656f0cbfa4125c94cad376924d058bedaaa",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/plants/views.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/plants/views.py",
+    "source_sha256": "7ecc28bf50c4ed9fa024d24c4784d5aa35ba7cef1de5e51e84f195a133ec6b00",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "009262fd8c1db242ab4d43c900496ebdbd4bb854719ad7c417c39b0520b9e134",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/requirements.txt",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/requirements.txt",
+    "source_sha256": "852533dc3729f459477d27f2f67413f1b699dc4d170662ca9fb56380dad7837a",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "00a5d9dc2c85dcc526f1cea7a32550373de7c1a17b0df5b1cfd3a10fc36edcca",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/test_mysql.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/test_mysql.py",
+    "source_sha256": "e19b0e80f5a11d10d50743d0d06464a6511b535994f1935bd39449cdf6cfcbd1",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "96fec395f9339f3d6edd882615660331e214824e4628b696df04243bce923d9d",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/admin.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/admin.py",
+    "source_sha256": "bbdca1d33847eac4d39183e567e3e30b7ca81289cfdca1b4290a1888f41132ff",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "2ffb84a9c85c91224e4b0d5492257be3d324bf8b524a2c0d7129396eaa4ee7a2",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/apps.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/apps.py",
+    "source_sha256": "727a65a80db70ecba4b72b052d7d33ee8a4cf3a0abd2b849086363563ed9fb32",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "dae31c00f7bc8c4c0fd234fa722a2fed13482b04a8b72c043ff8e68772982d0a",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/db_router.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/db_router.py",
+    "source_sha256": "06037b429bd6b5f151ceddb0e4d636fb5d1f5187c9779a667d16f7e2af14d8a2",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "65ca51b126816d4c57f8974b2f5a37d924360f083850a5bce3ccd3eee65014e7",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/engine_b/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/engine_b/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/engine_b/traits_from_segmented.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/engine_b/traits_from_segmented.py",
+    "source_sha256": "8bc398488120f4a2df222580728c6aaaddcf37130955071bb3532a3af7a01b3c",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "f1deb3ff30dd1c77c2e492219a9af89c1fffccae1a40078527510bc29cdf337f",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/management/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/management/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/management/commands/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/management/commands/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/management/commands/compute_traits.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/management/commands/compute_traits.py",
+    "source_sha256": "ef65a4aa3e142ed4ad1f7e76140bfa4846e0e6df052d62f270f74c4f19c3ff6a",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "07b9f576fc70fc804d245e1b825c326de1c33a9d8bea8cd0bd9538b4d119d203",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/management/commands/create_mysql_table.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/management/commands/create_mysql_table.py",
+    "source_sha256": "f497af260b594ced3224a1349c1db01de3f27823b4b13525b8bb32f79e1484ec",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "642ad6445e43d43b13fbfe4a3b37298a40639eec992eeecac46a043545b6a77b",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/management/commands/import_images.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/management/commands/import_images.py",
+    "source_sha256": "b9407e3d3a48aee044851657f1932462c69fa77684da869af49b71b9101a0603",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "428888280819006bcc2d6cfc93d2f0df7a9bd1d23b0e0a64e3dd9640a28c1639",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/management/commands/push_traits_to_mysql.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/management/commands/push_traits_to_mysql.py",
+    "source_sha256": "8128f1049c26b223e6da14c986006f50339e257821bcc9dcf56980887b58ea65",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "16db7ee682a43817a1f7e2eb11e841f5c43216344f50cca892bd7272494dffbb",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/management/commands/sync_images.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/management/commands/sync_images.py",
+    "source_sha256": "c6692abfb0f664f2ea36bf5c5b4f8f08cfd8bca5a374ab674ceb53ad6b3d5aaa",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "26ee8644b1d84e8a4f8083f9c7550d2ff397c14b1dbe0c285a794a67ffe87847",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/migrations/0001_initial.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/migrations/0001_initial.py",
+    "source_sha256": "8a1bb2cbcd2054554b71fbb4fd0bd011d0258ff804bdd327a3128fc197055b6c",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "207d3ec3151fb709003c2390fd4be4f619739d901dd3b6e3442609eb8d43009d",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/migrations/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/migrations/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/models.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/models.py",
+    "source_sha256": "a2580d1a33bad2df442fa9ccd9b27acc2a921b80cc6e9a344ba84422a9030a44",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "0ac8265081077de6c850c42c77033d364458279dd6957de5e422e57630a386b0",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/pipeline/__init__.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/pipeline/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/pipeline/segmenter.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/pipeline/segmenter.py",
+    "source_sha256": "bf098a478889b647c94e417f50988fd303ce683419b598b836c59aaa4f9b7387",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "660c57e8753c8e061d07f8bb8f9534e80aabc21607e86356a439d3545c251342",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/serializers.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/serializers.py",
+    "source_sha256": "a2f49ea4a86252431e1d7601263f4259be51bc4040ff135508ef56b9f27ce378",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "82d5c8f455d4ecfd06a92e5983f9e09eaf078df66362d8f126b76a098c2ab24b",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/tests.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/tests.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/trait_engine.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/trait_engine.py",
+    "source_sha256": "1d77b37877a883d2a0dde6fd233a2bc3833243bd0bea0fd96d944b1f28250a8e",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "9369785dd001cdf4592e3c672c7960c429ea99e8ad345405572ff34a01aa4a50",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/urls.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/urls.py",
+    "source_sha256": "920fa28db039165699af2bc609809f08b10a1e219aedea26d85169226c880ea5",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "684346658d6d509fd94444d5bdc684f991ed0defb9c2da00a3424ec323f59013",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/plant-phenotyping-dashboard",
+    "source_path": "plant_backend/traits/views.py",
+    "destination": "Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/backend/traits/views.py",
+    "source_sha256": "0d81f2b6d9091a52c02b53929032f93f2491493939f6e53b05ea8b58a215153e",
+    "source_commit": "edd9125a7411a22d95884c9a87f8002cadcf10f7",
+    "imported_sha256": "9096d2255b3f42b67bff35c4db6b1d178e01e7c03b42b52ac18ce931e0dbece4",
+    "modified_on_import": true
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/.gitkeep",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/.gitkeep",
+    "source_sha256": "2f73349cfc4630255319c6c8dfc1b46a8996ace9d14d8e07563b165915918ec2",
+    "imported_sha256": "2f73349cfc4630255319c6c8dfc1b46a8996ace9d14d8e07563b165915918ec2",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/01-User-Research/Caretaker Questions .pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/01-User-Research/Caretaker Questions .pdf",
+    "source_sha256": "334faa7ec5dabf4372aab78ac6ada39017a04b8149fb9dca740fdd600904e25c",
+    "imported_sha256": "334faa7ec5dabf4372aab78ac6ada39017a04b8149fb9dca740fdd600904e25c",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/01-User-Research/Doctor Questions.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/01-User-Research/Doctor Questions.pdf",
+    "source_sha256": "93e6bae407ab48ab3511f59519498de2b9c27317d88005b337fbff10d8634e63",
+    "imported_sha256": "93e6bae407ab48ab3511f59519498de2b9c27317d88005b337fbff10d8634e63",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/01-User-Research/Group08_UserResearch_2025.docx",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/01-User-Research/Group08_UserResearch_2025.docx",
+    "source_sha256": "65c3b57dcb8cddbbfe632904220206e72a79452cba596274ae4472872147078a",
+    "imported_sha256": "65c3b57dcb8cddbbfe632904220206e72a79452cba596274ae4472872147078a",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/01-User-Research/Group08_UserResearch_2025.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/01-User-Research/Group08_UserResearch_2025.pdf",
+    "source_sha256": "0ada3a3b8dcc57ffd0aa31a51e5c21ed1fed9ed001134cd9e0d260fe2f6064cb",
+    "imported_sha256": "0ada3a3b8dcc57ffd0aa31a51e5c21ed1fed9ed001134cd9e0d260fe2f6064cb",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/01-User-Research/Patients Questions.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/01-User-Research/Patients Questions.pdf",
+    "source_sha256": "1a39a864b5c92debfea0ae7bc4a9ac5d75717f02592093ddf655c870b2f28472",
+    "imported_sha256": "1a39a864b5c92debfea0ae7bc4a9ac5d75717f02592093ddf655c870b2f28472",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/01-User-Research/Physiotherapist Questions.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/01-User-Research/Physiotherapist Questions.pdf",
+    "source_sha256": "93876a0eaef5cb139ea97d84a9afadd9740e9a0ed47cae5d0a37012b7f3e1ed9",
+    "imported_sha256": "93876a0eaef5cb139ea97d84a9afadd9740e9a0ed47cae5d0a37012b7f3e1ed9",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/01-User-Research/README.md",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/01-User-Research/README.md",
+    "source_sha256": "e3780858132ad00761c439e77d5b464b694682ada08267a24010b5a338ec3c42",
+    "imported_sha256": "e3780858132ad00761c439e77d5b464b694682ada08267a24010b5a338ec3c42",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/Accessibility_Documentation_App.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/Accessibility_Documentation_App.pdf",
+    "source_sha256": "226559ebb7368d46b7ecc9abb0731a10338c72253a5260c459aca433aa3f03c4",
+    "imported_sha256": "226559ebb7368d46b7ecc9abb0731a10338c72253a5260c459aca433aa3f03c4",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/All Lofi screns.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/All Lofi screns.pdf",
+    "source_sha256": "304e6f9383049947a0136126f0b4005fb057e1a14fd02cb7022fbc86f18e758d",
+    "imported_sha256": "304e6f9383049947a0136126f0b4005fb057e1a14fd02cb7022fbc86f18e758d",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/Desgin Alternatives.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/Desgin Alternatives.pdf",
+    "source_sha256": "144677e148bba6599172cabfe42053aac7894f9ef200d92a4e9f4830f7c79c0f",
+    "imported_sha256": "144677e148bba6599172cabfe42053aac7894f9ef200d92a4e9f4830f7c79c0f",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/Figma source file.fig",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/Figma source file.fig",
+    "source_sha256": "550e625483d149dcedf5d9e705f94028d2638654c9d68b22b22bf4d595484392",
+    "imported_sha256": "550e625483d149dcedf5d9e705f94028d2638654c9d68b22b22bf4d595484392",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/Group08_Design2025.docx",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/Group08_Design2025.docx",
+    "source_sha256": "bc6d1d7cf20a45496fc8dd0e27e1caef384a72f3769d6757a4373081a65c71ac",
+    "imported_sha256": "bc6d1d7cf20a45496fc8dd0e27e1caef384a72f3769d6757a4373081a65c71ac",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/Group08_Design2025.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/Group08_Design2025.pdf",
+    "source_sha256": "a482862b9ba0e496a5a077a1f8fcf8b810b7878bf4b1dd0d2ddb56b6cbb8b011",
+    "imported_sha256": "a482862b9ba0e496a5a077a1f8fcf8b810b7878bf4b1dd0d2ddb56b6cbb8b011",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/HiFi Screens.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/HiFi Screens.pdf",
+    "source_sha256": "b072d675b20d805a7d1b809e20640a429e632ce703b9949660830357c08a7ff2",
+    "imported_sha256": "b072d675b20d805a7d1b809e20640a429e632ce703b9949660830357c08a7ff2",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/README.md",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/README.md",
+    "source_sha256": "c3349f79e145f05adef63c530d758ce7e5003e380a54c08ac0c18d6a6398bb26",
+    "imported_sha256": "c3349f79e145f05adef63c530d758ce7e5003e380a54c08ac0c18d6a6398bb26",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/ReadMe file.txt",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/ReadMe file.txt",
+    "source_sha256": "9b1dd3472bf395dfb01ddcb25fb635b216a5cd881cf105f3c6f8404edf9c440a",
+    "imported_sha256": "9b1dd3472bf395dfb01ddcb25fb635b216a5cd881cf105f3c6f8404edf9c440a",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/Sketches.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/Sketches.pdf",
+    "source_sha256": "0870c02db02fe4dc5c446db0c340046d2dc5bc0a01c826a4a772879cc9e965f9",
+    "imported_sha256": "0870c02db02fe4dc5c446db0c340046d2dc5bc0a01c826a4a772879cc9e965f9",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/Storyboards.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/Storyboards.pdf",
+    "source_sha256": "f75fbb9c30e8bd03442d8a92f13e390cd1aa25df1c95dd457305381d6f30ea5d",
+    "imported_sha256": "f75fbb9c30e8bd03442d8a92f13e390cd1aa25df1c95dd457305381d6f30ea5d",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/brainstorming.jpg",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/brainstorming.jpg",
+    "source_sha256": "d84c57ef4a5c95f5fa6daac1b1b5a4240c00ac44a11cd45ec01af84bf472b795",
+    "imported_sha256": "d84c57ef4a5c95f5fa6daac1b1b5a4240c00ac44a11cd45ec01af84bf472b795",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/brainstormingg.jpg",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/brainstormingg.jpg",
+    "source_sha256": "9c36af20067f39bad7d08568dfc262a55630f9836ddbae5554b658ea6b7c1ef4",
+    "imported_sha256": "9c36af20067f39bad7d08568dfc262a55630f9836ddbae5554b658ea6b7c1ef4",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/02-Desgin/brainstorminggg.jpg",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/02-Desgin/brainstorminggg.jpg",
+    "source_sha256": "b11748303a9cc0cd5b59f5ac6d25a4b6885bdcf405eecce08df0b6fa880bf757",
+    "imported_sha256": "b11748303a9cc0cd5b59f5ac6d25a4b6885bdcf405eecce08df0b6fa880bf757",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/03-Evaluation/Group08_Evaluation2025.docx",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/03-Evaluation/Group08_Evaluation2025.docx",
+    "source_sha256": "8591d3c61aafe69c2a390fbc81a9662c2011e7eee253b6a201be053b54cb3067",
+    "imported_sha256": "8591d3c61aafe69c2a390fbc81a9662c2011e7eee253b6a201be053b54cb3067",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/03-Evaluation/Group08_Evaluation2025.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/03-Evaluation/Group08_Evaluation2025.pdf",
+    "source_sha256": "64b18e763442acaf851b7fe68a262dadfd32d1a09df76035c2c409a02c38c95f",
+    "imported_sha256": "64b18e763442acaf851b7fe68a262dadfd32d1a09df76035c2c409a02c38c95f",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/03-Evaluation/Post_test_Questionnaire.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/03-Evaluation/Post_test_Questionnaire.pdf",
+    "source_sha256": "434b05779199d8b7fbc546b9aee6c391450e523296fe68e5c6028d56dd15d5c0",
+    "imported_sha256": "434b05779199d8b7fbc546b9aee6c391450e523296fe68e5c6028d56dd15d5c0",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/03-Evaluation/Pre_test_Questionnaire.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/03-Evaluation/Pre_test_Questionnaire.pdf",
+    "source_sha256": "e480d209d10a0e48acc3170f668c8e58f1379b0dc4fdb68cda083e79d49c32cb",
+    "imported_sha256": "e480d209d10a0e48acc3170f668c8e58f1379b0dc4fdb68cda083e79d49c32cb",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/03-Evaluation/README.md",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/03-Evaluation/README.md",
+    "source_sha256": "424e6b117f09c2525818d7e464aa0dd255f51167d536bb69e9ed157edcd8349f",
+    "imported_sha256": "424e6b117f09c2525818d7e464aa0dd255f51167d536bb69e9ed157edcd8349f",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/03-Evaluation/README.txt",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/03-Evaluation/README.txt",
+    "source_sha256": "39ff378db42a2a2c41d9be0961b984520d4de76a1ffe6ea45239632d3d29daa2",
+    "imported_sha256": "39ff378db42a2a2c41d9be0961b984520d4de76a1ffe6ea45239632d3d29daa2",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/03-Evaluation/Testbook.pdf",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/03-Evaluation/Testbook.pdf",
+    "source_sha256": "35d52f1ab9f0a199129606e72c447ce24b38c7cc311142f38d34f4071ad31980",
+    "imported_sha256": "35d52f1ab9f0a199129606e72c447ce24b38c7cc311142f38d34f4071ad31980",
+    "modified_on_import": false
+  },
+  {
+    "source_repository": "azaan-imran192/Academic-Projects",
+    "source_commit": "ddd2b5349bf271bfc5261a812b6111f20c7ec89e",
+    "source_path": "ParkinsonPal-HCI/README.md",
+    "destination": "Human-Computer-Interaction/ParkinsonPal/README.md",
+    "source_sha256": "bfc229a9bb657d7062500a1a9776d6f6215bb1a360a0ee66d46ab13b8d5150d6",
+    "imported_sha256": "bfc229a9bb657d7062500a1a9776d6f6215bb1a360a0ee66d46ab13b8d5150d6",
+    "modified_on_import": false
+  }
+]

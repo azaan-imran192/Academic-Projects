@@ -1,0 +1,31 @@
+action,label,p_toxic,contains_lexicon,text,clean_text
+allow,0,0.0007264162413775921,False,Hhhh Wo kna yra,Hhhh Wo kna yra
+allow,0,0.001042670919559896,False,Or maine apko gali nai di,Or maine apko gali nai di
+allow,0,0.0005839787772856653,False,I know u will like it..,I know u will like it..
+allow,0,0.00025985599495470524,False,Director Enforcement Vigilance and Disaster Management Mr,Director Enforcement Vigilance and Disaster Management Mr
+allow,0,0.0009294815245084465,False,@Shoaib Asghar InshaAllah mjh duain dengy https://www.google.com.pk/url?sa=t&source=web&rct=j&url=https://m.facebook.com/Mahamherbals/&ved=2ahUKEwiCqLjMv5TeAhURTBoKHSsfDvUQFjAAegQIBBAB&usg=AOvVaw3jVfWAMwyhx6nyEDh7dZAV,@Shoaib Asghar InshaAllah mjh duain dengy https://www.google.com.pk/url?sa=t&source=web&rct=j&url=https://m.facebook.com/Mahamherbals/&ved=2ahUKEwiCqLjMv5TeAhURTBoKHSsfDvUQFjAAegQIBBAB&usg=AOvVaw3jVfWAMwyhx6nyEDh7dZAV
+allow,0,0.03846645727753639,False,Puja kumari may Aa sakta hu ka,Puja kumari may Aa sakta hu ka
+allow,0,0.0005926864687353373,False,e,e
+allow,0,0.0030361174140125513,False,Name b change hona chia,Name b change hona chia
+allow,0,0.00026843498926609755,False,Mangalhat Police Inspector Mr,Mangalhat Police Inspector Mr
+allow,0,0.0003121054032817483,False,پلیز کچھ منظر کے پیچھے کیا ہو رہا ہے,پلیز کچھ منظر کے پیچھے کیا ہو رہا ہے
+sanitize,0,0.00023896740458440036,True,yeh bhi Taboot e Sakeena ki terhan fi al-waqt maadoom bataya jata hai magar mustakbil qareeb mein is ko bhi baazyaab karliya jaye ga jis ke baray mein yeh aqeedah bayan kya jata hai ke 586 BC mein jab Bakhat Nasar ne Bait al Muqaddas ko jalaya tha to woh shama daan mehfooz reh gaya tha lekin mil nah saka,yeh [insult] Taboot e Sakeena [insult] terhan fi al-waqt maadoom bataya jata [insult] magar mustakbil qareeb mein is [insult] [insult] baazyaab karliya jaye [insult] jis ke baray mein yeh aqeedah bayan kya jata [insult] ke 586 [insult] mein jab Bakhat Nasar ne Bait al Muqaddas [insult] jalaya [insult] to woh shama daan mehfooz reh gaya [insult] lekin mil nah saka
+sanitize,0,0.5046577453613281,True,ha chachi main thumre rasile badan ko chuga bhi aur choduga bhi..,[insult] chachi [insult] thumre rasile badan [insult] chuga [insult] aur choduga [insult]..
+sanitize,0,0.0002555218816269189,True,"Yeh sarkari taluqaat hain, shakhsi taluqaat nahi","Yeh sarkari taluqaat [insult], shakhsi taluqaat [insult]"
+sanitize,0,0.33694446086883545,True,"the yahoodi (jews) have always been offered shelter by hindustani people, time after time. unlike you swine, we respect everyone’s method of worship.","the [insult] ([insult]) have always been offered shelter by hindustani people, time after time. unlike you swine, we respect everyone’s method of worship."
+sanitize,0,0.00023519010574091226,True,"Zaraye ka batana hai ke peoples party ki taraf se begum kulsoom Nawaz ki namaz e janaza mein Yousuf Raza gailani, Raja Parvez Ashraf , Khurshid Shah , Naveed Qamar aur Qamar Zaman kairah shirkat karen ge .","Zaraye ka batana [insult] ke peoples party [insult] taraf [insult] begum kulsoom Nawaz [insult] namaz e janaza mein Yousuf Raza gailani, Raja Parvez Ashraf , Khurshid Shah , Naveed Qamar aur Qamar Zaman kairah shirkat karen ge ."
+sanitize,0,0.10984179377555847,True,mashAllah har muballigh ki har daayi ki yahi sonch ho. ..moulana beshak hum dawat ke sathiyonse ghaltiya hogayi. ..ilm walonki qadar nahi ki. .haito aap ki aulaad hi maaf farmadey. ..,mashAllah har muballigh [insult] har daayi [insult] yahi sonch ho. ..moulana beshak hum dawat ke sathiyonse ghaltiya hogayi. ..ilm walonki qadar [insult] [insult]. .haito [insult] [insult] aulaad hi maaf farmadey. ..
+sanitize,0,0.00024164505884982646,True,Hall mein daakhil hotay hi apni nashist sanbhalne ke liye woh daud kar aeye jabKPT aayi ke arakeen qaumi assembly un ke istaqbaal ke liye nashiston se kharray ho gaye .,Hall mein daakhil hotay hi apni nashist sanbhalne ke [insult] woh daud [insult] aeye jabKPT aayi ke arakeen qaumi assembly [insult] ke istaqbaal ke [insult] nashiston [insult] kharray ho gaye .
+sanitize,0,0.00023886581766419113,True, is atishzadgi ke waqea naay do masail ko manzar aam par laa gaya hai, is atishzadgi ke waqea naay do masail [insult] manzar aam par laa gaya [insult]
+sanitize,0,0.00024369779566768557,True,Modi ke jalsay ke paish e nazar Domi akhnoor mein security ke misali intizamaa kiye gay hain,Modi ke jalsay ke paish e nazar Domi akhnoor mein security ke misali intizamaa kiye gay [insult]
+sanitize,1,0.8524174094200134,True,baat srf hareem shah ya qandeel baloch ki nhi hai baat srf ye hai ky hamara ikhlaq as a nation kahan ja raha hai??? hum kahan ja rahay hain ye daikhna zaroori hai. allah ko kya moun dikhain gye jab hum kissi ki beti ko kharab krtay hain??? #hareemshah,[insult] srf [insult] ya [insult] baloch [insult] nhi [insult] [insult] srf [insult] [insult] ky hamara ikhlaq as a nation kahan [insult] raha [insult]??? hum kahan [insult] rahay [insult] [insult] daikhna zaroori [insult]. allah [insult] kya moun dikhain gye jab hum kissi [insult] beti [insult] kharab krtay [insult]??? #hareemshah
+block,1,0.9988014698028564,True,Paisy aur siaset k liye insan kuta bi ban jata he ye to us sy bi barh gye hain,
+block,1,0.9945878982543945,True,Ye nida lrhwati hy logo ko phappaykuttni,
+block,1,0.9968774318695068,True,Sohaib Hussnain mny nangi larki nyi dekhi us ki acting dekhi wo achi ti funny ti or achi ti hm muslman hy hmy islam ki baat krni chahye tmri tarah nyi soch samjh kr bakwas kia kro,
+block,1,0.9989042282104492,False,چوت مرانی دوسری ویڈیو بناتا ہے تو اس کو مزاق کیوں اڑاتا ہے,
+block,1,0.9974857568740845,True,Mujhe tatti nahi ari,
+block,1,0.979608952999115,True,wah g wah kya baat hai janb 🥰,
+block,1,0.9262372255325317,True,bara..chota toh mar k bhi koi kaam nhi karta..🙄,
+block,1,0.9988307356834412,False,Oye lantia madarchodo bhosriwalo pakistan murdabad,
+block,1,0.99906986951828,True,Are madar chod ma chod denge sale bhikhmange,
+block,1,0.9934224486351013,True,Tatti ni aarhi to kiya doctor ni hath nikal ke nikalni hai,

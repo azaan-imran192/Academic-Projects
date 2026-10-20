@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Academic Projects</title><desc id="desc">Research, systems &amp; human-centered design. 9 PROJECT AREAS   /   7 SUBJECTS   /   SOURCE + EVIDENCE.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#102a43"/><stop offset=".52" stop-color="#112b3b"/><stop offset="1" stop-color="#2b2356"/></linearGradient><linearGradient id="accent"><stop stop-color="#53e0c4"/><stop offset="1" stop-color="#b7a2ff"/></linearGradient></defs>
+<rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+<g fill="none" stroke="#a6c9df" stroke-opacity=".11"><path d="M820 0v300M880 0v300M940 0v300M1000 0v300M1060 0v300M1120 0v300M760 60h440M760 120h440M760 180h440M760 240h440"/><circle cx="1060" cy="150" r="95"/><circle cx="1060" cy="150" r="65"/></g>
+<path d="M848 196l57-81 63 39 61-83 81 39" stroke="url(#accent)" stroke-width="2" opacity=".65" fill="none"/>
+<g fill="#75e3d1"><circle cx="848" cy="196" r="4"/><circle cx="905" cy="115" r="5"/><circle cx="968" cy="154" r="4"/><circle cx="1029" cy="71" r="5"/><circle cx="1110" cy="110" r="5"/></g>
+<circle class="signal" cx="1029" cy="71" r="15" fill="none" stroke="#75e3d1" stroke-width="2" opacity=".4"/>
+<rect x="56" y="51" width="34" height="3" rx="1.5" fill="#75e3d1"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="105" y="59" fill="#a6bdcf" font-size="13" letter-spacing="3">AZAAN IMRAN / LUMS</text>
+<text x="56" y="133" fill="#f1f6fb" font-size="52" font-weight="700" letter-spacing="-1">Academic Projects</text>
+<text x="58" y="174" fill="#c5d7e5" font-size="22">Research, systems &amp; human-centered design</text>
+<text x="58" y="241" fill="#83dfd0" font-size="15" letter-spacing="1">9 PROJECT AREAS   /   7 SUBJECTS   /   SOURCE + EVIDENCE</text></g>
+<rect x="56" y="278" width="1088" height="2" fill="url(#accent)" opacity=".65"/></svg>

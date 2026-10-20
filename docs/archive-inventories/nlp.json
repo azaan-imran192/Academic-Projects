@@ -1,0 +1,642 @@
+{
+  "archive": "Urdu_toxic_prompt_filter-master.zip",
+  "files": [
+    {
+      "path": "Urdu_toxic_prompt_filter-master/.gitattributes",
+      "bytes": 94,
+      "compressed_bytes": 50,
+      "crc32": "c012bac3"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/.gitignore",
+      "bytes": 286,
+      "compressed_bytes": 204,
+      "crc32": "26c79d78"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/CLEANUP_SUMMARY.md",
+      "bytes": 4420,
+      "compressed_bytes": 1822,
+      "crc32": "18629ecf"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/FINAL_STATUS.txt",
+      "bytes": 4707,
+      "compressed_bytes": 1640,
+      "crc32": "62fac034"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/PROJECT_SUMMARY.txt",
+      "bytes": 3336,
+      "compressed_bytes": 1483,
+      "crc32": "4d86e68a"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/README.md",
+      "bytes": 2377,
+      "compressed_bytes": 1128,
+      "crc32": "07247038"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/Toxic_Prompt_Filter_Proposal_with_Pipeline.docx",
+      "bytes": 32720,
+      "compressed_bytes": 28869,
+      "crc32": "d220a91f"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/all_combined.csv",
+      "bytes": 132,
+      "compressed_bytes": 112,
+      "crc32": "aa1f26d6"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/lexicons/ruhsold_hate_words.txt",
+      "bytes": 129,
+      "compressed_bytes": 110,
+      "crc32": "18f18eab"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/hate_words_roman_urdu.txt",
+      "bytes": 129,
+      "compressed_bytes": 110,
+      "crc32": "18f18eab"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/ruhsold.csv",
+      "bytes": 132,
+      "compressed_bytes": 114,
+      "crc32": "d448cc9c"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/task_1_test.tsv",
+      "bytes": 131,
+      "compressed_bytes": 113,
+      "crc32": "a6152959"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/task_1_train.tsv",
+      "bytes": 131,
+      "compressed_bytes": 112,
+      "crc32": "d048bbf8"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/task_1_validation.tsv",
+      "bytes": 130,
+      "compressed_bytes": 111,
+      "crc32": "a9fb960b"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/rut/rut.csv",
+      "bytes": 132,
+      "compressed_bytes": 112,
+      "crc32": "a7883521"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/rut/rut.parquet",
+      "bytes": 132,
+      "compressed_bytes": 113,
+      "crc32": "b9a916ef"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/urdu_youtube/Urdu Abusive Dataset.zip",
+      "bytes": 130,
+      "compressed_bytes": 110,
+      "crc32": "71c89a8a"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/urdu_youtube/Urdu Abusive Dataset/Urdu Abusive Dataset.xlsx",
+      "bytes": 131,
+      "compressed_bytes": 114,
+      "crc32": "14de6dab"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/urdu_youtube/urdu_youtube.csv",
+      "bytes": 131,
+      "compressed_bytes": 112,
+      "crc32": "11bf09ef"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/deliverables/deliverable1/NLP 1st deliverable.pdf",
+      "bytes": 135195,
+      "compressed_bytes": 109402,
+      "crc32": "ff299214"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/deliverables/final_deliverable/README.md",
+      "bytes": 9964,
+      "compressed_bytes": 4022,
+      "crc32": "d51fcf8a"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/deliverables/final_deliverable/gemini_pipeline_results.csv",
+      "bytes": 1186,
+      "compressed_bytes": 594,
+      "crc32": "b06797b5"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/deliverables/proposal/Toxic_Prompt_Filter_Proposal_with_Pipeline.pdf",
+      "bytes": 791406,
+      "compressed_bytes": 768336,
+      "crc32": "4b3ae8e5"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/demo/app.py",
+      "bytes": 12284,
+      "compressed_bytes": 3845,
+      "crc32": "9fcdcd7e"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/docs/IMPLEMENTATION_GUIDE.md",
+      "bytes": 6158,
+      "compressed_bytes": 2751,
+      "crc32": "60969e5c"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/baseline/combined_baseline.joblib",
+      "bytes": 131,
+      "compressed_bytes": 112,
+      "crc32": "2fe19b77"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/baseline/combined_vectorizer.joblib",
+      "bytes": 132,
+      "compressed_bytes": 113,
+      "crc32": "4e9dbc82"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/baseline/rut_baseline_tfidf.joblib",
+      "bytes": 132,
+      "compressed_bytes": 113,
+      "crc32": "75fae687"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/baseline/rut_vectorizer.joblib",
+      "bytes": 133,
+      "compressed_bytes": 113,
+      "crc32": "106902ff"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/config.json",
+      "bytes": 128,
+      "compressed_bytes": 110,
+      "crc32": "669eabed"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/model.safetensors",
+      "bytes": 134,
+      "compressed_bytes": 113,
+      "crc32": "331eda2a"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/special_tokens_map.json",
+      "bytes": 128,
+      "compressed_bytes": 110,
+      "crc32": "4bf0399e"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/tokenizer.json",
+      "bytes": 132,
+      "compressed_bytes": 113,
+      "crc32": "84c3ef75"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/tokenizer_config.json",
+      "bytes": 129,
+      "compressed_bytes": 111,
+      "crc32": "ca2509bc"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/vocab.txt",
+      "bytes": 131,
+      "compressed_bytes": 113,
+      "crc32": "14eac3c5"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/02_transformer_training_kaggle.ipynb",
+      "bytes": 16265,
+      "compressed_bytes": 4777,
+      "crc32": "97831ed9"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/1_data_exploration_and_baseline.ipynb",
+      "bytes": 390767,
+      "compressed_bytes": 233019,
+      "crc32": "2a21c4db"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/2_mbert_model_training.ipynb",
+      "bytes": 37056,
+      "compressed_bytes": 7665,
+      "crc32": "3cdcd036"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/3_toxicity_filter_demo.ipynb",
+      "bytes": 52723,
+      "compressed_bytes": 24746,
+      "crc32": "ad36b525"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/4_end_to_end_pipeline_with_gemini.ipynb",
+      "bytes": 17652,
+      "compressed_bytes": 3788,
+      "crc32": "5809d3a5"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/4_end_to_end_pipeline_with_gemini_UPDATED.ipynb",
+      "bytes": 28301,
+      "compressed_bytes": 5877,
+      "crc32": "b2798c21"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/data/rut/rut.csv",
+      "bytes": 8476845,
+      "compressed_bytes": 2923819,
+      "crc32": "1940fd93"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/data/rut/rut.parquet",
+      "bytes": 4813281,
+      "compressed_bytes": 4169530,
+      "crc32": "7bcea3a5"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/reports/end_to_end_examples.csv",
+      "bytes": 1473,
+      "compressed_bytes": 649,
+      "crc32": "ed32b7c8"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/reports/filter_examples.csv",
+      "bytes": 6153,
+      "compressed_bytes": 2542,
+      "crc32": "7b6b5744"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/reports/sanitizer_flip_examples.csv",
+      "bytes": 5123,
+      "compressed_bytes": 1933,
+      "crc32": "e822b2be"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/requirements.txt",
+      "bytes": 527,
+      "compressed_bytes": 348,
+      "crc32": "d7545906"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/src/llm_client.py",
+      "bytes": 9377,
+      "compressed_bytes": 2869,
+      "crc32": "e49a3d63"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/src/toxic_filter.py",
+      "bytes": 26587,
+      "compressed_bytes": 7781,
+      "crc32": "54837968"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/tests/test_llm_integration.py",
+      "bytes": 3950,
+      "compressed_bytes": 1346,
+      "crc32": "4811bba8"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/tests/test_toxic_detection.py",
+      "bytes": 3551,
+      "compressed_bytes": 1321,
+      "crc32": "a189c26e"
+    }
+  ],
+  "archive_sha256": "ec78797503b3c8b7d4b19f6b4e5e24c053d729791fd8e5b32d19ddbb6a845938",
+  "reviewed_members_including_nested": [
+    {
+      "path": "Urdu_toxic_prompt_filter-master/.gitattributes",
+      "bytes": 94,
+      "sha256": "7a2d23c7eaf33793aa18ab88a4332e1f54f5b3c1d6e8159b83f829872f4e77a2",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/.gitignore",
+      "bytes": 286,
+      "sha256": "1813f2660692d28c761b363c7c2f494e8a30b72fbf71f2e106f9c2adb13d6081",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/CLEANUP_SUMMARY.md",
+      "bytes": 4420,
+      "sha256": "6ebe5306cdda0aad6785025aed3db3c7a11e0856ad973ad7f5062c592d45ffc1",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/FINAL_STATUS.txt",
+      "bytes": 4707,
+      "sha256": "2460898e3f308370e063d6506396177340df2d4d40e9368ea6c513fd7f56c0bc",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/PROJECT_SUMMARY.txt",
+      "bytes": 3336,
+      "sha256": "da1ccfb697bc452f3ec8ca40f0117255b3202dc1bfae637587f28e23e006d674",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/README.md",
+      "bytes": 2377,
+      "sha256": "dc83139c0ee407addcc551895496863a97a2323eb888baadf35f70329c97ca59",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/docs/UPSTREAM-README.md"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/Toxic_Prompt_Filter_Proposal_with_Pipeline.docx",
+      "bytes": 32720,
+      "sha256": "a57e68837256cd0c263d43df46d6d29e7f83e080048ba7df01e1b29a9710d9cf",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/Toxic_Prompt_Filter_Proposal_with_Pipeline.docx"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/all_combined.csv",
+      "bytes": 132,
+      "sha256": "eb15c7406a71db63569c764bebb8b3c05f9c1a4b9529e7750277747707b5ced4",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/lexicons/ruhsold_hate_words.txt",
+      "bytes": 129,
+      "sha256": "a1295367c687b29a4f0a7db73f1115594900d14dd6e9c8fbd4faec1e457480c8",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/hate_words_roman_urdu.txt",
+      "bytes": 129,
+      "sha256": "a1295367c687b29a4f0a7db73f1115594900d14dd6e9c8fbd4faec1e457480c8",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/ruhsold.csv",
+      "bytes": 132,
+      "sha256": "aefe35ac38a517720bc7c4295e0c1a5686a0c93d7ae5f25e874dfa88e9f2ab6b",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/task_1_test.tsv",
+      "bytes": 131,
+      "sha256": "8e43f1b41ef9d92dbb2f7072715c71481c467f4e4bbb1dc284742d410ea88e6e",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/task_1_train.tsv",
+      "bytes": 131,
+      "sha256": "e448e909ab8b7c8a22407e8ba3668bbd93a0357959327762ac6aaa9e67104a5a",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/ruhsold/task_1_validation.tsv",
+      "bytes": 130,
+      "sha256": "52eff85921e88fdd41b59f55ebf3f2fc5c59fa135b85c60157208ab6f34a5c9e",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/rut/rut.csv",
+      "bytes": 132,
+      "sha256": "6781ece302bc2abaccbc6c8de50da41aea5f78abfda1ec80ae059d3945c14316",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/rut/rut.parquet",
+      "bytes": 132,
+      "sha256": "25f0e3277f04c77115f55a7738c470aa295d33fcf19859c193b085d01aeb2205",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/urdu_youtube/Urdu Abusive Dataset.zip",
+      "bytes": 130,
+      "sha256": "0a369f97fce7c414f5abd92ff60c35b95bcb989ebe69e544ef77a0532d2644c0",
+      "decision": "LFS pointer archive; retain reference only"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/urdu_youtube/Urdu Abusive Dataset/Urdu Abusive Dataset.xlsx",
+      "bytes": 131,
+      "sha256": "d03f7d2e445f291afff3f1c6f7729ef42f6237178e389fc007ddb66d85fb8852",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/data/urdu_youtube/urdu_youtube.csv",
+      "bytes": 131,
+      "sha256": "83fc99bae1deabc4432eff1d3c63934ed97b7b6ca627da3ca1d6287dd9e8a449",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/deliverables/deliverable1/NLP 1st deliverable.pdf",
+      "bytes": 135195,
+      "sha256": "e160a1fd4eabad6d907422c8c0753f612e3fdb3cc99889b0e3c170f197f98ea5",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/deliverables/deliverable1/NLP 1st deliverable.pdf"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/deliverables/final_deliverable/README.md",
+      "bytes": 9964,
+      "sha256": "45774cd6770423eadea14e696424452caa7394145e5d84e04cc26487841962da",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/deliverables/final_deliverable/README.md"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/deliverables/final_deliverable/gemini_pipeline_results.csv",
+      "bytes": 1186,
+      "sha256": "43fbe6c08681c29932015f9122a47dc5562c61663ce4894069a5be67b871f30f",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/deliverables/final_deliverable/gemini_pipeline_results.csv"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/deliverables/proposal/Toxic_Prompt_Filter_Proposal_with_Pipeline.pdf",
+      "bytes": 791406,
+      "sha256": "c2991016c1cf7463a46b23684f3fb2929d5185b808b4ff284354aea7f757ec75",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/deliverables/proposal/Toxic_Prompt_Filter_Proposal_with_Pipeline.pdf"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/demo/app.py",
+      "bytes": 12284,
+      "sha256": "e9b247d82165beb774d6207bee3fa377bbd098aa4dc8f89579858efef9009f39",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/demo/app.py"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/docs/IMPLEMENTATION_GUIDE.md",
+      "bytes": 6158,
+      "sha256": "bd11444b65407e26a1b06e4e6da27eb488d88dba9a422a1d02251c47e197ab5d",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/docs/IMPLEMENTATION_GUIDE.md"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/baseline/combined_baseline.joblib",
+      "bytes": 131,
+      "sha256": "e4f17ad2a11dd37544ab36d016b9f268c8db3d9cb6f65946812e8a81fc053a57",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/baseline/combined_vectorizer.joblib",
+      "bytes": 132,
+      "sha256": "f71a96a567bee113459c83622af4293870e0dd2a8cd242b104c7f68f7e120c4b",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/baseline/rut_baseline_tfidf.joblib",
+      "bytes": 132,
+      "sha256": "4d16cec11f3057716e525cc6f2f3f6d37932431290d2888a56a7a924358dd90e",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/baseline/rut_vectorizer.joblib",
+      "bytes": 133,
+      "sha256": "5fdee50b72a5693f82cb41bac92f8b49403d62026a061a15dcb7dfde153c825b",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/config.json",
+      "bytes": 128,
+      "sha256": "75e57987fc1ba656bc7162f3bcef92558344b38802f124e758a6c1748b68c1a0",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/model.safetensors",
+      "bytes": 134,
+      "sha256": "c3a82647526462e156fded5f5a16b0c7a42bc31716ed1dfdd5a86012ff10c508",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/special_tokens_map.json",
+      "bytes": 128,
+      "sha256": "4fb7c972c6483f96d0d47693d98ed874508fc5288f10f28c0c0ed79ab29dff1b",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/tokenizer.json",
+      "bytes": 132,
+      "sha256": "7bc89e9d28f168b908c1babbc5cbe54893ad71be99eab4746079888b5764edef",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/tokenizer_config.json",
+      "bytes": 129,
+      "sha256": "1b6d885c510587ebaf8ce242572bf92e66dca90f7361f1a58dd71297ccf2417a",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/models/mbert_toxic_final/vocab.txt",
+      "bytes": 131,
+      "sha256": "d4e2b717445f8e078200424b63abcb9c322e8cb47ed018ae156ff130b197ed38",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/02_transformer_training_kaggle.ipynb",
+      "bytes": 16265,
+      "sha256": "bebc0e975cf9a908588a37adddb63cfdd408ad81316a49e787ae8117dc0de36d",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/02_transformer_training_kaggle.ipynb"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/1_data_exploration_and_baseline.ipynb",
+      "bytes": 390767,
+      "sha256": "589690b7c2b69d61c99793b95ae70a48e386c8357a9058c39489e022712d8f5b",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/1_data_exploration_and_baseline.ipynb"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/2_mbert_model_training.ipynb",
+      "bytes": 37056,
+      "sha256": "0f83739e324f8962f5c5fd4633b3e4a509b79b5cc0dd85442a09a8d9ae7804c7",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/2_mbert_model_training.ipynb"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/3_toxicity_filter_demo.ipynb",
+      "bytes": 52723,
+      "sha256": "d008054484d65b37cd20acf890b001bd2a29898c0fc37bae871c04ddcba1e52c",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/3_toxicity_filter_demo.ipynb"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/4_end_to_end_pipeline_with_gemini.ipynb",
+      "bytes": 17652,
+      "sha256": "b3752c3469538fbceb72df4515bb641aeec85f1b24b9ea16fae5cc9d74429f73",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/4_end_to_end_pipeline_with_gemini.ipynb"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/4_end_to_end_pipeline_with_gemini_UPDATED.ipynb",
+      "bytes": 28301,
+      "sha256": "4de64773bbe893ac9aeaa60cc83d8af113350bfae2162e2775b19660adefc823",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/4_end_to_end_pipeline_with_gemini_UPDATED.ipynb"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/data/rut/rut.csv",
+      "bytes": 8476845,
+      "sha256": "9e427a4bd3a2ea8ffe1be6f9c5d259f7fd790fe6c99c375575fb941a8d05ba05",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/notebooks/data/rut/rut.parquet",
+      "bytes": 4813281,
+      "sha256": "309fe4c5d8b2aa17344961f302050223aa78b6b0e6555ffaedbdf7822da7afa0",
+      "decision": "external LFS/data reference or redundant status documentation"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/reports/end_to_end_examples.csv",
+      "bytes": 1473,
+      "sha256": "fbbe745f83d90f35b9f3346c835d5dadc7563d739b916cf886ac3c4f57e4a51b",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/reports/end_to_end_examples.csv"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/reports/filter_examples.csv",
+      "bytes": 6153,
+      "sha256": "0aa481a88cf58f8dfcb30c138b45d9945678b2b4923c21d4a282bd86b5134941",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/reports/filter_examples.csv"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/reports/sanitizer_flip_examples.csv",
+      "bytes": 5123,
+      "sha256": "8cd8e5f73395f8bf689238fa6dd61520f13c434befc22c5a4b9395b8fb1bdaba",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/reports/sanitizer_flip_examples.csv"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/requirements.txt",
+      "bytes": 527,
+      "sha256": "62e8c415674190c058fbb9693570149127aaac4cac4d957468805b732e21c3e5",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/requirements.txt"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/src/llm_client.py",
+      "bytes": 9377,
+      "sha256": "46de780fbd7a7c13c165049ae8277246ea57f2c0d462ed679ab8b2c051a919c4",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/src/llm_client.py"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/src/toxic_filter.py",
+      "bytes": 26587,
+      "sha256": "29b41d73b7af061c983ee714da37a6a8fee596848a4fd6a74590ccd59f77d422",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/src/toxic_filter.py"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/tests/test_llm_integration.py",
+      "bytes": 3950,
+      "sha256": "dd95799a5f82c6989641b7860e9b8c8147c958b6017c777a1aeb6565558a9124",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/tests/test_llm_integration.py"
+    },
+    {
+      "path": "Urdu_toxic_prompt_filter-master/tests/test_toxic_detection.py",
+      "bytes": 3551,
+      "sha256": "2a32c4b5c009da8454bca70e1c3bd83e016867bc3976345ddf74eb4fb804a2f7",
+      "decision": "import",
+      "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/tests/test_toxic_detection.py"
+    }
+  ]
+}

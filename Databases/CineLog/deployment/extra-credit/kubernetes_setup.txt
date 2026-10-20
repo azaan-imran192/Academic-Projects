@@ -1,0 +1,54 @@
+# PowerShell example: supply your own MSSQL_SA_PASSWORD environment variable first.
+# Local disposable development cluster only; these commands were not executed.
+PHASE 4 - KUBERNETES SETUP COMMANDS (Docker Desktop) - Group 10
+
+
+1) VERIFY KUBERNETES IS RUNNING
+
+kubectl version --client
+kubectl cluster-info
+kubectl get nodes
+
+
+2) CREATE SECRET (SA PASSWORD)
+kubectl create secret generic mssql --from-literal=MSSQL_SA_PASSWORD="$env:MSSQL_SA_PASSWORD"
+kubectl get secrets
+kubectl describe secret mssql
+
+
+3) CREATE PERSISTENT VOLUME CLAIM (PVC)
+kubectl apply -f pvc.yaml
+kubectl get pvc
+kubectl describe pvc mssql-data
+kubectl get pv
+
+
+4) DEPLOY SQL SERVER (DEPLOYMENT + SERVICE)
+kubectl apply -f sqldeployment.yaml
+kubectl get deployments
+kubectl get pods
+kubectl get svc mssql-service
+
+
+5) WATCH POD STARTUP
+kubectl get pods -w
+
+
+6) VERIFY SERVICE ENDPOINTS
+kubectl get endpoints mssql-service -o wide
+
+
+6) ACCESS SQL SERVER LOCALLY (DOCKER DESKTOP)
+kubectl port-forward svc/mssql-service 1433:1433
+
+
+
+7) VERIFY SQL SERVER FROM INSIDE POD
+kubectl exec -it deploy/mssql-deployment -- /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "$env:MSSQL_SA_PASSWORD" -C -Q "SELECT @@VERSION;"
+kubectl exec -it deploy/mssql-deployment -- /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "$env:MSSQL_SA_PASSWORD" -C -Q "SELECT name FROM sys.databases;"
+
+
+9) SELF-HEALING TEST (DELETE POD)
+kubectl get pods
+kubectl delete pod <mssql-pod-name>
+kubectl get pods -w

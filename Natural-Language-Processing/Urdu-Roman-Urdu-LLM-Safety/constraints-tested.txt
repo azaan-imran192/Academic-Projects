@@ -1,0 +1,6 @@
+# Direct inference/demo versions exercised on Python 3.12.14; not a complete historical lock.
+torch==2.9.1
+transformers==4.57.3
+streamlit==1.51.0
+google-generativeai==0.8.5
+regex==2024.9.11

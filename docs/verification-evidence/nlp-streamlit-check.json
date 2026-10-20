@@ -1,0 +1,6 @@
+{
+  "initial_render": "pass",
+  "actual_model_safe_input": "allow",
+  "exception_count": 0,
+  "live_gemini_called": false
+}

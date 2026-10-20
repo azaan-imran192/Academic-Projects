@@ -1,0 +1,10 @@
+{
+  "passed": [
+    "default EF mode",
+    "switch sp -> sp",
+    "switch ef -> ef",
+    "switch invalid -> ef",
+    "Swagger document"
+  ],
+  "database_connected": false
+}
