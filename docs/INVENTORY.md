@@ -1,6 +1,6 @@
 # Repository and project inventory
 
-Audit date: **19 October 2026**. Seven public repositories were discoverable under `azaan-imran192`; the connected identity was verified. Private or inaccessible repositories cannot be certified by this inventory.
+Audit dates: **19–20 October 2026**. Seven public repositories were discoverable under `azaan-imran192`; the connected identity was verified. Private or inaccessible repositories cannot be certified by this inventory.
 
 | Repository | Audit finding | Consolidation disposition |
 |---|---|---|
@@ -28,9 +28,9 @@ Voice AI Pipeline, MediQ, Tomato Leaf Classification, Movie Recommender, and oth
 | [Software Engineering / Culinary Cloud](../Software-Engineering/Culinary-Cloud/) | Frontend/backend source, dependencies, environment templates, build | Full team roster; independent service credentials and end-to-end integration validation |
 | [CV / Plant Disease](../Deep-Learning-Computer-Vision/Plant-Research/Disease-Classification/) | Three experiments, report, MIT notice, checkpoint references | Authorized datasets/weights and exact historical environment for training reproduction |
 | [CV / Phenotyping](../Deep-Learning-Computer-Vision/Plant-Research/Phenotyping-Dashboard/) | Backend, local configuration, setup, endpoint checks | Otis written redistribution permission; FYP team statement; authorized data/model execution |
-| [CV / Building Height](../Deep-Learning-Computer-Vision/Building-Height-Estimation/) | Status only | Original local source |
-| [NLP / LLM Safety](../Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/) | Status only | Original local source |
-| [Databases / CineLog](../Databases/CineLog/) | Status only | Original local source |
+| [CV / Building Height](../Deep-Learning-Computer-Vision/Building-Height-Estimation/) | Eight notebooks, original README/three PNGs, course report/presentation, portable paths and metric evidence | Authorized dataset, exact historical splits/checkpoints and native GDAL/GPU environment for retraining |
+| [NLP / LLM Safety](../Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/) | Pipeline, Gemini/Streamlit demo, six notebooks, reports/proposal/deliverables; actual-model and offline tests | User-supplied Gemini key; full benchmark replication and separate dataset/base-model rights |
+| [Databases / CineLog](../Databases/CineLog/) | Three course parts plus extra credit, canonical ASP.NET backend/WinForms frontend, SQL and deployment source; builds pass | Isolated SQL Server/data-backed testing, exact raw-to-cleaned CSV pipeline, desktop UI validation |
 
 ## History and integrity
 
@@ -46,3 +46,13 @@ Existing Academic-Projects history is retained. Other repositories are imported 
 | RB2-Android | `2965cfeac81200b43676822c7d82b1e8e79726de` | 17 |
 | shared-projects | `ded2c287a9a7f52b3c6fde837965b21a1d7c274c` | 21 |
 | Urdu-News-Articles | `6773082b0579b603b905849762970786134753d9` | 2 |
+
+## Archive import extension — 20 October 2026
+
+The three previously missing projects are now imported on the same review branch. [New import manifest](new-project-import-manifest.json) records 126 selected original files and hashes: NLP 22, Building Height 14, CineLog 90. Added documentation, verification tests, resource importer and historical-variant patch are consolidation additions, not claimed original coursework.
+
+Complete inventories include every outer archive entry and reviewed nested members: [NLP](archive-inventories/nlp.json) (51 files), [Building Height](archive-inventories/height.json) (40 files including embedded Git metadata), [CineLog](archive-inventories/cinelog.json) (995 files, approximately 1.214 GB uncompressed). They record archive SHA-256, sizes, CRCs, reviewed-file hashes, inclusion decisions and duplicate mappings. CineLog has 103 reviewed duplicate-content groups; the NLP corpus has redundant notebook-local copies. Embedded repositories, caches, binaries and duplicate ZIP containers are not copied.
+
+The NLP ZIP is byte-identical to the 51 Git blobs at `ahmad4376/Urdu_toxic_prompt_filter` commit `ec6ee7a17e47105acce859c52d03a2a000353c86`; Git blobs were used for comparison to avoid checkout line-ending differences. Team attribution is Azaan Imran and Ahmad Bilal Habib. All 22 LFS objects were endpoint-probed; seven inference resources were fully downloaded and SHA-256 checked locally. No pointers or weights were published.
+
+Building Height preserves the experiment progression and original output evidence, including failed/worse alternatives. The accompanying course presentation establishes Azaan Imran and Muhammad Ibrahim as Group 31. The extra report/presentation were recovered alongside the explicitly supplied local project folder. CineLog's reports establish Azaan Imran, Hanzalah Sohail Faraz, Muhammad Hashaam Tauseef and Raahem Azam as Group 10. Its three numbered parts and separately packaged Kubernetes extra credit remain distinct. Nonidentical alternate backend implementation is retained as a sanitized historical patch, rather than copied as a second runnable application.

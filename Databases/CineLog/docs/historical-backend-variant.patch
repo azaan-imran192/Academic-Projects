@@ -1,0 +1,922 @@
+--- canonical-backend/CineLog.API/Controllers/AnalyticsController.cs
++++ historical-combined-tree/CineLog.API/Controllers/AnalyticsController.cs
+@@ -32,4 +32,4 @@
+             return Ok(await _service.GetPublicActivityFeedAsync());
+         }
+     }
+-}+}
+--- canonical-backend/CineLog.API/Controllers/ReviewsController.cs
++++ historical-combined-tree/CineLog.API/Controllers/ReviewsController.cs
+@@ -22,4 +22,4 @@
+             return Ok(new { message = "Review added successfully" });
+         }
+     }
+-}+}
+--- canonical-backend/CineLog.API/Controllers/SearchController.cs
++++ historical-combined-tree/CineLog.API/Controllers/SearchController.cs
+@@ -20,4 +20,4 @@
+             return Ok(await _service.SearchMoviesAsync(title));
+         }
+     }
+-}+}
+--- canonical-backend/CineLog.API/Controllers/SystemController.cs
++++ historical-combined-tree/CineLog.API/Controllers/SystemController.cs
+@@ -1,23 +1,36 @@
++using Microsoft.AspNetCore.Mvc;
++using CineLog.BLL.Services;
++using CineLog.Data.Models;
+ using CineLog.BLL;
+-using Microsoft.AspNetCore.Mvc;
++
+ 
+ namespace CineLog.API.Controllers
+ {
++    [ApiController]
+     [Route("api/system")]
+-    [ApiController]
+     public class SystemController : ControllerBase
+     {
++        private readonly CineLogContext _context;
++
++        public SystemController(CineLogContext context)
++        {
++            _context = context;
++        }
++
++        // GET api/system/mode
+         [HttpGet("mode")]
+         public IActionResult GetMode()
+         {
+             return Ok(new { mode = CineLogServiceFactory.GetMode() });
+         }
+ 
++        // POST api/system/mode/EF
++        // POST api/system/mode/SP
+         [HttpPost("mode/{mode}")]
+         public IActionResult SetMode(string mode)
+         {
+             CineLogServiceFactory.SetMode(mode);
+-            return Ok(new { message = "Mode changed.", activeMode = CineLogServiceFactory.GetMode() });
++            return Ok(new { message = $"Mode switched to {CineLogServiceFactory.GetMode()}" });
+         }
+     }
+-}+}
+--- canonical-backend/CineLog.API/Controllers/UsersController.cs
++++ historical-combined-tree/CineLog.API/Controllers/UsersController.cs
+@@ -2,6 +2,7 @@
+ using CineLog.Data.Models;
+ using CineLog.BLL.Services;
+ using CineLog.BLL;
++
+ 
+ namespace CineLog.API.Controllers
+ {
+@@ -21,28 +22,20 @@
+             return CineLogServiceFactory.Create(_context);
+         }
+ 
+-        [HttpGet("activity/{userId:int}")]
++        // GET api/users/activity/12
++        [HttpGet("activity/{userId}")]
+         public async Task<IActionResult> GetUserActivity(int userId)
+         {
+             var service = GetService();
+-            var activity = await service.GetUserActivityAsync(userId);
+-            return Ok(activity);
++            return Ok(await service.GetUserActivityAsync(userId));
+         }
+ 
+-        [HttpGet("connections/{userId:int}")]
++        // GET api/users/connections/12
++        [HttpGet("connections/{userId}")]
+         public async Task<IActionResult> GetConnections(int userId)
+         {
+             var service = GetService();
+-            var connections = await service.GetFriendConnectionsAsync(userId);
+-            return Ok(connections);
+-        }
+-
+-        [HttpGet("friends-activity/{userId:int}")]
+-        public async Task<IActionResult> GetFriendsActivity(int userId)
+-        {
+-            var service = GetService();
+-            var feed = await service.GetFriendsActivityFeedAsync(userId);
+-            return Ok(feed);
++            return Ok(await service.GetFriendConnectionsAsync(userId));
+         }
+     }
+-}+}
+--- canonical-backend/CineLog.API/Controllers/WatchListController.cs
++++ historical-combined-tree/CineLog.API/Controllers/WatchListController.cs
+@@ -34,4 +34,4 @@
+             return Ok(await _service.GetWatchlistAsync(userId));
+         }
+     }
+-}+}
+--- canonical-backend/CineLog.API/Program.cs
++++ historical-combined-tree/CineLog.API/Program.cs
+@@ -1,29 +1,32 @@
+-using CineLog.BLL;
+ using CineLog.BLL.Services;
+ using CineLog.Data.Models;
+ using Microsoft.EntityFrameworkCore;
+ 
+ var builder = WebApplication.CreateBuilder(args);
+ 
++// Controllers
+ builder.Services.AddControllers();
+ 
++// Swagger
+ builder.Services.AddEndpointsApiExplorer();
+ builder.Services.AddSwaggerGen();
+ 
++// Database
+ builder.Services.AddDbContext<CineLogContext>(options =>
+     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+ 
+-builder.Services.AddScoped<ICineLogService>(provider =>
+-{
+-    var context = provider.GetRequiredService<CineLogContext>();
+-    return CineLogServiceFactory.Create(context);
+-});
++// DI
++builder.Services.AddScoped<ICineLogService, EfCineLogService>();
+ 
+ var app = builder.Build();
+ 
++// Swagger
+ app.UseSwagger();
+ app.UseSwaggerUI();
+ 
++// Pipeline
++app.UseHttpsRedirection();
++app.UseAuthorization();
++
+ app.MapControllers();
+-
+-app.Run();+app.Run();
+--- canonical-backend/CineLog.BLL/CineLogServiceFactory.cs
++++ historical-combined-tree/CineLog.BLL/CineLogServiceFactory.cs
+@@ -5,6 +5,7 @@
+ {
+     public static class CineLogServiceFactory
+     {
++        // This is the mode the SystemController will set: "ef" or "sp"
+         private static string _mode = "ef";
+ 
+         public static void SetMode(string mode)
+@@ -23,4 +24,4 @@
+             };
+         }
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/ActivityFeedDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/ActivityFeedDTO.cs
+@@ -8,4 +8,4 @@
+         public string ReviewText { get; set; } = string.Empty;
+         public DateTime ReviewDate { get; set; }
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/FriendConnectionDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/FriendConnectionDTO.cs
+@@ -3,6 +3,6 @@
+     public class FriendConnectionDTO
+     {
+         public string UserName { get; set; } = string.Empty;
+-        public int Level { get; set; } 
++        public int Level { get; set; } // 1, 2, 3
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/ListCreateDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/ListCreateDTO.cs
+@@ -6,4 +6,4 @@
+         public string Title { get; set; } = string.Empty;
+         public string Description { get; set; } = string.Empty;
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/ListItemDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/ListItemDTO.cs
+@@ -5,4 +5,4 @@
+         public int ListId { get; set; }
+         public int MovieId { get; set; }
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/MovieDetailsDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/MovieDetailsDTO.cs
+@@ -11,4 +11,4 @@
+         public List<string> Genres { get; set; } = new();
+         public List<ReviewDTO> RecentReviews { get; set; } = new();
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/PopularGenreDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/PopularGenreDTO.cs
+@@ -5,4 +5,4 @@
+         public string GenreName { get; set; } = string.Empty;
+         public int MovieCount { get; set; }
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/ReviewCreateDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/ReviewCreateDTO.cs
+@@ -7,4 +7,4 @@
+         public decimal Rating { get; set; }
+         public string ReviewText { get; set; } = string.Empty;
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/ReviewDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/ReviewDTO.cs
+@@ -7,4 +7,4 @@
+         public string ReviewText { get; set; } = string.Empty;
+         public DateTime ReviewDate { get; set; }
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/SuperUserDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/SuperUserDTO.cs
+@@ -5,4 +5,4 @@
+         public string UserName { get; set; } = string.Empty;
+         public int TotalReviews { get; set; }
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/DTO/UserActivityDTO.cs
++++ historical-combined-tree/CineLog.BLL/DTO/UserActivityDTO.cs
+@@ -2,9 +2,9 @@
+ {
+     public class UserActivityDTO
+     {
+-        public string ActivityType { get; set; } = string.Empty; 
++        public string ActivityType { get; set; } = string.Empty; // "Review", "Watchlist", "List Item"
+         public string MovieTitle { get; set; } = string.Empty;
+         public decimal? Rating { get; set; }
+         public DateTime ActivityDate { get; set; }
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/Services/EFCineLogService.cs
++++ historical-combined-tree/CineLog.BLL/Services/EFCineLogService.cs
+@@ -31,7 +31,7 @@
+                 .Where(m => m.Genres.Any(g => g.GenreName == genreName))
+                 .OrderByDescending(m => m.VoteAverage)
+                 .ThenByDescending(m => m.VoteCount)
+-                .Take(5) // only top 5 
++                .Take(5) // only top 5 for speed
+                 .AsNoTracking()
+                 .ToListAsync();
+         }
+@@ -150,12 +150,11 @@
+                 .Where(m => m.Genres.Any(g => topGenres.Contains(g.GenreId)))
+                 .OrderByDescending(m => m.VoteAverage)
+                 .ThenByDescending(m => m.VoteCount)
+-                .Take(20)
+-                .AsNoTracking()
+-                .ToListAsync();
+-        }
+-
+-        // 7. Friend Connections 
++                .AsNoTracking()
++                .ToListAsync();
++        }
++
++        // 7. Friend Connections (Level 1 only, EF)
+         public async Task<IEnumerable<FriendConnectionDTO>> GetFriendConnectionsAsync(int userId)
+         {
+             return await _context.Follows
+@@ -166,11 +165,11 @@
+                     UserName = f.Followed.UserName ?? string.Empty,
+                     Level = 1
+                 })
+-                .AsNoTracking()
+-                .ToListAsync();
+-        }
+-
+-        // REVIEWS
++                .ToListAsync();
++        }
++
++        // -------- Extra Operations (Reviews, Watchlist, Lists, Search, Analytics) --------
++
+         public async Task<bool> AddReviewAsync(ReviewCreateDTO dto)
+         {
+             var entity = new Review
+@@ -178,7 +177,8 @@
+                 UserId = dto.UserId,
+                 MovieId = dto.MovieId,
+                 Rating = dto.Rating,
+-                ReviewText = dto.ReviewText
++                ReviewText = dto.ReviewText,
++                ReviewDate = DateTime.Now
+             };
+ 
+             _context.Reviews.Add(entity);
+@@ -186,7 +186,6 @@
+             return true;
+         }
+ 
+-        // WATCHLIST
+         public async Task<bool> AddToWatchlistAsync(int userId, int movieId)
+         {
+             var exists = await _context.Watchlists
+@@ -226,7 +225,6 @@
+                 .ToListAsync();
+         }
+ 
+-        // LISTS
+         public async Task<IEnumerable<List>> GetUserListsAsync(int userId)
+         {
+             return await _context.Lists
+@@ -289,11 +287,9 @@
+                 .ToListAsync();
+         }
+ 
+-        // SEARCH
+         public async Task<IEnumerable<Movie>> SearchMoviesAsync(string query)
+         {
+             query = query ?? string.Empty;
+-
+             return await _context.Movies
+                 .Where(m => m.Title != null && m.Title.Contains(query))
+                 .OrderByDescending(m => m.VoteAverage)
+@@ -301,10 +297,9 @@
+                 .ToListAsync();
+         }
+ 
+-        // Super Users
+         public async Task<IEnumerable<SuperUserDTO>> GetSuperUsersAsync()
+         {
+-            
++            // Use view vw_MostActiveUsers
+             return await _context.VwMostActiveUsers
+                 .OrderByDescending(v => v.TotalReviews)
+                 .Select(v => new SuperUserDTO
+@@ -316,7 +311,6 @@
+                 .ToListAsync();
+         }
+ 
+-        // Popular Genres
+         public async Task<IEnumerable<PopularGenreDTO>> GetPopularGenresAsync()
+         {
+             return await _context.VwPopularGenres
+@@ -330,7 +324,6 @@
+                 .ToListAsync();
+         }
+ 
+-        // PUBLIC ACTIVITY FEED 
+         public async Task<IEnumerable<ActivityFeedDTO>> GetPublicActivityFeedAsync()
+         {
+             return await _context.VwPublicActivityFeeds
+@@ -346,39 +339,5 @@
+                 .AsNoTracking()
+                 .ToListAsync();
+         }
+-
+-        public async Task<IEnumerable<ActivityFeedDTO>> GetFriendsActivityFeedAsync(int userId)
+-{
+-     var friendIds = await _context.Follows
+-        .Where(f => f.FollowerId == userId && f.Followed != null)
+-        .Select(f => (int?)f.Followed.UserId)   
+-        .Distinct()
+-        .ToListAsync();
+-
+-    if (!friendIds.Any())
+-    {
+-        return Enumerable.Empty<ActivityFeedDTO>();
+     }
+-
+-    var feed = await _context.Reviews
+-        .Include(r => r.Movie)
+-        .Include(r => r.User)
+-        .Where(r => r.UserId != null && friendIds.Contains(r.UserId)) 
+-        .OrderByDescending(r => r.ReviewDate)
+-        .Take(50)
+-        .Select(r => new ActivityFeedDTO
+-        {
+-            UserName   = r.User != null ? (r.User.UserName ?? string.Empty) : string.Empty,
+-            Title      = r.Movie != null ? (r.Movie.Title ?? string.Empty) : string.Empty,
+-            Rating     = r.Rating ?? 0,
+-            ReviewText = r.ReviewText ?? string.Empty,
+-            ReviewDate = r.ReviewDate
+-        })
+-        .AsNoTracking()
+-        .ToListAsync();
+-
+-        return feed;
+-        }
+-
+-    }
+-}+}
+--- canonical-backend/CineLog.BLL/Services/ICineLogService.cs
++++ historical-combined-tree/CineLog.BLL/Services/ICineLogService.cs
+@@ -5,7 +5,7 @@
+ {
+     public interface ICineLogService
+     {
+-        
++        // Phase 3 core queries
+         Task<IEnumerable<Movie>> GetTopRatedMoviesAsync();
+         Task<IEnumerable<Movie>> GetMoviesByGenreAsync(string genreName);
+         Task<MovieDetailsDTO?> GetMovieDetailsAsync(int movieId);
+@@ -14,24 +14,27 @@
+         Task<IEnumerable<Movie>> RecommendMoviesAsync(int userId);
+         Task<IEnumerable<FriendConnectionDTO>> GetFriendConnectionsAsync(int userId);
+ 
++        // Extra: Reviews
+         Task<bool> AddReviewAsync(ReviewCreateDTO dto);
+ 
++        // Extra: Watchlist
+         Task<bool> AddToWatchlistAsync(int userId, int movieId);
+         Task<bool> RemoveFromWatchlistAsync(int userId, int movieId);
+         Task<IEnumerable<Movie>> GetWatchlistAsync(int userId);
+ 
++        // Extra: Lists
+         Task<IEnumerable<List>> GetUserListsAsync(int userId);
+         Task<int> CreateListAsync(ListCreateDTO dto);
+         Task<bool> AddListItemAsync(int listId, int movieId);
+         Task<bool> RemoveListItemAsync(int listId, int movieId);
+         Task<IEnumerable<Movie>> GetListItemsAsync(int listId);
+ 
++        // Search
+         Task<IEnumerable<Movie>> SearchMoviesAsync(string query);
+ 
++        // Analytics
+         Task<IEnumerable<SuperUserDTO>> GetSuperUsersAsync();
+         Task<IEnumerable<PopularGenreDTO>> GetPopularGenresAsync();
+         Task<IEnumerable<ActivityFeedDTO>> GetPublicActivityFeedAsync();
+-
+-        Task<IEnumerable<ActivityFeedDTO>> GetFriendsActivityFeedAsync(int userId);
+     }
+-}+}
+--- canonical-backend/CineLog.BLL/Services/SpCineLogService.cs
++++ historical-combined-tree/CineLog.BLL/Services/SpCineLogService.cs
+@@ -13,300 +13,175 @@
+             _context = context;
+         }
+ 
+-        // 1. TOP RATED MOVIES (Stored Procedure: proced_GetTopRatedMovies)
++        // 1. Top Rated - using view is tricky because it lacks MovieID.
++        // For now we just mimic EF version with direct SQL.
+         public async Task<IEnumerable<Movie>> GetTopRatedMoviesAsync()
+         {
+-            var rows = await _context.Movies
+-                .FromSqlRaw("EXEC proced_GetTopRatedMovies")
++            return await _context.Movies
++                .FromSqlRaw("SELECT TOP 100 * FROM Movies ORDER BY VoteAverage DESC, VoteCount DESC")
+                 .AsNoTracking()
+                 .ToListAsync();
+-
+-            return rows;
+         }
+ 
+-        // 2. MOVIES BY GENRE (SP: Proced_GetMoviesByGenre)
++        // 2. Movies by Genre - uses Proced_GetMoviesByGenre
+         public async Task<IEnumerable<Movie>> GetMoviesByGenreAsync(string genreName)
+         {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<MovieByGenreRow>(
+-                    "EXEC dbo.sp_GetMoviesByGenre @p0, @p1",
+-                    genreName, 200)   
++            return await _context.Movies
++                .FromSqlInterpolated($"EXEC Proced_GetMoviesByGenre {genreName}")
++                .AsNoTracking()
+                 .ToListAsync();
+-
+-            return rows.Select(r => new Movie
+-            {
+-                MovieId     = r.MovieID,
+-                Title       = r.Title,
+-                ReleaseYear = r.ReleaseYear,
+-                VoteAverage = r.VoteAverage,
+-                VoteCount   = r.VoteCount
+-            }).ToList();
+         }
+ 
++        // 3. Movie Details (SP returns 3 result sets).
++        // Full mapping from multi-result-set SP via EF is messy.
++        // Keep EF mode for this; SP mode throws for now.
++        public Task<MovieDetailsDTO?> GetMovieDetailsAsync(int movieId)
++        {
++            throw new NotImplementedException("SP version of GetMovieDetailsAsync not implemented. Use EF mode.");
++        }
+ 
+-        // 3. MOVIE DETAILS (SPs: proced_GetMovieById, proced_GetMovieGenres, proced_GetMovieReviews)
+-        public async Task<MovieDetailsDTO?> GetMovieDetailsAsync(int movieId)
++        // 4. User Activity - SP version deferred
++        public Task<IEnumerable<UserActivityDTO>> GetUserActivityAsync(int userId)
+         {
+-            var movieRows = await _context.Movies
+-                .FromSqlInterpolated($"EXEC proced_GetMovieById {movieId}")
++            throw new NotImplementedException("SP version of GetUserActivityAsync not implemented. Use EF mode.");
++        }
++
++        // 5. Trending Movies
++        public async Task<IEnumerable<Movie>> GetTrendingMoviesAsync(int days)
++        {
++            return await _context.Movies
++                .FromSqlInterpolated($"EXEC proced_GetTrendingMovies {days}")
+                 .AsNoTracking()
+                 .ToListAsync();
+-
+-            var movie = movieRows.FirstOrDefault();
+-
+-            if (movie == null)
+-                return null;
+-
+-            var genres = await _context.Database
+-                .SqlQueryRaw<string>("EXEC proced_GetMovieGenres @p0", movieId)
+-                .ToListAsync();
+-
+-            var reviews = await _context.Database
+-                .SqlQueryRaw<ReviewDTO>("EXEC proced_GetMovieReviews @p0", movieId)
+-                .ToListAsync();
+-
+-            return new MovieDetailsDTO
+-            {
+-                MovieID       = movie.MovieId,
+-                Title         = movie.Title ?? string.Empty,
+-                ReleaseYear   = movie.ReleaseYear,
+-                VoteAverage   = movie.VoteAverage ?? 0,
+-                VoteCount     = movie.VoteCount ?? 0,
+-                Genres        = genres.Select(g => g ?? string.Empty).ToList(),
+-                RecentReviews = reviews
+-            };
+         }
+ 
+-
+-        // 4. USER ACTIVITY (SP: proced_GetUserActivity)
+-        public async Task<IEnumerable<UserActivityDTO>> GetUserActivityAsync(int userId)
++        // 6. Recommend Movies
++        public async Task<IEnumerable<Movie>> RecommendMoviesAsync(int userId)
+         {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<UserActivityRow>(
+-                    "EXEC proced_GetUserActivity @p0",
+-                    userId)
++            return await _context.Movies
++                .FromSqlInterpolated($"EXEC proced_RecommendMovies {userId}")
++                .AsNoTracking()
+                 .ToListAsync();
+-
+-            return rows
+-                .Select(r => new UserActivityDTO
+-                {
+-                    ActivityType = r.ActivityType ?? string.Empty,
+-                    MovieTitle   = r.Title ?? string.Empty,
+-                    Rating       = r.Rating,
+-                    ActivityDate = r.ActivityDate
+-                })
+-                .OrderByDescending(a => a.ActivityDate)
+-                .ToList();
+         }
+ 
+-        // 5. TRENDING MOVIES (SP: proced_GetTrendingMovies)
+-        public async Task<IEnumerable<Movie>> GetTrendingMoviesAsync(int days)
++        // 7. Friend Connections
++        public async Task<IEnumerable<FriendConnectionDTO>> GetFriendConnectionsAsync(int userId)
+         {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<TrendingMovieRow>(
+-                    "EXEC dbo.proced_GetTrendingMovies @p0, @p1",
+-                    days, 50)
+-                .ToListAsync();
+-
+-
+-            return rows.Select(r => new Movie
+-            {
+-                MovieId = r.MovieID,
+-                Title   = r.Title
+-            }).ToList();
++            // No mapped entity for SP result; leave SP mode unimplemented.
++            throw new NotImplementedException("SP version of GetFriendConnectionsAsync not implemented. Use EF mode.");
+         }
+ 
+-        // 6. RECOMMENDED MOVIES (SP: proced_RecommendMovies)
+-        public async Task<IEnumerable<Movie>> RecommendMoviesAsync(int userId)
+-        {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<MovieByGenreRow>(
+-                    "EXEC dbo.proced_RecommendMovies @p0, @p1",
+-                    userId, 50)  
+-                .ToListAsync();
+-
+-            return rows.Select(r => new Movie
+-            {
+-                MovieId     = r.MovieID,
+-                Title       = r.Title,
+-                ReleaseYear = r.ReleaseYear,
+-                VoteAverage = r.VoteAverage,
+-                VoteCount   = r.VoteCount
+-            }).ToList();
+-        }
+-
+-
+-        // 7. FRIEND CONNECTIONS (SP: proced_FindFriendConnections)
+-        public async Task<IEnumerable<FriendConnectionDTO>> GetFriendConnectionsAsync(int userId)
+-        {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<FriendConnectionDTO>(
+-                    "EXEC proced_FindFriendConnections @p0",
+-                    userId)
+-                .ToListAsync();
+-
+-            return rows;
+-        }
+-
+-        // REVIEWS (SP: proced_AddReview)
++        // ---------------- REVIEWS ----------------
+         public async Task<bool> AddReviewAsync(ReviewCreateDTO dto)
+         {
+             await _context.Database.ExecuteSqlInterpolatedAsync(
+-                $"EXEC proced_AddReview {dto.UserId}, {dto.MovieId}, {dto.Rating}, {dto.ReviewText}");
+-
++                $"EXEC proced_AddReview {dto.UserId}, {dto.MovieId}, {dto.Rating}, {dto.ReviewText}"
++            );
+             return true;
+         }
+ 
+-        // WATCHLIST (SPs: proced_AddToWatchlist, proced_RemoveFromWatchlist, proced_GetWatchlist)
++        // ---------------- WATCHLIST ----------------
+         public async Task<bool> AddToWatchlistAsync(int userId, int movieId)
+         {
+             await _context.Database.ExecuteSqlInterpolatedAsync(
+-                $"EXEC proced_AddToWatchlist {userId}, {movieId}");
+-
++                $"INSERT INTO Watchlist (UserID, MovieID) VALUES ({userId}, {movieId})"
++            );
+             return true;
+         }
+ 
+         public async Task<bool> RemoveFromWatchlistAsync(int userId, int movieId)
+         {
+             await _context.Database.ExecuteSqlInterpolatedAsync(
+-                $"EXEC proced_RemoveFromWatchlist {userId}, {movieId}");
+-
++                $"DELETE FROM Watchlist WHERE UserID = {userId} AND MovieID = {movieId}"
++            );
+             return true;
+         }
+ 
+         public async Task<IEnumerable<Movie>> GetWatchlistAsync(int userId)
+         {
+-            var rows = await _context.Movies
+-                .FromSqlInterpolated($"EXEC proced_GetWatchlist {userId}")
++            return await _context.Movies
++                .FromSqlInterpolated(
++                    $"SELECT m.* FROM Movies m JOIN Watchlist w ON m.MovieID = w.MovieID WHERE w.UserID = {userId}"
++                )
+                 .AsNoTracking()
+                 .ToListAsync();
+-
+-            return rows;
+         }
+ 
+-        // LISTS (SPs: proced_GetUserLists, proced_CreateList, proced_AddListItem, proced_RemoveListItem, proced_GetListItems)
++        // ---------------- LISTS ----------------
+         public async Task<IEnumerable<List>> GetUserListsAsync(int userId)
+         {
+-            var rows = await _context.Lists
+-                .FromSqlInterpolated($"EXEC proced_GetUserLists {userId}")
++            return await _context.Lists
++                .FromSqlInterpolated($"SELECT * FROM Lists WHERE UserID = {userId}")
+                 .AsNoTracking()
+                 .ToListAsync();
+-
+-            return rows;
+         }
+ 
+         public async Task<int> CreateListAsync(ListCreateDTO dto)
+         {
+-            var ids = await _context.Database
+-                .SqlQueryRaw<int>(
+-                    "EXEC proced_CreateList @p0, @p1, @p2",
+-                    dto.UserId, dto.Title, dto.Description)
++            // Simple insert; retrieve identity with SCOPE_IDENTITY()
++            var sql = @"
++                INSERT INTO Lists (UserID, Title, Description, CreatedDate)
++                VALUES (@p0, @p1, @p2, GETDATE());
++                SELECT CAST(SCOPE_IDENTITY() AS INT);
++            ";
++
++            var result = await _context.Database
++                .SqlQueryRaw<int>(sql, dto.UserId, dto.Title, dto.Description)
+                 .ToListAsync();
+ 
+-            return ids.FirstOrDefault();
++            return result.FirstOrDefault();
+         }
+ 
+         public async Task<bool> AddListItemAsync(int listId, int movieId)
+         {
+             await _context.Database.ExecuteSqlInterpolatedAsync(
+-                $"EXEC proced_AddListItem {listId}, {movieId}");
+-
++                $"INSERT INTO ListItem (ListID, MovieID) VALUES ({listId}, {movieId})"
++            );
+             return true;
+         }
+ 
+         public async Task<bool> RemoveListItemAsync(int listId, int movieId)
+         {
+             await _context.Database.ExecuteSqlInterpolatedAsync(
+-                $"EXEC proced_RemoveListItem {listId}, {movieId}");
+-
++                $"DELETE FROM ListItem WHERE ListID = {listId} AND MovieID = {movieId}"
++            );
+             return true;
+         }
+ 
+         public async Task<IEnumerable<Movie>> GetListItemsAsync(int listId)
+         {
+-            var rows = await _context.Movies
+-                .FromSqlInterpolated($"EXEC proced_GetListItems {listId}")
++            return await _context.Movies
++                .FromSqlInterpolated(
++                    $"SELECT m.* FROM Movies m JOIN ListItem li ON m.MovieID = li.MovieID WHERE li.ListID = {listId}"
++                )
+                 .AsNoTracking()
+                 .ToListAsync();
+-
+-            return rows;
+         }
+ 
+-        // SEARCH (SP: proced_SearchMovies)
++        // ---------------- SEARCH ----------------
+         public async Task<IEnumerable<Movie>> SearchMoviesAsync(string query)
+         {
+             query ??= string.Empty;
+-
+-            var rows = await _context.Movies
+-                .FromSqlInterpolated($"EXEC proced_SearchMovies {query}")
++            return await _context.Movies
++                .FromSqlInterpolated($"SELECT * FROM Movies WHERE Title LIKE '%' + {query} + '%'")
+                 .AsNoTracking()
+                 .ToListAsync();
+-
+-            return rows;
+         }
+ 
+-        // ANALYTICS (SPs: proced_GetSuperUsers, proced_GetPopularGenres, proced_GetPublicActivityFeed)
+-        public async Task<IEnumerable<SuperUserDTO>> GetSuperUsersAsync()
++        // ---------------- ANALYTICS ----------------
++        public Task<IEnumerable<SuperUserDTO>> GetSuperUsersAsync()
+         {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<SuperUserDTO>("EXEC proced_GetSuperUsers")
+-                .ToListAsync();
+-
+-            return rows;
++            throw new NotImplementedException("SP version of GetSuperUsersAsync not implemented. Use EF mode.");
+         }
+ 
+-        public async Task<IEnumerable<PopularGenreDTO>> GetPopularGenresAsync()
++        public Task<IEnumerable<PopularGenreDTO>> GetPopularGenresAsync()
+         {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<PopularGenreDTO>("EXEC proced_GetPopularGenres")
+-                .ToListAsync();
+-
+-            return rows;
++            throw new NotImplementedException("SP version of GetPopularGenresAsync not implemented. Use EF mode.");
+         }
+ 
+-        public async Task<IEnumerable<ActivityFeedDTO>> GetPublicActivityFeedAsync()
++        public Task<IEnumerable<ActivityFeedDTO>> GetPublicActivityFeedAsync()
+         {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<ActivityFeedDTO>("EXEC proced_GetPublicActivityFeed")
+-                .ToListAsync();
+-
+-            return rows;
+-        }
+-
+-        // FRIENDS ACTIVITY FEED (SP: proced_GetFriendsActivityFeed)
+-        public async Task<IEnumerable<ActivityFeedDTO>> GetFriendsActivityFeedAsync(int userId)
+-        {
+-            var rows = await _context.Database
+-                .SqlQueryRaw<ActivityFeedDTO>(
+-                    "EXEC proced_GetFriendsActivityFeed @p0",
+-                    userId)
+-                .ToListAsync();
+-
+-            return rows;
+-        }
+-
+-        private sealed class MovieByGenreRow
+-        {
+-            public int MovieID { get; set; }
+-            public string? Title { get; set; }
+-            public int? ReleaseYear { get; set; }
+-            public decimal? VoteAverage { get; set; }
+-            public int? VoteCount { get; set; }
+-        }
+-
+-        private sealed class TrendingMovieRow
+-        {
+-            public int MovieID { get; set; }
+-            public string? Title { get; set; }
+-            public int RecentReviews { get; set; }
+-        }
+-
+-        private sealed class UserActivityRow
+-        {
+-            public string? ActivityType { get; set; }
+-            public string? Title { get; set; }
+-            public decimal? Rating { get; set; }
+-            public DateTime ActivityDate { get; set; }
++            throw new NotImplementedException("SP version of GetPublicActivityFeedAsync not implemented. Use EF mode.");
+         }
+     }
+-}+}
+--- canonical-backend/CineLog.Data/Models/CineLogContext.cs
++++ historical-combined-tree/CineLog.Data/Models/CineLogContext.cs
+@@ -274,4 +274,4 @@
+ 
+         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+     }
+-}+}
+--- canonical-backend/CineLog.Data/Models/Follow.cs
++++ historical-combined-tree/CineLog.Data/Models/Follow.cs
+@@ -16,4 +16,4 @@
+     public virtual User? Followed { get; set; }
+ 
+     public virtual User? Follower { get; set; }
+-}+}
+--- canonical-backend/CineLog.Data/Models/Genre.cs
++++ historical-combined-tree/CineLog.Data/Models/Genre.cs
+@@ -10,4 +10,4 @@
+     public string? GenreName { get; set; }
+ 
+     public virtual ICollection<Movie> Movies { get; set; } = new List<Movie>();
+-}+}
+--- canonical-backend/CineLog.Data/Models/List.cs
++++ historical-combined-tree/CineLog.Data/Models/List.cs
+@@ -18,4 +18,4 @@
+     public virtual ICollection<ListItem> ListItems { get; set; } = new List<ListItem>();
+ 
+     public virtual User? User { get; set; }
+-}+}
+--- canonical-backend/CineLog.Data/Models/ListItem.cs
++++ historical-combined-tree/CineLog.Data/Models/ListItem.cs
+@@ -16,4 +16,4 @@
+     public virtual List List { get; set; } = null!;
+ 
+     public virtual Movie Movie { get; set; } = null!;
+-}+}
+--- canonical-backend/CineLog.Data/Models/Movie.cs
++++ historical-combined-tree/CineLog.Data/Models/Movie.cs
+@@ -26,4 +26,4 @@
+     public virtual ICollection<Watchlist> Watchlists { get; set; } = new List<Watchlist>();
+ 
+     public virtual ICollection<Genre> Genres { get; set; } = new List<Genre>();
+-}+}
+--- canonical-backend/CineLog.Data/Models/Review.cs
++++ historical-combined-tree/CineLog.Data/Models/Review.cs
+@@ -20,4 +20,4 @@
+     public virtual Movie? Movie { get; set; }
+ 
+     public virtual User? User { get; set; }
+-}+}
+--- canonical-backend/CineLog.Data/Models/StagingMovie.cs
++++ historical-combined-tree/CineLog.Data/Models/StagingMovie.cs
+@@ -52,4 +52,4 @@
+     public string? SpokenLanguages { get; set; }
+ 
+     public string? Keywords { get; set; }
+-}+}
+--- canonical-backend/CineLog.Data/Models/User.cs
++++ historical-combined-tree/CineLog.Data/Models/User.cs
+@@ -22,4 +22,4 @@
+     public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
+ 
+     public virtual ICollection<Watchlist> Watchlists { get; set; } = new List<Watchlist>();
+-}+}
+--- canonical-backend/CineLog.Data/Models/VwMostActiveUser.cs
++++ historical-combined-tree/CineLog.Data/Models/VwMostActiveUser.cs
+@@ -10,4 +10,4 @@
+     public string? UserName { get; set; }
+ 
+     public int? TotalReviews { get; set; }
+-}+}
+--- canonical-backend/CineLog.Data/Models/VwPopularGenre.cs
++++ historical-combined-tree/CineLog.Data/Models/VwPopularGenre.cs
+@@ -8,4 +8,4 @@
+     public string? GenreName { get; set; }
+ 
+     public int? MovieCount { get; set; }
+-}+}
+--- canonical-backend/CineLog.Data/Models/VwPublicActivityFeed.cs
++++ historical-combined-tree/CineLog.Data/Models/VwPublicActivityFeed.cs
+@@ -14,4 +14,4 @@
+     public string? ReviewText { get; set; }
+ 
+     public DateTime ReviewDate { get; set; }
+-}+}
+--- canonical-backend/CineLog.Data/Models/VwTopRatedMovie.cs
++++ historical-combined-tree/CineLog.Data/Models/VwTopRatedMovie.cs
+@@ -9,4 +9,4 @@
+         public decimal? VoteAverage { get; set; }
+         public int? VoteCount { get; set; }
+     }
+-}+}
+--- canonical-backend/CineLog.Data/Models/Watchlist.cs
++++ historical-combined-tree/CineLog.Data/Models/Watchlist.cs
+@@ -16,4 +16,4 @@
+     public virtual Movie? Movie { get; set; }
+ 
+     public virtual User? User { get; set; }
+-}+}

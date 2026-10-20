@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+.vs/
+*.user
+.env
+*.csv
+*.bak
+*.mdf
+*.ldf

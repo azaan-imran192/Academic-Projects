@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-20",
+  "scope": "backend solution including transitive dependencies",
+  "projects": [
+    {
+      "project": "CineLog.API.csproj",
+      "frameworks": [],
+      "reported_vulnerable_packages": 0
+    },
+    {
+      "project": "CineLog.Data.csproj",
+      "frameworks": [],
+      "reported_vulnerable_packages": 0
+    },
+    {
+      "project": "CineLog.BLL.csproj",
+      "frameworks": [],
+      "reported_vulnerable_packages": 0
+    }
+  ]
+}

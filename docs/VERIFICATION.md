@@ -26,3 +26,26 @@ Library versions used for model/analysis reruns: NumPy 1.26.4, pandas 2.2.0, sci
 The existing Culinary frontend lacks `cooking-background.jpg`, `default.jpg`, and `timer-finished.mp3` referenced by source. Build success does not supply those assets. No screenshot was fabricated; browser access to the local preview timed out, so visual/live UI verification remains unconfirmed. ParkinsonPal retains its original prototype PDFs and all other original materials; the generated preview and rewritten documents were removed from the proposed project tree.
 
 External links to source GitHub trees are verified against cloned commits. The article and Figma links are preserved from project evidence but their anonymous/public accessibility is unverified. Links to upstream model repositories identify dependency sources; no checkpoint availability is claimed.
+
+## Three-project extension — 20 October 2026
+
+| Check | Result and practical limit |
+|---|---|
+| NLP LFS availability | 22/22 download endpoints passed one-byte probes; seven inference objects (715,367,269 bytes) downloaded and SHA-256 checked, including actual mBERT weights. External training corpora were not fully downloaded. |
+| NLP original model example | PASS with actual checkpoint: expected toxic words found, grammatical-word false positives absent, sanitization preserved; a separate benign input returned allow. This is a small smoke test, not a new benchmark. |
+| NLP offline tests | Eight PASS: allow/block/sanitize boundaries, lexicon handling, script detection, masking, missing-key rejection and environment configuration. Inference and Gemini calls are mocked. |
+| NLP Streamlit | AppTest initial render and a benign-input action with actual mBERT passed with zero exceptions. No live Gemini call, paid request, or graphical browser screenshot. |
+| Building Height saved results | Baseline, both main improvements and four alternative experiments checked against original saved cells. All original notebook outputs and three PNG bytes preserved; no retraining. |
+| Building Height function checks | Original extracted delta-metric function passes identical/large-error inputs; original height-bin function passes inverse-log/bin assignment checks. Does not validate geospatial preprocessing or trained predictions. |
+| New notebooks | All 14 parse; all 201 code cells compile after IPython syntax transformation. This is not top-to-bottom notebook execution. |
+| CineLog backend / frontend | Both compile with .NET SDK 10.0.101 targeting .NET 9. Initial full builds report five backend and 34 frontend warnings (nullability/unused members), zero errors. Compatible OpenAPI patch rebuilt successfully. |
+| CineLog local API | Five PASS after dependency patch: default EF mode, SP/EF/invalid-mode handling, Swagger JSON. Database address deliberately unreachable; no SQL queries were performed. |
+| CineLog dependencies | Initial audit found Microsoft.OpenApi 2.3.0 advisory; explicit 2.7.5 dependency replaces unused preview OpenAPI package. Final backend/transitive NuGet audit reports no vulnerable packages. |
+| CineLog SQL | No automatic DROP DATABASE/forced rollback remains; SQLCMD stop-on-error guard protects existing CineLog. Two missing GO batch separators repaired; exploratory calls (including an undefined procedure name) commented. Batch-first checks pass. Full T-SQL execution, million-row loading and Kubernetes deployment were not performed. |
+| Preservation/security | 30/30 ParkinsonPal original blob matches; root README unchanged; no key/private-key pattern matches, raw LFS pointers or new files over 30 MB. Office XML scanned; existing PDFs reviewed as course evidence. Pattern checks are not an exhaustive security guarantee. |
+
+NLP inference/demo versions actually exercised: Python 3.12.14, torch 2.9.1, transformers 4.57.3, Streamlit 1.51.0, google-generativeai 0.8.5 and regex 2024.9.11. `constraints-tested.txt` records these direct versions without claiming a complete historical environment. The original Gemini SDK integration is retained; provider/model availability and live service behavior require the user's own key.
+
+The source NLP notebook's saved 0.383 accuracy evaluation remains present alongside its higher transformer-training result; no single score is presented as definitive. Building Height's better delta metrics do not imply better RMSE/MAE. CineLog report row counts were not regenerated. SQL-backed UI behavior, exact dataset cleaning, and GPU training remain unverified. See [compact evidence](verification-evidence/) and project READMEs.
+
+Final publication check: **53 Python files parse, 22 notebooks parse, and all 52 checked relative Markdown links resolve**. The two broken links in the original NLP final-deliverable README were corrected to the imported files. The 126 selected original-file hashes are recorded in `new-project-import-manifest.json`; archive inventories separately record excluded and redundant artifacts. ParkinsonPal remains 30 unchanged original files. These lightweight checks were rerun after final documentation fixes; expensive model/build tests were not repeated.

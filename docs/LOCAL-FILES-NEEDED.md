@@ -1,15 +1,13 @@
-# Local files and remaining permissions
+# Remaining materials and decisions
 
-Provide local folder paths or redacted archives for these projects; resumes are background context, not substitutes for source.
+Updated 20 October 2026: the three previously missing projects have been supplied and imported into draft PR #1. Their source folders are no longer blockers.
 
-| Project | Exact materials needed |
+| Project | Still useful for stronger reproduction |
 |---|---|
-| Building Height Estimation | Scripts/notebooks; input-image source and rights; model/config references; train/validation/test split definitions; evaluation outputs; environment file; report; genuine output images; team attribution |
-| Urdu / Roman Urdu LLM Safety | Pipeline scripts; prompts/templates; model/provider configuration without secrets; approved dataset or data-access instructions; evaluation/rubric/metric code; redacted outputs; dependency file; report; team attribution |
-| CineLog | SQL DDL/schema; ER diagram; queries/procedures/triggers; safe seed data; application source if any; DB engine/version; report; setup steps; team attribution |
+| Building Height Estimation | Exact original split lists/checkpoint references, authorized DFC data access and historical native/GPU environment |
+| Urdu / Roman Urdu LLM Safety | User-supplied Gemini key for live integration; dataset/base-model license details and benchmark reconciliation. All 22 LFS endpoints are available as of audit; seven inference objects were locally hash-verified. |
+| CineLog | Exact raw-to-cleaned/UTF-8 movie transformation script, authorized CSV access and a fresh isolated SQL Server environment for end-to-end testing |
 
-Additional project details: full Culinary Cloud and Mobile Usage group rosters/contribution statements; FYP teammate/supervisor attribution; original Culinary report/demo assets if available. These omissions do not justify invented achievements or authorship claims.
+Earlier remaining details: full Culinary Cloud and Mobile Usage contribution statements; FYP teammate/supervisor attribution; optional Culinary report/demo assets. Never infer individual contributions from bulk commits.
 
-The Otis Admin PRO frontend remains held until written public-source redistribution permission exists. Raw phenotyping images/database require research-owner release before import. ParkinsonPal originals are preserved unchanged at the owner's explicit direction. A named-quotation privacy concern is reported in SECURITY-REVIEW.md; any subsequent content change requires explicit approval.
-
-Do not include `.env` secrets, live database exports, personal participant records, restricted research datasets, company source, dependency caches, or model binaries in a general archive.
+Otis Admin PRO remains held pending written redistribution permission or separately authorized replacement. Credential rotation, any destructive cleanup/deployment, and merging PR #1 remain owner decisions. ParkinsonPal is unchanged. The main portfolio/profile redesign remains deferred; future visual inspiration may include Ahmad Bilal Habib and AnatoNamikaza.

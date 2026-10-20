@@ -1,0 +1,884 @@
+[
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/src/llm_client.py",
+    "source_sha256": "46de780fbd7a7c13c165049ae8277246ea57f2c0d462ed679ab8b2c051a919c4",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/src/llm_client.py",
+    "imported_sha256": "122ffab6658f8129ba8f057b0aa99d35737092c18e77e5e6e06591733d7cba11",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/src/toxic_filter.py",
+    "source_sha256": "29b41d73b7af061c983ee714da37a6a8fee596848a4fd6a74590ccd59f77d422",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/src/toxic_filter.py",
+    "imported_sha256": "124ad46c252f2a64acc0e8165d64a2a7a741659e96a54d2e414932369930d91f",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/tests/test_llm_integration.py",
+    "source_sha256": "dd95799a5f82c6989641b7860e9b8c8147c958b6017c777a1aeb6565558a9124",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/tests/test_llm_integration.py",
+    "imported_sha256": "ec0a17c7ef2a6129b93462df814ab24984d68dbf3bb9069e90bfd78cf8cd3587",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/tests/test_toxic_detection.py",
+    "source_sha256": "2a32c4b5c009da8454bca70e1c3bd83e016867bc3976345ddf74eb4fb804a2f7",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/tests/test_toxic_detection.py",
+    "imported_sha256": "2a32c4b5c009da8454bca70e1c3bd83e016867bc3976345ddf74eb4fb804a2f7",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/demo/app.py",
+    "source_sha256": "e9b247d82165beb774d6207bee3fa377bbd098aa4dc8f89579858efef9009f39",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/demo/app.py",
+    "imported_sha256": "2e1d4b3dbf10b4e25f8a14e4adcfa3f0145e3fd47cec3c8cc1e2f2ccaa6c8fd5",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/notebooks/02_transformer_training_kaggle.ipynb",
+    "source_sha256": "bebc0e975cf9a908588a37adddb63cfdd408ad81316a49e787ae8117dc0de36d",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/02_transformer_training_kaggle.ipynb",
+    "imported_sha256": "b509bdc4aeb80ff18cdeb0020ea83997de1336ad0854276bf6328aa9245fc13f",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/notebooks/1_data_exploration_and_baseline.ipynb",
+    "source_sha256": "589690b7c2b69d61c99793b95ae70a48e386c8357a9058c39489e022712d8f5b",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/1_data_exploration_and_baseline.ipynb",
+    "imported_sha256": "2bb5bb1dd544848af7a7f4e23c3139bb912bf0cf6eaf69d69b3eb5f43173764e",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/notebooks/2_mbert_model_training.ipynb",
+    "source_sha256": "0f83739e324f8962f5c5fd4633b3e4a509b79b5cc0dd85442a09a8d9ae7804c7",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/2_mbert_model_training.ipynb",
+    "imported_sha256": "0f83739e324f8962f5c5fd4633b3e4a509b79b5cc0dd85442a09a8d9ae7804c7",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/notebooks/3_toxicity_filter_demo.ipynb",
+    "source_sha256": "d008054484d65b37cd20acf890b001bd2a29898c0fc37bae871c04ddcba1e52c",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/3_toxicity_filter_demo.ipynb",
+    "imported_sha256": "c25286442fbf01a9006d43adca345d67db913df625a645c19efa2be1e153a7ba",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/notebooks/4_end_to_end_pipeline_with_gemini.ipynb",
+    "source_sha256": "b3752c3469538fbceb72df4515bb641aeec85f1b24b9ea16fae5cc9d74429f73",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/4_end_to_end_pipeline_with_gemini.ipynb",
+    "imported_sha256": "b3752c3469538fbceb72df4515bb641aeec85f1b24b9ea16fae5cc9d74429f73",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/notebooks/4_end_to_end_pipeline_with_gemini_UPDATED.ipynb",
+    "source_sha256": "4de64773bbe893ac9aeaa60cc83d8af113350bfae2162e2775b19660adefc823",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/notebooks/4_end_to_end_pipeline_with_gemini_UPDATED.ipynb",
+    "imported_sha256": "263f700cb3d04a033d2e4a6d44c83ead715b449df63edff11306613c2206851f",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/reports/end_to_end_examples.csv",
+    "source_sha256": "fbbe745f83d90f35b9f3346c835d5dadc7563d739b916cf886ac3c4f57e4a51b",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/reports/end_to_end_examples.csv",
+    "imported_sha256": "fbbe745f83d90f35b9f3346c835d5dadc7563d739b916cf886ac3c4f57e4a51b",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/reports/filter_examples.csv",
+    "source_sha256": "0aa481a88cf58f8dfcb30c138b45d9945678b2b4923c21d4a282bd86b5134941",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/reports/filter_examples.csv",
+    "imported_sha256": "0aa481a88cf58f8dfcb30c138b45d9945678b2b4923c21d4a282bd86b5134941",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/reports/sanitizer_flip_examples.csv",
+    "source_sha256": "8cd8e5f73395f8bf689238fa6dd61520f13c434befc22c5a4b9395b8fb1bdaba",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/reports/sanitizer_flip_examples.csv",
+    "imported_sha256": "8cd8e5f73395f8bf689238fa6dd61520f13c434befc22c5a4b9395b8fb1bdaba",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/deliverables/deliverable1/NLP 1st deliverable.pdf",
+    "source_sha256": "e160a1fd4eabad6d907422c8c0753f612e3fdb3cc99889b0e3c170f197f98ea5",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/deliverables/deliverable1/NLP 1st deliverable.pdf",
+    "imported_sha256": "e160a1fd4eabad6d907422c8c0753f612e3fdb3cc99889b0e3c170f197f98ea5",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/deliverables/final_deliverable/gemini_pipeline_results.csv",
+    "source_sha256": "43fbe6c08681c29932015f9122a47dc5562c61663ce4894069a5be67b871f30f",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/deliverables/final_deliverable/gemini_pipeline_results.csv",
+    "imported_sha256": "43fbe6c08681c29932015f9122a47dc5562c61663ce4894069a5be67b871f30f",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/deliverables/final_deliverable/README.md",
+    "source_sha256": "45774cd6770423eadea14e696424452caa7394145e5d84e04cc26487841962da",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/deliverables/final_deliverable/README.md",
+    "imported_sha256": "9685935cd5b45dd2538e191e2ac75e0c0adee3d2d731cf891ea5cb43a1bd8334",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/deliverables/proposal/Toxic_Prompt_Filter_Proposal_with_Pipeline.pdf",
+    "source_sha256": "c2991016c1cf7463a46b23684f3fb2929d5185b808b4ff284354aea7f757ec75",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/deliverables/proposal/Toxic_Prompt_Filter_Proposal_with_Pipeline.pdf",
+    "imported_sha256": "c2991016c1cf7463a46b23684f3fb2929d5185b808b4ff284354aea7f757ec75",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/requirements.txt",
+    "source_sha256": "62e8c415674190c058fbb9693570149127aaac4cac4d957468805b732e21c3e5",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/requirements.txt",
+    "imported_sha256": "ce7199559ce1a97001cb3d6a74c1666528332031877c9b68d5dd9071f5a8ca68",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/docs/IMPLEMENTATION_GUIDE.md",
+    "source_sha256": "bd11444b65407e26a1b06e4e6da27eb488d88dba9a422a1d02251c47e197ab5d",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/docs/IMPLEMENTATION_GUIDE.md",
+    "imported_sha256": "ca02cdf4562223a5c47e8788f6ffc877a7f52e76099f6895eb165038a8da34bf",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/Toxic_Prompt_Filter_Proposal_with_Pipeline.docx",
+    "source_sha256": "a57e68837256cd0c263d43df46d6d29e7f83e080048ba7df01e1b29a9710d9cf",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/Toxic_Prompt_Filter_Proposal_with_Pipeline.docx",
+    "imported_sha256": "a57e68837256cd0c263d43df46d6d29e7f83e080048ba7df01e1b29a9710d9cf",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "nlp/Urdu_toxic_prompt_filter-master/README.md",
+    "source_sha256": "dc83139c0ee407addcc551895496863a97a2323eb888baadf35f70329c97ca59",
+    "destination": "Natural-Language-Processing/Urdu-Roman-Urdu-LLM-Safety/docs/UPSTREAM-README.md",
+    "imported_sha256": "ae06bdffdcb3c31959df80864137ae4e62bab0a897481e978c3e1cfa3fcf6540",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Baseline/Baseline_Model.ipynb",
+    "source_sha256": "ebb7cdb31bd8131194ce388731442f4f05228ed6e3abe21908f4b6ce0ac9389e",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Baseline/Baseline_Model.ipynb",
+    "imported_sha256": "6d2fa58e031aa688c6ed35772c7b24b814806f523c0bf738d9618382939e1cb2",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Baseline_Outputs.png",
+    "source_sha256": "b8b7401f4d82cfac7023b689029ac2187f98b86d853462153390fddd84231d70",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Baseline_Outputs.png",
+    "imported_sha256": "b8b7401f4d82cfac7023b689029ac2187f98b86d853462153390fddd84231d70",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Dataset/Dataset.ipynb",
+    "source_sha256": "c4d35533d3a9bec9690137d8c67ec75713663164219c4fc454126f578772b078",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Dataset/Dataset.ipynb",
+    "imported_sha256": "d60b042da8af44fd671e69e8d689e275b5f844df6cfb7996f292711db625e9ef",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Experiments/dl-proj-improvement1 (1).ipynb",
+    "source_sha256": "bd217978fa995745582705aca3f8cdff6ad42785a4414a2981ae20c51ea91bc2",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Experiments/dl-proj-improvement1 (1).ipynb",
+    "imported_sha256": "8443b6004aa8e9610fc481df04352d83cf3b83a57689ef5251d3c9ebabead9ec",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Experiments/hgdnet-copy-azaan-outputs.ipynb",
+    "source_sha256": "692c90e0b55e11da7113e02407eec21455316db0e781dd0dd128aa9b2b7f1140",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Experiments/hgdnet-copy-azaan-outputs.ipynb",
+    "imported_sha256": "d2677edde27bb384be03537ecdc6a410079a149252176df9ccca5fd1e8c10b8f",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Experiments/ibrahim-building-height-log-normalized-dsn-simple.ipynb",
+    "source_sha256": "deef3ce762294ef4b097766f4501bf13f907fbcea45e620f90ae3af98ee99588",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Experiments/ibrahim-building-height-log-normalized-dsn-simple.ipynb",
+    "imported_sha256": "acb2288cb5c8af01936429f3bb5bc6df792751ddd8b12abee89c4be1ed9e8ad1",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Experiments/Log_improvement_ibrahim.ipynb",
+    "source_sha256": "b557f2877222f05f9828f77a5b57ba5e7eb91ffa4d198ce7df50e901f7d79523",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Experiments/Log_improvement_ibrahim.ipynb",
+    "imported_sha256": "61b3835b70857a53e87954eec8de17e3a751f67ae8014efbb46e9a29fe380484",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Improvement 1/Improvement_1.ipynb",
+    "source_sha256": "76e1bca53bacd4ce65ea5606c2ad0a24ad2ade23702b1f679bd071aa9124a000",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Improvement 1/Improvement_1.ipynb",
+    "imported_sha256": "fc302c405e9aab8871d8d5a3ae9e40413fc71fc490a2e4962eab77326965f54c",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Improvement 2/Improvement_2.ipynb",
+    "source_sha256": "567d2fd05079149eaf6db1df246b80ae11e5d498b54a46dd062d41288dbbc604",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Improvement 2/Improvement_2.ipynb",
+    "imported_sha256": "50ed9a8e56b9a7097a6dfa1eea770395e6fc5deaac8b3ff5c96fd660709f8e82",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Improvement_1_Outputs.png",
+    "source_sha256": "987c8c0793865fa5d63deb1b6fc6d7587fde44ad2a5afc6a42c1cc0eb922beb9",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Improvement_1_Outputs.png",
+    "imported_sha256": "987c8c0793865fa5d63deb1b6fc6d7587fde44ad2a5afc6a42c1cc0eb922beb9",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/Improvement_2_Outputs.png",
+    "source_sha256": "e5110bb0ce7d750f60138b4da24b892dfba4533d9f4cadaa60550d188b81c7dd",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Improvement_2_Outputs.png",
+    "imported_sha256": "e5110bb0ce7d750f60138b4da24b892dfba4533d9f4cadaa60550d188b81c7dd",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "height/BuildingHeightEstimation/README.md",
+    "source_sha256": "fc0b003766d0699497a43d4b5b49fe082308c9be67dc32fe52f79a1532952d60",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/README.md",
+    "imported_sha256": "8e21eaeeff84e8ae61b4e5a1b3013e7904f9a9a46fa35ab834e40a9e2f122e23",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "Group31_Report.pdf",
+    "source_sha256": "08edd4cdcfcbfef3f4664022956002661574ca57c5454a6b81d1826002bdff74",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/course-deliverables/Group31_Report.pdf",
+    "imported_sha256": "08edd4cdcfcbfef3f4664022956002661574ca57c5454a6b81d1826002bdff74",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "Group31_Presentation.pptx",
+    "source_sha256": "68caf94779a2976a53ed8856d122594ca670aadd4fbb6cad8aa63c6b1a8f12c5",
+    "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/course-deliverables/Group31_Presentation.pptx",
+    "imported_sha256": "68caf94779a2976a53ed8856d122594ca670aadd4fbb6cad8aa63c6b1a8f12c5",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/appsettings.Development.json",
+    "source_sha256": "73f95f9e0ceb205fc1c4dc50c07697fcfa29d7087868c2aef1d504cb38c771ec",
+    "destination": "Databases/CineLog/backend/CineLog.API/appsettings.Development.json",
+    "imported_sha256": "73f95f9e0ceb205fc1c4dc50c07697fcfa29d7087868c2aef1d504cb38c771ec",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/appsettings.json",
+    "source_sha256": "5949befb835de9bb7eb3a2c5b885ad01d2e067936cbe75d2973cd4c5f464e3df",
+    "destination": "Databases/CineLog/backend/CineLog.API/appsettings.json",
+    "imported_sha256": "f4fc698a1affb1f370bfe3a0e0d4581a321414a532338b6dabbe6837426e4281",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/CineLog.API.csproj",
+    "source_sha256": "0daa4d58b21017250d7e101a26a5067877bfd852c2aae73f333503f4446493dd",
+    "destination": "Databases/CineLog/backend/CineLog.API/CineLog.API.csproj",
+    "imported_sha256": "a19606cc393747b74073bfcaa6f316ea7e547e7b6166ccded1b06fef6795b883",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/CineLog.API.http",
+    "source_sha256": "f13e22bd59abc2fc72c64e3a9d8a6d02d0c9ea8e5abf46a44b0059165546a9ad",
+    "destination": "Databases/CineLog/backend/CineLog.API/CineLog.API.http",
+    "imported_sha256": "f13e22bd59abc2fc72c64e3a9d8a6d02d0c9ea8e5abf46a44b0059165546a9ad",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Controllers/AnalyticsController.cs",
+    "source_sha256": "bda22ced9ea4c6d55e4a1d39fae0eae5b0b042162d07939181a2c2dd9ae4de7d",
+    "destination": "Databases/CineLog/backend/CineLog.API/Controllers/AnalyticsController.cs",
+    "imported_sha256": "bda22ced9ea4c6d55e4a1d39fae0eae5b0b042162d07939181a2c2dd9ae4de7d",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Controllers/ListsController.cs",
+    "source_sha256": "37b7de9541effab3fcd2fbdaa00e645919a48203c2d803623134747278923cbd",
+    "destination": "Databases/CineLog/backend/CineLog.API/Controllers/ListsController.cs",
+    "imported_sha256": "37b7de9541effab3fcd2fbdaa00e645919a48203c2d803623134747278923cbd",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Controllers/MoviesController.cs",
+    "source_sha256": "a7c407852c099143fbd2458e41e8680273c4662dbec46fb7c80e52def1ac9cfc",
+    "destination": "Databases/CineLog/backend/CineLog.API/Controllers/MoviesController.cs",
+    "imported_sha256": "a7c407852c099143fbd2458e41e8680273c4662dbec46fb7c80e52def1ac9cfc",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Controllers/ReviewsController.cs",
+    "source_sha256": "169196ba464844dbe756cf1dbbc5b519ec2d8d8ae0a18d5150340c36207b5abb",
+    "destination": "Databases/CineLog/backend/CineLog.API/Controllers/ReviewsController.cs",
+    "imported_sha256": "169196ba464844dbe756cf1dbbc5b519ec2d8d8ae0a18d5150340c36207b5abb",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Controllers/SearchController.cs",
+    "source_sha256": "4bda8a54c6d6c5b81895110b64dcc6e842598375947c2628da992e439a723323",
+    "destination": "Databases/CineLog/backend/CineLog.API/Controllers/SearchController.cs",
+    "imported_sha256": "4bda8a54c6d6c5b81895110b64dcc6e842598375947c2628da992e439a723323",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Controllers/SystemController.cs",
+    "source_sha256": "7ab595699e07d362d41ea34cac5de2eac9e0503eba02d08b49ff2b7cf8883823",
+    "destination": "Databases/CineLog/backend/CineLog.API/Controllers/SystemController.cs",
+    "imported_sha256": "7ab595699e07d362d41ea34cac5de2eac9e0503eba02d08b49ff2b7cf8883823",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Controllers/UsersController.cs",
+    "source_sha256": "fccd3d7fbab4fbad0e522968183aee44286533c5dcd84374849a82b0cbffdb52",
+    "destination": "Databases/CineLog/backend/CineLog.API/Controllers/UsersController.cs",
+    "imported_sha256": "fccd3d7fbab4fbad0e522968183aee44286533c5dcd84374849a82b0cbffdb52",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Controllers/WatchListController.cs",
+    "source_sha256": "ce8ae7041cdd046a7873094e600c3e0348db89b7ba64243a1e5d358daa4daf80",
+    "destination": "Databases/CineLog/backend/CineLog.API/Controllers/WatchListController.cs",
+    "imported_sha256": "ce8ae7041cdd046a7873094e600c3e0348db89b7ba64243a1e5d358daa4daf80",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Program.cs",
+    "source_sha256": "ea050188ae362652a8ed53a4ffb768415c94beb7d3cdbd5dc71e8141f4322c75",
+    "destination": "Databases/CineLog/backend/CineLog.API/Program.cs",
+    "imported_sha256": "0feb763b8d43894d040b60dff4f2f531b46abdbe96d0f9be4ab2ede3a39b1820",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.API/Properties/launchSettings.json",
+    "source_sha256": "605fcd17da22c81785b2c012202d0dc88a114f03f87101157e99ff9c521e6b97",
+    "destination": "Databases/CineLog/backend/CineLog.API/Properties/launchSettings.json",
+    "imported_sha256": "605fcd17da22c81785b2c012202d0dc88a114f03f87101157e99ff9c521e6b97",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/CineLog.BLL.csproj",
+    "source_sha256": "e91dc09ccb777036555dd2d3af46719631b6fde5264a74337b623af72ceacb31",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/CineLog.BLL.csproj",
+    "imported_sha256": "e91dc09ccb777036555dd2d3af46719631b6fde5264a74337b623af72ceacb31",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/CineLogServiceFactory.cs",
+    "source_sha256": "dfd8ad984a4615595fb90404dbe5581bc604f95dba305881da26aa15bc90121b",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/CineLogServiceFactory.cs",
+    "imported_sha256": "dfd8ad984a4615595fb90404dbe5581bc604f95dba305881da26aa15bc90121b",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/Class1.cs",
+    "source_sha256": "11ede717c7f35e5cb29ffe51e08e2c36d5e72a921cee26e52ed364a35f7cb9a3",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/Class1.cs",
+    "imported_sha256": "11ede717c7f35e5cb29ffe51e08e2c36d5e72a921cee26e52ed364a35f7cb9a3",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/ActivityFeedDTO.cs",
+    "source_sha256": "72b5acf217f458109af7f845f98e8df299a7e92397d329f6b2327e8e7eb2803f",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/ActivityFeedDTO.cs",
+    "imported_sha256": "72b5acf217f458109af7f845f98e8df299a7e92397d329f6b2327e8e7eb2803f",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/FriendConnectionDTO.cs",
+    "source_sha256": "49013809cd00445ca25983487831546236fa89c716335db8256296cd37493de4",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/FriendConnectionDTO.cs",
+    "imported_sha256": "49013809cd00445ca25983487831546236fa89c716335db8256296cd37493de4",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/ListCreateDTO.cs",
+    "source_sha256": "b0b1f7a3a6ac7cfec8fb3f3f5a3844eca68a365cec2c2224862e574224204780",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/ListCreateDTO.cs",
+    "imported_sha256": "b0b1f7a3a6ac7cfec8fb3f3f5a3844eca68a365cec2c2224862e574224204780",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/ListItemDTO.cs",
+    "source_sha256": "b31528b6b87fcc2c1859517686fe523815ec39b04e01b8d64679903da163dd1c",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/ListItemDTO.cs",
+    "imported_sha256": "b31528b6b87fcc2c1859517686fe523815ec39b04e01b8d64679903da163dd1c",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/MovieDetailsDTO.cs",
+    "source_sha256": "51caf40e8881a0cd9de862a008e8bd808a3706dc6dafaab8f3c0e3e25627fb98",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/MovieDetailsDTO.cs",
+    "imported_sha256": "51caf40e8881a0cd9de862a008e8bd808a3706dc6dafaab8f3c0e3e25627fb98",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/PopularGenreDTO.cs",
+    "source_sha256": "8fd617c28d1468047b769ef800a92399748445c9ae364c036f0b32ce109690cc",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/PopularGenreDTO.cs",
+    "imported_sha256": "8fd617c28d1468047b769ef800a92399748445c9ae364c036f0b32ce109690cc",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/ReviewCreateDTO.cs",
+    "source_sha256": "1e210d13b353bb699d6c51a77d54c9c493541c13afdeb0e109dfcd1d18730617",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/ReviewCreateDTO.cs",
+    "imported_sha256": "1e210d13b353bb699d6c51a77d54c9c493541c13afdeb0e109dfcd1d18730617",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/ReviewDTO.cs",
+    "source_sha256": "3c8afb40774793702ea799b4f00613f0b87e1fff7a7ac12403937dd211dd7dfb",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/ReviewDTO.cs",
+    "imported_sha256": "3c8afb40774793702ea799b4f00613f0b87e1fff7a7ac12403937dd211dd7dfb",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/SuperUserDTO.cs",
+    "source_sha256": "87f86b7673a13a8efd14a86c0e1b73331eb1290d3b20eb2c1f6948cbf36b0e0c",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/SuperUserDTO.cs",
+    "imported_sha256": "87f86b7673a13a8efd14a86c0e1b73331eb1290d3b20eb2c1f6948cbf36b0e0c",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/DTO/UserActivityDTO.cs",
+    "source_sha256": "790dfacb57f28dfc480c87246098db5da9a640f53255ecb591a069450a836618",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/DTO/UserActivityDTO.cs",
+    "imported_sha256": "790dfacb57f28dfc480c87246098db5da9a640f53255ecb591a069450a836618",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/Services/EFCineLogService.cs",
+    "source_sha256": "056a4fb5e770d00f8626eead910cede87d3a84b11358539b30638d06bce952e8",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/Services/EFCineLogService.cs",
+    "imported_sha256": "056a4fb5e770d00f8626eead910cede87d3a84b11358539b30638d06bce952e8",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/Services/ICineLogService.cs",
+    "source_sha256": "9e53019e8a05fbe307f969359ac3f869f97b5fd2c988bb5e6ede9301dc71b5b0",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/Services/ICineLogService.cs",
+    "imported_sha256": "9e53019e8a05fbe307f969359ac3f869f97b5fd2c988bb5e6ede9301dc71b5b0",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.BLL/Services/SpCineLogService.cs",
+    "source_sha256": "c5fbe4390ed1519e25258a624a1cf03f23a85a872b269bf0ae6e8081674b836b",
+    "destination": "Databases/CineLog/backend/CineLog.BLL/Services/SpCineLogService.cs",
+    "imported_sha256": "c5fbe4390ed1519e25258a624a1cf03f23a85a872b269bf0ae6e8081674b836b",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/CineLog.Data.csproj",
+    "source_sha256": "13f7ad2d2dfeb7a5faf982e5e648d1645686882b22a75b280a97b418f24df0ff",
+    "destination": "Databases/CineLog/backend/CineLog.Data/CineLog.Data.csproj",
+    "imported_sha256": "13f7ad2d2dfeb7a5faf982e5e648d1645686882b22a75b280a97b418f24df0ff",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Class1.cs",
+    "source_sha256": "c844be3d679bd9044eba7112eb701546e10f2a6d1cff96fafe75745436ff5bb8",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Class1.cs",
+    "imported_sha256": "c844be3d679bd9044eba7112eb701546e10f2a6d1cff96fafe75745436ff5bb8",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/CineLogContext.cs",
+    "source_sha256": "cdee60e74f26c61421dbc01a10644b30b2c73da215b7bde549b47cd2ac947187",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/CineLogContext.cs",
+    "imported_sha256": "cdee60e74f26c61421dbc01a10644b30b2c73da215b7bde549b47cd2ac947187",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/Follow.cs",
+    "source_sha256": "fb1eb7d249c903ce96fd0bd8da38729f91a4812816f23c20e058877d62976ae5",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/Follow.cs",
+    "imported_sha256": "fb1eb7d249c903ce96fd0bd8da38729f91a4812816f23c20e058877d62976ae5",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/Genre.cs",
+    "source_sha256": "b0e4ea8b9753490128245417add1ac0cc720730df92120f6de5344eabd3be25b",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/Genre.cs",
+    "imported_sha256": "b0e4ea8b9753490128245417add1ac0cc720730df92120f6de5344eabd3be25b",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/List.cs",
+    "source_sha256": "23ce4b0fffa916f9147cb7fa930b94958d8a63a1d292a4af1a42a5ec7e06c5a8",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/List.cs",
+    "imported_sha256": "23ce4b0fffa916f9147cb7fa930b94958d8a63a1d292a4af1a42a5ec7e06c5a8",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/ListItem.cs",
+    "source_sha256": "eccf13198237286093273914c5f370a290fa8c4b8947372fd6c0fd68e804a119",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/ListItem.cs",
+    "imported_sha256": "eccf13198237286093273914c5f370a290fa8c4b8947372fd6c0fd68e804a119",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/Movie.cs",
+    "source_sha256": "4e2c9e3d2557d6181902c269daaace49f8088b5ee1275b0bc5aa75d0a6564dc0",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/Movie.cs",
+    "imported_sha256": "4e2c9e3d2557d6181902c269daaace49f8088b5ee1275b0bc5aa75d0a6564dc0",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/Review.cs",
+    "source_sha256": "94c306c9a1484784e78cdb3e4b277cffc337dfc7249ac274b85b3bb8dac431a6",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/Review.cs",
+    "imported_sha256": "94c306c9a1484784e78cdb3e4b277cffc337dfc7249ac274b85b3bb8dac431a6",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/StagingMovie.cs",
+    "source_sha256": "aff4d344594f2f98299ab9f065726c8465308498387cdd63880c11924706e685",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/StagingMovie.cs",
+    "imported_sha256": "aff4d344594f2f98299ab9f065726c8465308498387cdd63880c11924706e685",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/User.cs",
+    "source_sha256": "f591d7455426a5522ea987c0dce9d408bfbf8005cb2d1af053d772ee8ed64b63",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/User.cs",
+    "imported_sha256": "f591d7455426a5522ea987c0dce9d408bfbf8005cb2d1af053d772ee8ed64b63",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/VwMostActiveUser.cs",
+    "source_sha256": "d3ae2ed072bc2bfe485a2d6bd7228f93f3ea00472cd8143a9154f634527f7797",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/VwMostActiveUser.cs",
+    "imported_sha256": "d3ae2ed072bc2bfe485a2d6bd7228f93f3ea00472cd8143a9154f634527f7797",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/VwPopularGenre.cs",
+    "source_sha256": "eabdf2220cc85d9c0c5331675828ffc7bcc7af88080c27e35e215e44242cbb68",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/VwPopularGenre.cs",
+    "imported_sha256": "eabdf2220cc85d9c0c5331675828ffc7bcc7af88080c27e35e215e44242cbb68",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/VwPublicActivityFeed.cs",
+    "source_sha256": "117d8c81d872ed981d532039083a62480d5115a215a57e9054d7ac5f9da5a53b",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/VwPublicActivityFeed.cs",
+    "imported_sha256": "117d8c81d872ed981d532039083a62480d5115a215a57e9054d7ac5f9da5a53b",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/VwTopRatedMovie.cs",
+    "source_sha256": "7d875100f0c45b99d0bd9cf0beb0752da7e91ed5a14f7f6f8f1364ce2cfd4bfa",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/VwTopRatedMovie.cs",
+    "imported_sha256": "7d875100f0c45b99d0bd9cf0beb0752da7e91ed5a14f7f6f8f1364ce2cfd4bfa",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLog.Data/Models/Watchlist.cs",
+    "source_sha256": "9a953f76b54f4e769214bd2de35b108fd06f87912bd79d940ba27a6078b03cb0",
+    "destination": "Databases/CineLog/backend/CineLog.Data/Models/Watchlist.cs",
+    "imported_sha256": "9a953f76b54f4e769214bd2de35b108fd06f87912bd79d940ba27a6078b03cb0",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/CineLogBackend.sln",
+    "source_sha256": "df7922c82479e24966b23e1fdeb7f7e681f3cc4ba338b35ea38ac7934be8b865",
+    "destination": "Databases/CineLog/backend/CineLogBackend.sln",
+    "imported_sha256": "df7922c82479e24966b23e1fdeb7f7e681f3cc4ba338b35ea38ac7934be8b865",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/extracredit.sql",
+    "source_sha256": "bb02bbb8f0b366ad33f98a0e560afb02c6e98b9722373e711093012215d95b60",
+    "destination": "Databases/CineLog/database/extracredit.sql",
+    "imported_sha256": "bb02bbb8f0b366ad33f98a0e560afb02c6e98b9722373e711093012215d95b60",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/backend/Cinelog-DBProject/NewProcedures.sql",
+    "source_sha256": "fdb258419c9e2419b19867402490240390141bcfb845b934bd3d208590cb06ac",
+    "destination": "Databases/CineLog/database/NewProcedures.sql",
+    "imported_sha256": "618c2d62bc7eca77b9bcd5914565af593a1aeddc4856984fdaaca53a6e7484ea",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/ApiClient.cs",
+    "source_sha256": "884f12e3200187ac0ba22f1834b334c1f888da8090586ee0621e466959c1b233",
+    "destination": "Databases/CineLog/frontend/Phase3/ApiClient.cs",
+    "imported_sha256": "ba832fc07bf5b9d8909b8a07c767112456879479798aba1d46a924e8ef9f8722",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/ActivityFeedDTO.cs",
+    "source_sha256": "72b5acf217f458109af7f845f98e8df299a7e92397d329f6b2327e8e7eb2803f",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/ActivityFeedDTO.cs",
+    "imported_sha256": "72b5acf217f458109af7f845f98e8df299a7e92397d329f6b2327e8e7eb2803f",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/FriendConnectionDTO.cs",
+    "source_sha256": "49013809cd00445ca25983487831546236fa89c716335db8256296cd37493de4",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/FriendConnectionDTO.cs",
+    "imported_sha256": "49013809cd00445ca25983487831546236fa89c716335db8256296cd37493de4",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/ListCreateDTO.cs",
+    "source_sha256": "b0b1f7a3a6ac7cfec8fb3f3f5a3844eca68a365cec2c2224862e574224204780",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/ListCreateDTO.cs",
+    "imported_sha256": "b0b1f7a3a6ac7cfec8fb3f3f5a3844eca68a365cec2c2224862e574224204780",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/ListItemDTO.cs",
+    "source_sha256": "b31528b6b87fcc2c1859517686fe523815ec39b04e01b8d64679903da163dd1c",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/ListItemDTO.cs",
+    "imported_sha256": "b31528b6b87fcc2c1859517686fe523815ec39b04e01b8d64679903da163dd1c",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/MovieDetailsDTO.cs",
+    "source_sha256": "51caf40e8881a0cd9de862a008e8bd808a3706dc6dafaab8f3c0e3e25627fb98",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/MovieDetailsDTO.cs",
+    "imported_sha256": "51caf40e8881a0cd9de862a008e8bd808a3706dc6dafaab8f3c0e3e25627fb98",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/PopularGenreDTO.cs",
+    "source_sha256": "8fd617c28d1468047b769ef800a92399748445c9ae364c036f0b32ce109690cc",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/PopularGenreDTO.cs",
+    "imported_sha256": "8fd617c28d1468047b769ef800a92399748445c9ae364c036f0b32ce109690cc",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/ReviewCreateDTO.cs",
+    "source_sha256": "1e210d13b353bb699d6c51a77d54c9c493541c13afdeb0e109dfcd1d18730617",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/ReviewCreateDTO.cs",
+    "imported_sha256": "1e210d13b353bb699d6c51a77d54c9c493541c13afdeb0e109dfcd1d18730617",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/ReviewDTO.cs",
+    "source_sha256": "3c8afb40774793702ea799b4f00613f0b87e1fff7a7ac12403937dd211dd7dfb",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/ReviewDTO.cs",
+    "imported_sha256": "3c8afb40774793702ea799b4f00613f0b87e1fff7a7ac12403937dd211dd7dfb",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/SuperUserDTO.cs",
+    "source_sha256": "87f86b7673a13a8efd14a86c0e1b73331eb1290d3b20eb2c1f6948cbf36b0e0c",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/SuperUserDTO.cs",
+    "imported_sha256": "87f86b7673a13a8efd14a86c0e1b73331eb1290d3b20eb2c1f6948cbf36b0e0c",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/DTOs/UserActivityDTO.cs",
+    "source_sha256": "790dfacb57f28dfc480c87246098db5da9a640f53255ecb591a069450a836618",
+    "destination": "Databases/CineLog/frontend/Phase3/DTOs/UserActivityDTO.cs",
+    "imported_sha256": "790dfacb57f28dfc480c87246098db5da9a640f53255ecb591a069450a836618",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Form1.cs",
+    "source_sha256": "511dc06e620c900d40e77dc19e8d8cb58e996011fe3061a131ab310a33291b84",
+    "destination": "Databases/CineLog/frontend/Phase3/Form1.cs",
+    "imported_sha256": "511dc06e620c900d40e77dc19e8d8cb58e996011fe3061a131ab310a33291b84",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Form1.Designer.cs",
+    "source_sha256": "181344f3ef12e3f3d326f56017667fbbbd2c0716cdc1e398d23cdac63073a33a",
+    "destination": "Databases/CineLog/frontend/Phase3/Form1.Designer.cs",
+    "imported_sha256": "181344f3ef12e3f3d326f56017667fbbbd2c0716cdc1e398d23cdac63073a33a",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Form1.resx",
+    "source_sha256": "a122f3e718c7a26b3b21f292ae61305dc66838bb76b93ed6a7669b2ab4ca3432",
+    "destination": "Databases/CineLog/frontend/Phase3/Form1.resx",
+    "imported_sha256": "a122f3e718c7a26b3b21f292ae61305dc66838bb76b93ed6a7669b2ab4ca3432",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/FormLogin.cs",
+    "source_sha256": "b3692bae195eab40fadbe76958a66e3a130208da47ddb7d14bd44d59f4f03d30",
+    "destination": "Databases/CineLog/frontend/Phase3/FormLogin.cs",
+    "imported_sha256": "b3692bae195eab40fadbe76958a66e3a130208da47ddb7d14bd44d59f4f03d30",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/FormLogin.Designer.cs",
+    "source_sha256": "03a6bcc93590f2e60e5b1b52149598dc44710c9ee5a077f3d22e4c9f6c3e39b2",
+    "destination": "Databases/CineLog/frontend/Phase3/FormLogin.Designer.cs",
+    "imported_sha256": "03a6bcc93590f2e60e5b1b52149598dc44710c9ee5a077f3d22e4c9f6c3e39b2",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/FormLogin.resx",
+    "source_sha256": "a122f3e718c7a26b3b21f292ae61305dc66838bb76b93ed6a7669b2ab4ca3432",
+    "destination": "Databases/CineLog/frontend/Phase3/FormLogin.resx",
+    "imported_sha256": "a122f3e718c7a26b3b21f292ae61305dc66838bb76b93ed6a7669b2ab4ca3432",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/CineLogContext.cs",
+    "source_sha256": "99c0ac76719fbbb5de20ce1e9289c17cf06f21f5db561b83ddc85f8b28ececfb",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/CineLogContext.cs",
+    "imported_sha256": "99c0ac76719fbbb5de20ce1e9289c17cf06f21f5db561b83ddc85f8b28ececfb",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/Follow.cs",
+    "source_sha256": "fb1eb7d249c903ce96fd0bd8da38729f91a4812816f23c20e058877d62976ae5",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/Follow.cs",
+    "imported_sha256": "fb1eb7d249c903ce96fd0bd8da38729f91a4812816f23c20e058877d62976ae5",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/Genre.cs",
+    "source_sha256": "b0e4ea8b9753490128245417add1ac0cc720730df92120f6de5344eabd3be25b",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/Genre.cs",
+    "imported_sha256": "b0e4ea8b9753490128245417add1ac0cc720730df92120f6de5344eabd3be25b",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/List.cs",
+    "source_sha256": "23ce4b0fffa916f9147cb7fa930b94958d8a63a1d292a4af1a42a5ec7e06c5a8",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/List.cs",
+    "imported_sha256": "23ce4b0fffa916f9147cb7fa930b94958d8a63a1d292a4af1a42a5ec7e06c5a8",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/ListItem.cs",
+    "source_sha256": "eccf13198237286093273914c5f370a290fa8c4b8947372fd6c0fd68e804a119",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/ListItem.cs",
+    "imported_sha256": "eccf13198237286093273914c5f370a290fa8c4b8947372fd6c0fd68e804a119",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/Movie.cs",
+    "source_sha256": "4e2c9e3d2557d6181902c269daaace49f8088b5ee1275b0bc5aa75d0a6564dc0",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/Movie.cs",
+    "imported_sha256": "4e2c9e3d2557d6181902c269daaace49f8088b5ee1275b0bc5aa75d0a6564dc0",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/Review.cs",
+    "source_sha256": "94c306c9a1484784e78cdb3e4b277cffc337dfc7249ac274b85b3bb8dac431a6",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/Review.cs",
+    "imported_sha256": "94c306c9a1484784e78cdb3e4b277cffc337dfc7249ac274b85b3bb8dac431a6",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/StagingMovie.cs",
+    "source_sha256": "aff4d344594f2f98299ab9f065726c8465308498387cdd63880c11924706e685",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/StagingMovie.cs",
+    "imported_sha256": "aff4d344594f2f98299ab9f065726c8465308498387cdd63880c11924706e685",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/User.cs",
+    "source_sha256": "f591d7455426a5522ea987c0dce9d408bfbf8005cb2d1af053d772ee8ed64b63",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/User.cs",
+    "imported_sha256": "f591d7455426a5522ea987c0dce9d408bfbf8005cb2d1af053d772ee8ed64b63",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/VwMostActiveUser.cs",
+    "source_sha256": "d3ae2ed072bc2bfe485a2d6bd7228f93f3ea00472cd8143a9154f634527f7797",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/VwMostActiveUser.cs",
+    "imported_sha256": "d3ae2ed072bc2bfe485a2d6bd7228f93f3ea00472cd8143a9154f634527f7797",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/VwPopularGenre.cs",
+    "source_sha256": "eabdf2220cc85d9c0c5331675828ffc7bcc7af88080c27e35e215e44242cbb68",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/VwPopularGenre.cs",
+    "imported_sha256": "eabdf2220cc85d9c0c5331675828ffc7bcc7af88080c27e35e215e44242cbb68",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/VwPublicActivityFeed.cs",
+    "source_sha256": "117d8c81d872ed981d532039083a62480d5115a215a57e9054d7ac5f9da5a53b",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/VwPublicActivityFeed.cs",
+    "imported_sha256": "117d8c81d872ed981d532039083a62480d5115a215a57e9054d7ac5f9da5a53b",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/VwTopRatedMovie.cs",
+    "source_sha256": "7d875100f0c45b99d0bd9cf0beb0752da7e91ed5a14f7f6f8f1364ce2cfd4bfa",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/VwTopRatedMovie.cs",
+    "imported_sha256": "7d875100f0c45b99d0bd9cf0beb0752da7e91ed5a14f7f6f8f1364ce2cfd4bfa",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Models/Watchlist.cs",
+    "source_sha256": "9a953f76b54f4e769214bd2de35b108fd06f87912bd79d940ba27a6078b03cb0",
+    "destination": "Databases/CineLog/frontend/Phase3/Models/Watchlist.cs",
+    "imported_sha256": "9a953f76b54f4e769214bd2de35b108fd06f87912bd79d940ba27a6078b03cb0",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Phase3.csproj",
+    "source_sha256": "bdce4ead44ed0c6afe8dfc016ec470175cd833794aa258ba985cbae22531d0be",
+    "destination": "Databases/CineLog/frontend/Phase3/Phase3.csproj",
+    "imported_sha256": "bdce4ead44ed0c6afe8dfc016ec470175cd833794aa258ba985cbae22531d0be",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Cinelog-DBProject/Phase3/Program.cs",
+    "source_sha256": "c6620462ee5dcb5394ac27b789c8c94a53cf353f96fa828e97611e4b1c756f5a",
+    "destination": "Databases/CineLog/frontend/Phase3/Program.cs",
+    "imported_sha256": "c6620462ee5dcb5394ac27b789c8c94a53cf353f96fa828e97611e4b1c756f5a",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/group10_p1.pdf",
+    "source_sha256": "495f9fe65f2f2be00e24c0f4738a5292b46d10e89f4b688239d4a250d193ef88",
+    "destination": "Databases/CineLog/course-deliverables/part-1/group10_p1.pdf",
+    "imported_sha256": "495f9fe65f2f2be00e24c0f4738a5292b46d10e89f4b688239d4a250d193ef88",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Group10_P2/Group10_P2.pdf",
+    "source_sha256": "43035942cfb51e693cfdda6c2e2abd86e8d19eac46b5c13732d0266bd8224c0f",
+    "destination": "Databases/CineLog/course-deliverables/part-2/Group10_P2.pdf",
+    "imported_sha256": "43035942cfb51e693cfdda6c2e2abd86e8d19eac46b5c13732d0266bd8224c0f",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Group10_P3.pdf",
+    "source_sha256": "5b2d2069d1155cca310f1f74079e0db6b788a98dbb971efda778be557cf26eda",
+    "destination": "Databases/CineLog/course-deliverables/part-3/Group10_P3.pdf",
+    "imported_sha256": "5b2d2069d1155cca310f1f74079e0db6b788a98dbb971efda778be557cf26eda",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/Group10_P2/create_table.sql",
+    "source_sha256": "e898554ad27435815392b81f8abcf3e2e02394e35ffcc236ae51500736b649c4",
+    "destination": "Databases/CineLog/database/create_table.sql",
+    "imported_sha256": "271cb84178839df061b9af35f27367dd2268aa64c13c3bc034499999a6dfc841",
+    "modified_on_import": true
+  },
+  {
+    "source_path": "cinelog/Project/Group10_P2/DriveLinkToCSV.md",
+    "source_sha256": "2585f62fa668d622186989599d514fdb29513748baa8e6b8956a1d3b0a03dcba",
+    "destination": "Databases/CineLog/data/DriveLinkToCSV.md",
+    "imported_sha256": "2585f62fa668d622186989599d514fdb29513748baa8e6b8956a1d3b0a03dcba",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/pvc.yaml",
+    "source_sha256": "226717e232d8cb2565d6dfb62dfc0e45ccd302cbc9a397883afaeae278293081",
+    "destination": "Databases/CineLog/deployment/extra-credit/pvc.yaml",
+    "imported_sha256": "226717e232d8cb2565d6dfb62dfc0e45ccd302cbc9a397883afaeae278293081",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/sqldeployment.yaml",
+    "source_sha256": "b959054e7329db5ccbe84f9c8f4a589ae2cd3c1e00fba9066792a60f09be35e5",
+    "destination": "Databases/CineLog/deployment/extra-credit/sqldeployment.yaml",
+    "imported_sha256": "b959054e7329db5ccbe84f9c8f4a589ae2cd3c1e00fba9066792a60f09be35e5",
+    "modified_on_import": false
+  },
+  {
+    "source_path": "cinelog/Project/kubernetes_setup.txt",
+    "source_sha256": "5e05cc9e6ea2b2c5c829ef16be69e6ff3f14cbd41d0937f597f4daffa9bbe491",
+    "destination": "Databases/CineLog/deployment/extra-credit/kubernetes_setup.txt",
+    "imported_sha256": "4c21b06297d4d8409024de678e3f9ae0ef287139d5c965aff627bf71b18d0a30",
+    "modified_on_import": true
+  }
+]

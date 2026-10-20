@@ -1,0 +1,472 @@
+{
+  "archive": "BuildingHeightEstimation.zip",
+  "files": [
+    {
+      "path": "BuildingHeightEstimation/.git/config",
+      "bytes": 354,
+      "compressed_bytes": 226,
+      "crc32": "1a8b2da1"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/description",
+      "bytes": 73,
+      "compressed_bytes": 63,
+      "crc32": "1f078b37"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/HEAD",
+      "bytes": 21,
+      "compressed_bytes": 23,
+      "crc32": "576463b5"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/applypatch-msg.sample",
+      "bytes": 478,
+      "compressed_bytes": 279,
+      "crc32": "09f84f85"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/commit-msg.sample",
+      "bytes": 896,
+      "compressed_bytes": 503,
+      "crc32": "10caf8e9"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4726,
+      "compressed_bytes": 1814,
+      "crc32": "793c7cef"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/post-update.sample",
+      "bytes": 189,
+      "compressed_bytes": 138,
+      "crc32": "c0f70c9a"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-applypatch.sample",
+      "bytes": 424,
+      "compressed_bytes": 265,
+      "crc32": "024cc0cf"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-commit.sample",
+      "bytes": 1649,
+      "compressed_bytes": 907,
+      "crc32": "1b0e50ae"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-merge-commit.sample",
+      "bytes": 416,
+      "compressed_bytes": 255,
+      "crc32": "5ef33f44"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-push.sample",
+      "bytes": 1374,
+      "compressed_bytes": 701,
+      "crc32": "f90a0f0f"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-rebase.sample",
+      "bytes": 4898,
+      "compressed_bytes": 2015,
+      "crc32": "5158ec84"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-receive.sample",
+      "bytes": 544,
+      "compressed_bytes": 329,
+      "crc32": "96f8c492"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492,
+      "compressed_bytes": 744,
+      "crc32": "303613ed"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/push-to-checkout.sample",
+      "bytes": 2783,
+      "compressed_bytes": 1254,
+      "crc32": "f00806d3"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/sendemail-validate.sample",
+      "bytes": 2308,
+      "compressed_bytes": 975,
+      "crc32": "4b9edd4e"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/update.sample",
+      "bytes": 3650,
+      "compressed_bytes": 1173,
+      "crc32": "06fcf0d9"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/index",
+      "bytes": 1419,
+      "compressed_bytes": 885,
+      "crc32": "a7e17fd2"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/info/exclude",
+      "bytes": 240,
+      "compressed_bytes": 173,
+      "crc32": "21cd3d77"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/logs/HEAD",
+      "bytes": 209,
+      "compressed_bytes": 151,
+      "crc32": "1a50654a"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/logs/refs/heads/main",
+      "bytes": 209,
+      "compressed_bytes": 151,
+      "crc32": "1a50654a"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 209,
+      "compressed_bytes": 151,
+      "crc32": "1a50654a"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/objects/pack/pack-c14059f8eccb85653bf780bc88cf8d1af4b1fffb.idx",
+      "bytes": 2192,
+      "compressed_bytes": 1309,
+      "crc32": "a7a1aefc"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/objects/pack/pack-c14059f8eccb85653bf780bc88cf8d1af4b1fffb.pack",
+      "bytes": 20860635,
+      "compressed_bytes": 20866949,
+      "crc32": "739f2be1"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/objects/pack/pack-c14059f8eccb85653bf780bc88cf8d1af4b1fffb.rev",
+      "bytes": 212,
+      "compressed_bytes": 144,
+      "crc32": "d3262071"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/packed-refs",
+      "bytes": 112,
+      "compressed_bytes": 99,
+      "crc32": "4519e592"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/refs/heads/main",
+      "bytes": 41,
+      "compressed_bytes": 41,
+      "crc32": "b98787cb"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "compressed_bytes": 32,
+      "crc32": "6542ed44"
+    },
+    {
+      "path": "BuildingHeightEstimation/Baseline/Baseline_Model.ipynb",
+      "bytes": 766870,
+      "compressed_bytes": 564129,
+      "crc32": "bf139456"
+    },
+    {
+      "path": "BuildingHeightEstimation/Baseline_Outputs.png",
+      "bytes": 825712,
+      "compressed_bytes": 823511,
+      "crc32": "fb07d1c3"
+    },
+    {
+      "path": "BuildingHeightEstimation/Dataset/Dataset.ipynb",
+      "bytes": 10599696,
+      "compressed_bytes": 8011287,
+      "crc32": "be16c5b8"
+    },
+    {
+      "path": "BuildingHeightEstimation/Experiments/dl-proj-improvement1 (1).ipynb",
+      "bytes": 2503747,
+      "compressed_bytes": 1877383,
+      "crc32": "36e0a7ab"
+    },
+    {
+      "path": "BuildingHeightEstimation/Experiments/hgdnet-copy-azaan-outputs.ipynb",
+      "bytes": 2238609,
+      "compressed_bytes": 1621580,
+      "crc32": "b533f2c7"
+    },
+    {
+      "path": "BuildingHeightEstimation/Experiments/ibrahim-building-height-log-normalized-dsn-simple.ipynb",
+      "bytes": 2550472,
+      "compressed_bytes": 1904948,
+      "crc32": "017d5183"
+    },
+    {
+      "path": "BuildingHeightEstimation/Experiments/Log_improvement_ibrahim.ipynb",
+      "bytes": 1865121,
+      "compressed_bytes": 1387512,
+      "crc32": "b88a3655"
+    },
+    {
+      "path": "BuildingHeightEstimation/Improvement 1/Improvement_1.ipynb",
+      "bytes": 2264761,
+      "compressed_bytes": 1685714,
+      "crc32": "accbc2d4"
+    },
+    {
+      "path": "BuildingHeightEstimation/Improvement 2/Improvement_2.ipynb",
+      "bytes": 1134808,
+      "compressed_bytes": 831621,
+      "crc32": "36de5ff8"
+    },
+    {
+      "path": "BuildingHeightEstimation/Improvement_1_Outputs.png",
+      "bytes": 663111,
+      "compressed_bytes": 660854,
+      "crc32": "db472abb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Improvement_2_Outputs.png",
+      "bytes": 652576,
+      "compressed_bytes": 650214,
+      "crc32": "1b99b61b"
+    },
+    {
+      "path": "BuildingHeightEstimation/README.md",
+      "bytes": 11231,
+      "compressed_bytes": 4476,
+      "crc32": "a7099611"
+    }
+  ],
+  "archive_sha256": "a5e0ab6a1d90012398f0f8bb36eecc356d486904edd8d50d0ccf8c21f4f292d6",
+  "reviewed_members_including_nested": [
+    {
+      "path": "BuildingHeightEstimation/.git/config",
+      "bytes": 354,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/description",
+      "bytes": 73,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/HEAD",
+      "bytes": 21,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/applypatch-msg.sample",
+      "bytes": 478,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/commit-msg.sample",
+      "bytes": 896,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4726,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/post-update.sample",
+      "bytes": 189,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-applypatch.sample",
+      "bytes": 424,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-commit.sample",
+      "bytes": 1649,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-merge-commit.sample",
+      "bytes": 416,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-push.sample",
+      "bytes": 1374,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-rebase.sample",
+      "bytes": 4898,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/pre-receive.sample",
+      "bytes": 544,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/push-to-checkout.sample",
+      "bytes": 2783,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/sendemail-validate.sample",
+      "bytes": 2308,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/hooks/update.sample",
+      "bytes": 3650,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/index",
+      "bytes": 1419,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/info/exclude",
+      "bytes": 240,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/logs/HEAD",
+      "bytes": 209,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/logs/refs/heads/main",
+      "bytes": 209,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 209,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/objects/pack/pack-c14059f8eccb85653bf780bc88cf8d1af4b1fffb.idx",
+      "bytes": 2192,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/objects/pack/pack-c14059f8eccb85653bf780bc88cf8d1af4b1fffb.pack",
+      "bytes": 20860635,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/objects/pack/pack-c14059f8eccb85653bf780bc88cf8d1af4b1fffb.rev",
+      "bytes": 212,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/packed-refs",
+      "bytes": 112,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/refs/heads/main",
+      "bytes": 41,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "decision": "exclude generated/embedded repository"
+    },
+    {
+      "path": "BuildingHeightEstimation/Baseline/Baseline_Model.ipynb",
+      "bytes": 766870,
+      "sha256": "ebb7cdb31bd8131194ce388731442f4f05228ed6e3abe21908f4b6ce0ac9389e",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Baseline/Baseline_Model.ipynb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Baseline_Outputs.png",
+      "bytes": 825712,
+      "sha256": "b8b7401f4d82cfac7023b689029ac2187f98b86d853462153390fddd84231d70",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Baseline_Outputs.png"
+    },
+    {
+      "path": "BuildingHeightEstimation/Dataset/Dataset.ipynb",
+      "bytes": 10599696,
+      "sha256": "c4d35533d3a9bec9690137d8c67ec75713663164219c4fc454126f578772b078",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Dataset/Dataset.ipynb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Experiments/dl-proj-improvement1 (1).ipynb",
+      "bytes": 2503747,
+      "sha256": "bd217978fa995745582705aca3f8cdff6ad42785a4414a2981ae20c51ea91bc2",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Experiments/dl-proj-improvement1 (1).ipynb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Experiments/hgdnet-copy-azaan-outputs.ipynb",
+      "bytes": 2238609,
+      "sha256": "692c90e0b55e11da7113e02407eec21455316db0e781dd0dd128aa9b2b7f1140",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Experiments/hgdnet-copy-azaan-outputs.ipynb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Experiments/ibrahim-building-height-log-normalized-dsn-simple.ipynb",
+      "bytes": 2550472,
+      "sha256": "deef3ce762294ef4b097766f4501bf13f907fbcea45e620f90ae3af98ee99588",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Experiments/ibrahim-building-height-log-normalized-dsn-simple.ipynb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Experiments/Log_improvement_ibrahim.ipynb",
+      "bytes": 1865121,
+      "sha256": "b557f2877222f05f9828f77a5b57ba5e7eb91ffa4d198ce7df50e901f7d79523",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Experiments/Log_improvement_ibrahim.ipynb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Improvement 1/Improvement_1.ipynb",
+      "bytes": 2264761,
+      "sha256": "76e1bca53bacd4ce65ea5606c2ad0a24ad2ade23702b1f679bd071aa9124a000",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Improvement 1/Improvement_1.ipynb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Improvement 2/Improvement_2.ipynb",
+      "bytes": 1134808,
+      "sha256": "567d2fd05079149eaf6db1df246b80ae11e5d498b54a46dd062d41288dbbc604",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Improvement 2/Improvement_2.ipynb"
+    },
+    {
+      "path": "BuildingHeightEstimation/Improvement_1_Outputs.png",
+      "bytes": 663111,
+      "sha256": "987c8c0793865fa5d63deb1b6fc6d7587fde44ad2a5afc6a42c1cc0eb922beb9",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Improvement_1_Outputs.png"
+    },
+    {
+      "path": "BuildingHeightEstimation/Improvement_2_Outputs.png",
+      "bytes": 652576,
+      "sha256": "e5110bb0ce7d750f60138b4da24b892dfba4533d9f4cadaa60550d188b81c7dd",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/Improvement_2_Outputs.png"
+    },
+    {
+      "path": "BuildingHeightEstimation/README.md",
+      "bytes": 11231,
+      "sha256": "fc0b003766d0699497a43d4b5b49fe082308c9be67dc32fe52f79a1532952d60",
+      "decision": "import",
+      "destination": "Deep-Learning-Computer-Vision/Building-Height-Estimation/README.md"
+    }
+  ]
+}

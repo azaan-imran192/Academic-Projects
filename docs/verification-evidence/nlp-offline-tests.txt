@@ -1,0 +1,3 @@
+20 October 2026; Python 3.12.14
+python tests/test_offline.py
+Ran 8 tests; OK. Inference is mocked in these tests.

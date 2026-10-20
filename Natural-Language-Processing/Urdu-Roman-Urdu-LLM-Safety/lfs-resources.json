@@ -1,0 +1,178 @@
+[
+  {
+    "path": "data/all_combined.csv",
+    "oid": "62cdd61912e0c4d3572abebbe758f68aa1b783b1a0ba5222dac729922ac72029",
+    "size": 9851048,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/lexicons/ruhsold_hate_words.txt",
+    "oid": "cf23e1cb9c513bcfb9c7dd7b3ca75b57e1a66565d81f4a22424bb7635b750e70",
+    "size": 6469,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/ruhsold/hate_words_roman_urdu.txt",
+    "oid": "cf23e1cb9c513bcfb9c7dd7b3ca75b57e1a66565d81f4a22424bb7635b750e70",
+    "size": 6469,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/ruhsold/ruhsold.csv",
+    "oid": "b2bc9f3235a835a5c0db57039d6467062c523551e47f92c821e6e560954c407f",
+    "size": 1066338,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/ruhsold/task_1_test.tsv",
+    "oid": "c08a90dd63e35a0eb3737c90f7bc09917b2832e56ffab8b37fff89499a419fe2",
+    "size": 186093,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/ruhsold/task_1_train.tsv",
+    "oid": "6236116609a80aaf6b9c7fab8f8d236b148d4638c6255a178c0d79d7766aa3b4",
+    "size": 668097,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/ruhsold/task_1_validation.tsv",
+    "oid": "eff8a097b0d8974bec2158b8e0512b43537cbf796c828ca64fd3841fc8dee0cb",
+    "size": 73747,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/rut/rut.csv",
+    "oid": "dcb2958ce6ad773b11e577d47150fc5272744883f30a56c898990785c5c0fb5f",
+    "size": 8549617,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/rut/rut.parquet",
+    "oid": "309fe4c5d8b2aa17344961f302050223aa78b6b0e6555ffaedbdf7822da7afa0",
+    "size": 4813281,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/urdu_youtube/Urdu Abusive Dataset.zip",
+    "oid": "c26244a220849fb7cbde00b7d0ce020cc0e7337f3c2a1db64e932cdc7a1e2d46",
+    "size": 97714,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/urdu_youtube/Urdu Abusive Dataset/Urdu Abusive Dataset.xlsx",
+    "oid": "ee324fa3c63c618d30d231096c31133388d0b5008d671870e4379f4f61443112",
+    "size": 100946,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "data/urdu_youtube/urdu_youtube.csv",
+    "oid": "eaee8f88aab88565a2eae0470b8bc13142b3af1546788fb8f6bc29ed95edb510",
+    "size": 235145,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/baseline/combined_baseline.joblib",
+    "oid": "8a6fcfe1b76e9480ad4913b20bdb1ed9f882c3b14f19321bd67c60d8b8806c13",
+    "size": 200891,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/baseline/combined_vectorizer.joblib",
+    "oid": "99b603fe898b33f29d691ec7d91603d105becbe2741d056b38e23983552c7580",
+    "size": 9731029,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/baseline/rut_baseline_tfidf.joblib",
+    "oid": "28924cca98becadd9b671ea1e06b941ef4685154e0adbd08f61b31ca4da16735",
+    "size": 1600847,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/baseline/rut_vectorizer.joblib",
+    "oid": "46fce2a9d21be7f7f7259fabf99dfbbced6612adc2fc575d93c897f00663ca8e",
+    "size": 11051830,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/mbert_toxic_final/config.json",
+    "oid": "28768c6ffbffade76fff2ff901035dd1e9d112729340802a9d44688ccc5933f0",
+    "size": 844,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/mbert_toxic_final/model.safetensors",
+    "oid": "6a1b38c173cc129bd2620ea3068420eb681c4aad95c6cc284c9db674bd3b3e0e",
+    "size": 711443456,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/mbert_toxic_final/special_tokens_map.json",
+    "oid": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "size": 125,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/mbert_toxic_final/tokenizer.json",
+    "oid": "672146ee6867dc02a01c474090e237789f8a066ee7247bb2cb6c8688a27536a8",
+    "size": 2919627,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/mbert_toxic_final/tokenizer_config.json",
+    "oid": "1c441dfe412d9d7e47c960029a48a0159c23a38a9ab41b465d90fb1f520d4ced",
+    "size": 1222,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  },
+  {
+    "path": "models/mbert_toxic_final/vocab.txt",
+    "oid": "fe0fda7c425b48c516fc8f160d594c8022a0808447475c1a7c6d6479763f310c",
+    "size": 995526,
+    "availability": "download endpoint verified",
+    "http_status": 206,
+    "probe_bytes": 1
+  }
+]

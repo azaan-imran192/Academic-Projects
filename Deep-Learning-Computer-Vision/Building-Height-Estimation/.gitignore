@@ -1,0 +1,7 @@
+data/
+work-output/
+*.pth
+*.pt
+*.tif
+*.npy
+.ipynb_checkpoints/
