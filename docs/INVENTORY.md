@@ -8,7 +8,7 @@ Audit dates: **19–20 October 2026**. Seven public repositories were discoverab
 | Urdu-News-Articles | Four notebooks, four script exports, CSV, report, duplicate ZIP; machine-specific paths | Complete source/data/report imported once; paths fixed; ZIP omitted |
 | plant-disease-classifier | Three notebooks, report, MIT license, ten LFS checkpoint pointers | Source/report imported; model references retained without binaries |
 | plant-phenotyping-dashboard | 2,204 tracked files; backend/frontend, captured media, database, vendor trees and LFS weights; exposed configuration and commercial template | Sanitized authored backend imported; data/weights/vendor code excluded; frontend held |
-| azaan-imran192 | Profile README says student/aspiring engineer and uses many remote image services | Audited; final redesign deferred until project work is ready |
+| azaan-imran192 | Public profile README says student/aspiring engineer and uses many remote image services | Audited; graduate/AI-engineering profile draft prepared locally for approval. Public profile unchanged. |
 | AnatoNamikaza | Profile-style repository with upstream author history | Inspiration only; no content imported |
 | RB2-Android | Android/game-related upstream work, unrelated to requested academic portfolio | Audited at source/history inventory level; excluded |
 

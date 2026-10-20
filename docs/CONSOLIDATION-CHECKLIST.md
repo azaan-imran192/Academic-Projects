@@ -1,6 +1,6 @@
 # Consolidation checklist
 
-Last updated: **20 October 2026**. Main/profile README redesign is deliberately deferred until the individual projects and remaining holds are resolved.
+Last updated: **20 October 2026**. Source consolidation and the repository homepage are prepared on PR #1. A separate personal profile draft awaits approval; the public profile remains unchanged.
 
 - [x] Verify connected GitHub identity; inventory seven public user repositories and the authorized shared folders.
 - [x] Inspect code, notebooks, reports, structure, history, large artifacts, credentials, data and licensing boundaries.
@@ -26,7 +26,12 @@ Last updated: **20 October 2026**. Main/profile README redesign is deliberately 
 - [ ] Complete full dataset/GPU benchmarks, live Gemini verification with owner's own key, and isolated SQL Server/data-backed CineLog/UI testing if required.
 - [ ] Supply missing team-attribution details and optional original reports/demo assets.
 - [ ] Complete service-dependent Culinary and segmentation/FYP integration checks when authorized dependencies/data are available.
-- [ ] Redesign Academic-Projects root README and personal profile README after project completion; consider Ahmad Bilal Habib and AnatoNamikaza for visual inspiration, without copying their content.
+- [x] Redesign the Academic-Projects homepage around nine project areas, verified evidence, original result imagery, stack information, teammate credit and component availability.
+- [x] Prepare and visually inspect a separate personal profile draft inspired by Ahmad Bilal Habib and AnatoNamikaza, with original graphics and preserved contact links.
+- [x] Check homepage file/image links and section anchors; confirm ParkinsonPal and project source remain unchanged.
+- [ ] Obtain approval for the personal profile draft before preparing/publishing changes in the existing profile repository.
 - [ ] Review and explicitly approve merge; no automatic merge, deletion, archive, force-push or production changes.
 
 Pull request: [#1 — Consolidate academic projects and preserve ParkinsonPal relocation](https://github.com/azaan-imran192/Academic-Projects/pull/1). See [inventory](INVENTORY.md), [verification](VERIFICATION.md), and [local-file request](LOCAL-FILES-NEEDED.md).
+
+Presentation status and separate security/licensing open items: [merge-readiness assessment](MERGE-READINESS.md).

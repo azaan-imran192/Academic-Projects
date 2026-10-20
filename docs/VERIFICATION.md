@@ -49,3 +49,13 @@ NLP inference/demo versions actually exercised: Python 3.12.14, torch 2.9.1, tra
 The source NLP notebook's saved 0.383 accuracy evaluation remains present alongside its higher transformer-training result; no single score is presented as definitive. Building Height's better delta metrics do not imply better RMSE/MAE. CineLog report row counts were not regenerated. SQL-backed UI behavior, exact dataset cleaning, and GPU training remain unverified. See [compact evidence](verification-evidence/) and project READMEs.
 
 Final publication check: **53 Python files parse, 22 notebooks parse, and all 52 checked relative Markdown links resolve**. The two broken links in the original NLP final-deliverable README were corrected to the imported files. The 126 selected original-file hashes are recorded in `new-project-import-manifest.json`; archive inventories separately record excluded and redundant artifacts. ParkinsonPal remains 30 unchanged original files. These lightweight checks were rerun after final documentation fixes; expensive model/build tests were not repeated.
+
+## Portfolio presentation — 20 October 2026
+
+The root README is now intentionally redesigned, superseding the earlier source-consolidation statement that it remained unchanged. Project-level files and original artifacts remain unchanged. All nine project READMEs were reviewed; the new homepage reuses only existing experimental imagery and distinguishes historical results from executed checks.
+
+Lightweight presentation validation covers 31 local file/image targets, five homepage section anchors and ten profile links to verified source-commit targets. All resolve. The two external homepage GitHub destinations resolve via the canonical API. Profile icon/statistics services return valid images and render in the browser. The existing LinkedIn URL is retained exactly; automated access is restricted, so its current destination is not independently certified.
+
+Both local GitHub-style HTML previews were visually inspected at the browser's default desktop viewport, with no broken images or horizontal overflow observed. These previews approximate GitHub rendering rather than guaranteeing identical layout. ParkinsonPal's 30 original files again match the original Git blob hashes. No model training, application builds or expensive tests were rerun for this documentation-only change.
+
+The profile remains a separate unpublished draft. GitHub-hosted project links use an existing verified commit instead of assuming the unmerged directories exist on main. See [merge readiness](MERGE-READINESS.md) for remaining approvals, security/licensing items and external dependencies.
