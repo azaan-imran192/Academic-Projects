@@ -36,3 +36,12 @@ The full findings and affected paths remain in [SECURITY-REVIEW.md](SECURITY-REV
 - Complete Culinary/Mobile team rosters, where the available evidence does not establish them.
 
 These limits are visible in the homepage and individual READMEs. They do not imply missing source imports or invented substitutes. See [verification](VERIFICATION.md), [remaining inputs](LOCAL-FILES-NEEDED.md) and the [completion checklist](CONSOLIDATION-CHECKLIST.md).
+
+## Final presentation refinements
+
+- Removed the obsolete root `Urdu News Text Classification - ML` placeholder as explicitly requested. Its committed blob contained only one newline byte; the completed project remains under `Machine-Learning/Urdu-News-Classification/`.
+- Retained `Culinary Cloud - SE/README.md` as a compatibility pointer. The path predates consolidation (original README commit `2e054fa`); deleting it would break old folder/README URLs. Its relative destination resolves to the canonical Culinary project. No duplicate source application remains in that directory. External bookmarks cannot be exhaustively inventoried.
+- Kept the homepage design and all completed project materials unchanged. Security/licensing findings and the Otis hold remain intact.
+- The unpublished profile draft now emphasizes AI engineering, backend/full-stack work and research, with owner-supplied Royal Cyber module names at a non-proprietary contribution level. Cards contain one meaningful achievement each, and statistics are compact and collapsed.
+- Checked the live GitHub README at desktop and mobile widths. The page fits the viewport; wide tables use GitHub's normal internal horizontal scrolling on phones.
+- Checked the unpublished profile through GitHub's stateless GFM renderer, using styles observed on the live GitHub page. Cards, banner, icons and the statistics disclosure work at desktop/mobile widths. The unpublished banner is resolved locally for this preview; final profile-page integration can only be checked after separately approved publication.

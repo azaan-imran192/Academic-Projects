@@ -29,6 +29,8 @@ Last updated: **20 October 2026**. Source consolidation and the repository homep
 - [x] Redesign the Academic-Projects homepage around nine project areas, verified evidence, original result imagery, stack information, teammate credit and component availability.
 - [x] Prepare and visually inspect a separate personal profile draft inspired by Ahmad Bilal Habib and AnatoNamikaza, with original graphics and preserved contact links.
 - [x] Check homepage file/image links and section anchors; confirm ParkinsonPal and project source remain unchanged.
+- [x] Remove the obsolete Urdu root placeholder as requested; retain the old Culinary URL as a verified compatibility pointer.
+- [x] Refine the unpublished profile for recruiters and validate the actual GitHub homepage plus GitHub-rendered profile draft at desktop/mobile widths.
 - [ ] Obtain approval for the personal profile draft before preparing/publishing changes in the existing profile repository.
 - [ ] Review and explicitly approve merge; no automatic merge, deletion, archive, force-push or production changes.
 
